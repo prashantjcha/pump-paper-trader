@@ -1,0 +1,57 @@
+{
+  "version": 3,
+  "updated": "2026-09-30T21:03:20.391Z",
+  "params": {
+    "entry": {
+      "minAgeS": 3,
+      "maxAgeS": 90,
+      "minSolRaised": 2,
+      "maxSolRaised": 25,
+      "devBuyMin": 0.3,
+      "devBuyMax": 4,
+      "devHoldMaxPct": 8,
+      "maxSameSlotBuyers": 0,
+      "top1MaxPct": 15,
+      "top10MaxPct": 40,
+      "windowS": 15,
+      "minUniqueBuyers": 8,
+      "minBuySellRatio": 2.5,
+      "minNetInflowSol": 1,
+      "minBuysLast5s": 3,
+      "blacklistCreators": true,
+      "maxCreatorPriorLaunches": 1,
+      "maxTradesAtEntry": 100
+    },
+    "exit": {
+      "tpRisingPct": 100,
+      "tpFlatPct": 100,
+      "tpFallingPct": 100,
+      "trailArmPct": 1000000000,
+      "trailPct": 50,
+      "slBasePct": 50,
+      "slTightPct": 50,
+      "noBuyTightenS": 1000000000,
+      "bsTightenRatio": 0,
+      "bigSellSol": 1000000000,
+      "bigSellSupplyPct": 100,
+      "timeStopS": 86400,
+      "maxProgressPct": 99,
+      "exitOnDevSell": false,
+      "exitOnSmartExit": false
+    },
+    "risk": {
+      "positionSol": 0.1,
+      "maxOpen": 4,
+      "dailyLossPct": 10,
+      "dailyLossEnabled": false
+    },
+    "exec": {
+      "latencyMs": 600,
+      "priorityFeeSol": 0.001,
+      "tipSol": 0.002,
+      "maxEntrySlippagePct": 15,
+      "landProbability": 1,
+      "exitFailProbability": 0.1
+    }
+  }
+}

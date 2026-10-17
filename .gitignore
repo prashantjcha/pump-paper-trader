@@ -1,0 +1,11 @@
+node_modules/
+data/
+.env
+.next/
+*.log
+data-corrupted-*/
+scripts/pm2-boot.log
+research/debate/*/data/
+data/telegram.session
+research/debate-calls/*/data/
+research/debate/*/data/

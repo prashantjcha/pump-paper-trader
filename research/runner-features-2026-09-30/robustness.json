@@ -1,0 +1,2720 @@
+[
+ {
+  "filter": "model top10",
+  "exit": "fixed tp500 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 59,
+   "mean": 0.086,
+   "trimmed": 0.0721,
+   "total": 5.07,
+   "withoutBest": 4.59,
+   "win": 29,
+   "ci95": [
+    0.0242,
+    0.1422
+   ]
+  },
+  "validation": {
+   "n": 33,
+   "mean": 0.0596,
+   "trimmed": 0.0329,
+   "total": 1.97,
+   "withoutBest": 1.49,
+   "win": 24,
+   "ci95": [
+    -0.0073,
+    0.1343
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.1312,
+   "trimmed": 0.0635,
+   "total": 1.57,
+   "withoutBest": 1.1,
+   "win": 42,
+   "ci95": [
+    -0.0007,
+    0.2625
+   ]
+  },
+  "validation+recent": {
+   "n": 45,
+   "mean": 0.0787,
+   "trimmed": 0.0603,
+   "total": 3.54,
+   "withoutBest": 3.07,
+   "win": 29,
+   "ci95": [
+    0.0175,
+    0.1427
+   ]
+  },
+  "newLaunches": {
+   "n": 41,
+   "mean": 0.0907,
+   "trimmed": 0.0711,
+   "total": 3.72,
+   "withoutBest": 3.24,
+   "win": 32,
+   "ci95": [
+    0.0228,
+    0.1541
+   ]
+  },
+  "olderTokens": {
+   "n": 4,
+   "mean": -0.0445,
+   "trimmed": -0.0445,
+   "total": -0.18,
+   "withoutBest": -0.17,
+   "win": 0,
+   "ci95": [
+    -0.0577,
+    -0.0185
+   ]
+  }
+ },
+ {
+  "filter": "model top10",
+  "exit": "fixed tp500 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 58,
+   "mean": 0.0794,
+   "trimmed": 0.065,
+   "total": 4.6,
+   "withoutBest": 4.12,
+   "win": 28,
+   "ci95": [
+    0.0233,
+    0.1352
+   ]
+  },
+  "validation": {
+   "n": 32,
+   "mean": 0.0631,
+   "trimmed": 0.0357,
+   "total": 2.02,
+   "withoutBest": 1.54,
+   "win": 25,
+   "ci95": [
+    -0.008,
+    0.1391
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.1312,
+   "trimmed": 0.0634,
+   "total": 1.57,
+   "withoutBest": 1.1,
+   "win": 42,
+   "ci95": [
+    -0.0007,
+    0.2628
+   ]
+  },
+  "validation+recent": {
+   "n": 44,
+   "mean": 0.0816,
+   "trimmed": 0.063,
+   "total": 3.59,
+   "withoutBest": 3.12,
+   "win": 30,
+   "ci95": [
+    0.0181,
+    0.145
+   ]
+  },
+  "newLaunches": {
+   "n": 41,
+   "mean": 0.0906,
+   "trimmed": 0.0709,
+   "total": 3.71,
+   "withoutBest": 3.24,
+   "win": 32,
+   "ci95": [
+    0.0227,
+    0.154
+   ]
+  },
+  "olderTokens": {
+   "n": 3,
+   "mean": -0.0403,
+   "trimmed": -0.0403,
+   "total": -0.12,
+   "withoutBest": -0.12,
+   "win": 0,
+   "ci95": [
+    -0.0578,
+    -0.0055
+   ]
+  }
+ },
+ {
+  "filter": "model top10",
+  "exit": "fixed tp500 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 58,
+   "mean": 0.0779,
+   "trimmed": 0.0635,
+   "total": 4.52,
+   "withoutBest": 4.04,
+   "win": 26,
+   "ci95": [
+    0.0223,
+    0.1336
+   ]
+  },
+  "validation": {
+   "n": 31,
+   "mean": 0.0501,
+   "trimmed": 0.0209,
+   "total": 1.55,
+   "withoutBest": 1.08,
+   "win": 23,
+   "ci95": [
+    -0.0182,
+    0.1213
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.0838,
+   "trimmed": 0.0067,
+   "total": 1.01,
+   "withoutBest": 0.54,
+   "win": 33,
+   "ci95": [
+    -0.0303,
+    0.2118
+   ]
+  },
+  "validation+recent": {
+   "n": 43,
+   "mean": 0.0595,
+   "trimmed": 0.0393,
+   "total": 2.56,
+   "withoutBest": 2.08,
+   "win": 26,
+   "ci95": [
+    -0.0009,
+    0.122
+   ]
+  },
+  "newLaunches": {
+   "n": 40,
+   "mean": 0.067,
+   "trimmed": 0.0456,
+   "total": 2.68,
+   "withoutBest": 2.2,
+   "win": 28,
+   "ci95": [
+    0.0011,
+    0.1315
+   ]
+  },
+  "olderTokens": {
+   "n": 3,
+   "mean": -0.0403,
+   "trimmed": -0.0403,
+   "total": -0.12,
+   "withoutBest": -0.12,
+   "win": 0,
+   "ci95": [
+    -0.0578,
+    -0.0055
+   ]
+  }
+ },
+ {
+  "filter": "model top10",
+  "exit": "fixed tp200 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 59,
+   "mean": 0.0581,
+   "trimmed": 0.0535,
+   "total": 3.43,
+   "withoutBest": 3.24,
+   "win": 49,
+   "ci95": [
+    0.0278,
+    0.0875
+   ]
+  },
+  "validation": {
+   "n": 33,
+   "mean": 0.0535,
+   "trimmed": 0.045,
+   "total": 1.77,
+   "withoutBest": 1.58,
+   "win": 45,
+   "ci95": [
+    0.0155,
+    0.0917
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.1117,
+   "trimmed": 0.0834,
+   "total": 1.34,
+   "withoutBest": 1.02,
+   "win": 67,
+   "ci95": [
+    0.0404,
+    0.1741
+   ]
+  },
+  "validation+recent": {
+   "n": 45,
+   "mean": 0.069,
+   "trimmed": 0.0605,
+   "total": 3.11,
+   "withoutBest": 2.79,
+   "win": 51,
+   "ci95": [
+    0.0341,
+    0.1028
+   ]
+  },
+  "newLaunches": {
+   "n": 41,
+   "mean": 0.0801,
+   "trimmed": 0.0713,
+   "total": 3.28,
+   "withoutBest": 2.97,
+   "win": 56,
+   "ci95": [
+    0.044,
+    0.1142
+   ]
+  },
+  "olderTokens": {
+   "n": 4,
+   "mean": -0.0445,
+   "trimmed": -0.0445,
+   "total": -0.18,
+   "withoutBest": -0.17,
+   "win": 0,
+   "ci95": [
+    -0.0577,
+    -0.0185
+   ]
+  }
+ },
+ {
+  "filter": "model top10",
+  "exit": "fixed tp200 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 58,
+   "mean": 0.0555,
+   "trimmed": 0.0508,
+   "total": 3.22,
+   "withoutBest": 3.03,
+   "win": 48,
+   "ci95": [
+    0.0258,
+    0.0835
+   ]
+  },
+  "validation": {
+   "n": 32,
+   "mean": 0.0567,
+   "trimmed": 0.0481,
+   "total": 1.82,
+   "withoutBest": 1.63,
+   "win": 47,
+   "ci95": [
+    0.0175,
+    0.0954
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.1007,
+   "trimmed": 0.0835,
+   "total": 1.21,
+   "withoutBest": 1.02,
+   "win": 67,
+   "ci95": [
+    0.0399,
+    0.1601
+   ]
+  },
+  "validation+recent": {
+   "n": 44,
+   "mean": 0.0687,
+   "trimmed": 0.0631,
+   "total": 3.02,
+   "withoutBest": 2.84,
+   "win": 52,
+   "ci95": [
+    0.0352,
+    0.1015
+   ]
+  },
+  "newLaunches": {
+   "n": 41,
+   "mean": 0.0767,
+   "trimmed": 0.071,
+   "total": 3.15,
+   "withoutBest": 2.96,
+   "win": 56,
+   "ci95": [
+    0.0416,
+    0.1108
+   ]
+  },
+  "olderTokens": {
+   "n": 3,
+   "mean": -0.0403,
+   "trimmed": -0.0403,
+   "total": -0.12,
+   "withoutBest": -0.12,
+   "win": 0,
+   "ci95": [
+    -0.0578,
+    -0.0055
+   ]
+  }
+ },
+ {
+  "filter": "model top10",
+  "exit": "fixed tp200 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 58,
+   "mean": 0.0606,
+   "trimmed": 0.0553,
+   "total": 3.51,
+   "withoutBest": 3.28,
+   "win": 50,
+   "ci95": [
+    0.031,
+    0.0887
+   ]
+  },
+  "validation": {
+   "n": 31,
+   "mean": 0.0297,
+   "trimmed": 0.0189,
+   "total": 0.92,
+   "withoutBest": 0.73,
+   "win": 35,
+   "ci95": [
+    -0.0093,
+    0.0686
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.1008,
+   "trimmed": 0.0835,
+   "total": 1.21,
+   "withoutBest": 1.02,
+   "win": 67,
+   "ci95": [
+    0.0398,
+    0.1599
+   ]
+  },
+  "validation+recent": {
+   "n": 43,
+   "mean": 0.0495,
+   "trimmed": 0.0428,
+   "total": 2.13,
+   "withoutBest": 1.94,
+   "win": 44,
+   "ci95": [
+    0.0165,
+    0.083
+   ]
+  },
+  "newLaunches": {
+   "n": 40,
+   "mean": 0.0563,
+   "trimmed": 0.0494,
+   "total": 2.25,
+   "withoutBest": 2.06,
+   "win": 48,
+   "ci95": [
+    0.0201,
+    0.0918
+   ]
+  },
+  "olderTokens": {
+   "n": 3,
+   "mean": -0.0403,
+   "trimmed": -0.0403,
+   "total": -0.12,
+   "withoutBest": -0.12,
+   "win": 0,
+   "ci95": [
+    -0.0578,
+    -0.0055
+   ]
+  }
+ },
+ {
+  "filter": "model top10",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 59,
+   "mean": 0.0708,
+   "trimmed": 0.0471,
+   "total": 4.18,
+   "withoutBest": 3.16,
+   "win": 59,
+   "ci95": [
+    0.0318,
+    0.1193
+   ]
+  },
+  "validation": {
+   "n": 33,
+   "mean": 0.047,
+   "trimmed": 0.0261,
+   "total": 1.55,
+   "withoutBest": 1.04,
+   "win": 64,
+   "ci95": [
+    0.0112,
+    0.0895
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.09,
+   "trimmed": 0.0289,
+   "total": 1.08,
+   "withoutBest": 0.66,
+   "win": 67,
+   "ci95": [
+    0.0092,
+    0.1769
+   ]
+  },
+  "validation+recent": {
+   "n": 45,
+   "mean": 0.0585,
+   "trimmed": 0.0394,
+   "total": 2.63,
+   "withoutBest": 2.12,
+   "win": 64,
+   "ci95": [
+    0.0237,
+    0.0955
+   ]
+  },
+  "newLaunches": {
+   "n": 41,
+   "mean": 0.0665,
+   "trimmed": 0.0459,
+   "total": 2.73,
+   "withoutBest": 2.21,
+   "win": 66,
+   "ci95": [
+    0.0283,
+    0.1062
+   ]
+  },
+  "olderTokens": {
+   "n": 4,
+   "mean": -0.0239,
+   "trimmed": -0.0239,
+   "total": -0.1,
+   "withoutBest": -0.11,
+   "win": 50,
+   "ci95": [
+    -0.0574,
+    0.0096
+   ]
+  }
+ },
+ {
+  "filter": "model top10",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 58,
+   "mean": 0.0718,
+   "trimmed": 0.047,
+   "total": 4.16,
+   "withoutBest": 3.14,
+   "win": 59,
+   "ci95": [
+    0.0316,
+    0.1201
+   ]
+  },
+  "validation": {
+   "n": 32,
+   "mean": 0.0435,
+   "trimmed": 0.0221,
+   "total": 1.39,
+   "withoutBest": 0.89,
+   "win": 66,
+   "ci95": [
+    0.008,
+    0.0821
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.1034,
+   "trimmed": 0.0482,
+   "total": 1.24,
+   "withoutBest": 0.84,
+   "win": 67,
+   "ci95": [
+    0.0182,
+    0.1895
+   ]
+  },
+  "validation+recent": {
+   "n": 44,
+   "mean": 0.0598,
+   "trimmed": 0.0411,
+   "total": 2.63,
+   "withoutBest": 2.13,
+   "win": 66,
+   "ci95": [
+    0.0241,
+    0.0968
+   ]
+  },
+  "newLaunches": {
+   "n": 41,
+   "mean": 0.0648,
+   "trimmed": 0.0448,
+   "total": 2.66,
+   "withoutBest": 2.15,
+   "win": 66,
+   "ci95": [
+    0.0268,
+    0.1052
+   ]
+  },
+  "olderTokens": {
+   "n": 3,
+   "mean": -0.008,
+   "trimmed": -0.008,
+   "total": -0.02,
+   "withoutBest": -0.05,
+   "win": 67,
+   "ci95": [
+    -0.0574,
+    0.0215
+   ]
+  }
+ },
+ {
+  "filter": "model top10",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 58,
+   "mean": 0.0657,
+   "trimmed": 0.0409,
+   "total": 3.81,
+   "withoutBest": 2.8,
+   "win": 55,
+   "ci95": [
+    0.025,
+    0.1148
+   ]
+  },
+  "validation": {
+   "n": 31,
+   "mean": 0.042,
+   "trimmed": 0.0198,
+   "total": 1.3,
+   "withoutBest": 0.8,
+   "win": 65,
+   "ci95": [
+    0.0043,
+    0.0834
+   ]
+  },
+  "recent": {
+   "n": 12,
+   "mean": 0.0925,
+   "trimmed": 0.0257,
+   "total": 1.11,
+   "withoutBest": 0.63,
+   "win": 67,
+   "ci95": [
+    0.0088,
+    0.1836
+   ]
+  },
+  "validation+recent": {
+   "n": 43,
+   "mean": 0.0561,
+   "trimmed": 0.0348,
+   "total": 2.41,
+   "withoutBest": 1.91,
+   "win": 65,
+   "ci95": [
+    0.0189,
+    0.0961
+   ]
+  },
+  "newLaunches": {
+   "n": 40,
+   "mean": 0.0613,
+   "trimmed": 0.0385,
+   "total": 2.45,
+   "withoutBest": 1.95,
+   "win": 65,
+   "ci95": [
+    0.0204,
+    0.1012
+   ]
+  },
+  "olderTokens": {
+   "n": 3,
+   "mean": -0.0128,
+   "trimmed": -0.0128,
+   "total": -0.04,
+   "withoutBest": -0.05,
+   "win": 67,
+   "ci95": [
+    -0.0574,
+    0.0118
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "fixed tp500 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 116,
+   "mean": 0.0412,
+   "trimmed": 0.0335,
+   "total": 4.78,
+   "withoutBest": 4.3,
+   "win": 20,
+   "ci95": [
+    0.0053,
+    0.0798
+   ]
+  },
+  "validation": {
+   "n": 79,
+   "mean": 0.0282,
+   "trimmed": 0.0165,
+   "total": 2.23,
+   "withoutBest": 1.75,
+   "win": 18,
+   "ci95": [
+    -0.0107,
+    0.0713
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.1458,
+   "trimmed": 0.1236,
+   "total": 4.66,
+   "withoutBest": 4.18,
+   "win": 41,
+   "ci95": [
+    0.0624,
+    0.2287
+   ]
+  },
+  "validation+recent": {
+   "n": 111,
+   "mean": 0.0621,
+   "trimmed": 0.0544,
+   "total": 6.89,
+   "withoutBest": 6.41,
+   "win": 24,
+   "ci95": [
+    0.0224,
+    0.1015
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.0831,
+   "trimmed": 0.0742,
+   "total": 7.48,
+   "withoutBest": 7,
+   "win": 29,
+   "ci95": [
+    0.0348,
+    0.1289
+   ]
+  },
+  "olderTokens": {
+   "n": 21,
+   "mean": -0.0281,
+   "trimmed": -0.0561,
+   "total": -0.59,
+   "withoutBest": -1.07,
+   "win": 5,
+   "ci95": [
+    -0.0587,
+    0.0247
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "fixed tp500 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 115,
+   "mean": 0.0344,
+   "trimmed": 0.0265,
+   "total": 3.96,
+   "withoutBest": 3.48,
+   "win": 18,
+   "ci95": [
+    -0.0009,
+    0.0714
+   ]
+  },
+  "validation": {
+   "n": 78,
+   "mean": 0.0362,
+   "trimmed": 0.0246,
+   "total": 2.82,
+   "withoutBest": 2.35,
+   "win": 19,
+   "ci95": [
+    -0.0041,
+    0.0802
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.1291,
+   "trimmed": 0.106,
+   "total": 4.13,
+   "withoutBest": 3.65,
+   "win": 38,
+   "ci95": [
+    0.0463,
+    0.2119
+   ]
+  },
+  "validation+recent": {
+   "n": 110,
+   "mean": 0.0632,
+   "trimmed": 0.0556,
+   "total": 6.96,
+   "withoutBest": 6.48,
+   "win": 25,
+   "ci95": [
+    0.0239,
+    0.1027
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.077,
+   "trimmed": 0.0679,
+   "total": 6.93,
+   "withoutBest": 6.45,
+   "win": 28,
+   "ci95": [
+    0.0292,
+    0.1229
+   ]
+  },
+  "olderTokens": {
+   "n": 20,
+   "mean": 0.0014,
+   "trimmed": -0.0514,
+   "total": 0.03,
+   "withoutBest": -0.45,
+   "win": 10,
+   "ci95": [
+    -0.0546,
+    0.0791
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "fixed tp500 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 115,
+   "mean": 0.0337,
+   "trimmed": 0.0258,
+   "total": 3.88,
+   "withoutBest": 3.4,
+   "win": 17,
+   "ci95": [
+    -0.0024,
+    0.0707
+   ]
+  },
+  "validation": {
+   "n": 77,
+   "mean": 0.0239,
+   "trimmed": 0.0118,
+   "total": 1.84,
+   "withoutBest": 1.36,
+   "win": 17,
+   "ci95": [
+    -0.0142,
+    0.0668
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.1116,
+   "trimmed": 0.0872,
+   "total": 3.57,
+   "withoutBest": 3.09,
+   "win": 34,
+   "ci95": [
+    0.0288,
+    0.1917
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.0496,
+   "trimmed": 0.0416,
+   "total": 5.41,
+   "withoutBest": 4.93,
+   "win": 22,
+   "ci95": [
+    0.012,
+    0.0888
+   ]
+  },
+  "newLaunches": {
+   "n": 89,
+   "mean": 0.0665,
+   "trimmed": 0.057,
+   "total": 5.91,
+   "withoutBest": 5.44,
+   "win": 26,
+   "ci95": [
+    0.0216,
+    0.1116
+   ]
+  },
+  "olderTokens": {
+   "n": 20,
+   "mean": -0.0252,
+   "trimmed": -0.0544,
+   "total": -0.5,
+   "withoutBest": -0.98,
+   "win": 5,
+   "ci95": [
+    -0.0572,
+    0.0286
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "fixed tp200 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 116,
+   "mean": 0.0272,
+   "trimmed": 0.0244,
+   "total": 3.16,
+   "withoutBest": 2.97,
+   "win": 36,
+   "ci95": [
+    0.0075,
+    0.048
+   ]
+  },
+  "validation": {
+   "n": 79,
+   "mean": 0.0311,
+   "trimmed": 0.0271,
+   "total": 2.46,
+   "withoutBest": 2.27,
+   "win": 37,
+   "ci95": [
+    0.0067,
+    0.0566
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.0701,
+   "trimmed": 0.0579,
+   "total": 2.24,
+   "withoutBest": 1.93,
+   "win": 53,
+   "ci95": [
+    0.0291,
+    0.1114
+   ]
+  },
+  "validation+recent": {
+   "n": 111,
+   "mean": 0.0423,
+   "trimmed": 0.0385,
+   "total": 4.7,
+   "withoutBest": 4.38,
+   "win": 41,
+   "ci95": [
+    0.021,
+    0.0638
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.0593,
+   "trimmed": 0.0549,
+   "total": 5.34,
+   "withoutBest": 5.02,
+   "win": 49,
+   "ci95": [
+    0.0347,
+    0.0847
+   ]
+  },
+  "olderTokens": {
+   "n": 21,
+   "mean": -0.0304,
+   "trimmed": -0.0533,
+   "total": -0.64,
+   "withoutBest": -0.83,
+   "win": 10,
+   "ci95": [
+    -0.0567,
+    0.0023
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "fixed tp200 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 115,
+   "mean": 0.0305,
+   "trimmed": 0.0277,
+   "total": 3.51,
+   "withoutBest": 3.32,
+   "win": 37,
+   "ci95": [
+    0.0113,
+    0.0507
+   ]
+  },
+  "validation": {
+   "n": 78,
+   "mean": 0.0295,
+   "trimmed": 0.0254,
+   "total": 2.3,
+   "withoutBest": 2.11,
+   "win": 36,
+   "ci95": [
+    0.0047,
+    0.0533
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.0666,
+   "trimmed": 0.0585,
+   "total": 2.13,
+   "withoutBest": 1.94,
+   "win": 53,
+   "ci95": [
+    0.0283,
+    0.1047
+   ]
+  },
+  "validation+recent": {
+   "n": 110,
+   "mean": 0.0403,
+   "trimmed": 0.0376,
+   "total": 4.43,
+   "withoutBest": 4.24,
+   "win": 41,
+   "ci95": [
+    0.0196,
+    0.0622
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.0527,
+   "trimmed": 0.0496,
+   "total": 4.74,
+   "withoutBest": 4.55,
+   "win": 47,
+   "ci95": [
+    0.0291,
+    0.0772
+   ]
+  },
+  "olderTokens": {
+   "n": 20,
+   "mean": -0.0155,
+   "trimmed": -0.038,
+   "total": -0.31,
+   "withoutBest": -0.5,
+   "win": 15,
+   "ci95": [
+    -0.0495,
+    0.0238
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "fixed tp200 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 115,
+   "mean": 0.0292,
+   "trimmed": 0.026,
+   "total": 3.36,
+   "withoutBest": 3.13,
+   "win": 37,
+   "ci95": [
+    0.0101,
+    0.0497
+   ]
+  },
+  "validation": {
+   "n": 77,
+   "mean": 0.0155,
+   "trimmed": 0.0109,
+   "total": 1.19,
+   "withoutBest": 1,
+   "win": 30,
+   "ci95": [
+    -0.007,
+    0.0402
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.0665,
+   "trimmed": 0.0585,
+   "total": 2.13,
+   "withoutBest": 1.94,
+   "win": 53,
+   "ci95": [
+    0.0282,
+    0.1045
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.0305,
+   "trimmed": 0.0275,
+   "total": 3.32,
+   "withoutBest": 3.13,
+   "win": 37,
+   "ci95": [
+    0.0098,
+    0.052
+   ]
+  },
+  "newLaunches": {
+   "n": 89,
+   "mean": 0.0435,
+   "trimmed": 0.0402,
+   "total": 3.87,
+   "withoutBest": 3.68,
+   "win": 43,
+   "ci95": [
+    0.0203,
+    0.0693
+   ]
+  },
+  "olderTokens": {
+   "n": 20,
+   "mean": -0.0276,
+   "trimmed": -0.0514,
+   "total": -0.55,
+   "withoutBest": -0.74,
+   "win": 10,
+   "ci95": [
+    -0.0546,
+    0.0065
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 116,
+   "mean": 0.0392,
+   "trimmed": 0.0257,
+   "total": 4.55,
+   "withoutBest": 3.53,
+   "win": 46,
+   "ci95": [
+    0.0141,
+    0.069
+   ]
+  },
+  "validation": {
+   "n": 79,
+   "mean": 0.0227,
+   "trimmed": 0.0101,
+   "total": 1.79,
+   "withoutBest": 1.28,
+   "win": 52,
+   "ci95": [
+    0.0003,
+    0.0483
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.0997,
+   "trimmed": 0.0703,
+   "total": 3.19,
+   "withoutBest": 2.53,
+   "win": 59,
+   "ci95": [
+    0.0392,
+    0.1626
+   ]
+  },
+  "validation+recent": {
+   "n": 111,
+   "mean": 0.0449,
+   "trimmed": 0.0349,
+   "total": 4.98,
+   "withoutBest": 4.32,
+   "win": 54,
+   "ci95": [
+    0.0208,
+    0.0716
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.06,
+   "trimmed": 0.048,
+   "total": 5.4,
+   "withoutBest": 4.74,
+   "win": 62,
+   "ci95": [
+    0.0315,
+    0.09
+   ]
+  },
+  "olderTokens": {
+   "n": 21,
+   "mean": -0.02,
+   "trimmed": -0.0437,
+   "total": -0.42,
+   "withoutBest": -0.82,
+   "win": 19,
+   "ci95": [
+    -0.0504,
+    0.0259
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 115,
+   "mean": 0.0449,
+   "trimmed": 0.0312,
+   "total": 5.16,
+   "withoutBest": 4.14,
+   "win": 51,
+   "ci95": [
+    0.0188,
+    0.0758
+   ]
+  },
+  "validation": {
+   "n": 78,
+   "mean": 0.0205,
+   "trimmed": 0.0083,
+   "total": 1.6,
+   "withoutBest": 1.09,
+   "win": 53,
+   "ci95": [
+    -0.0015,
+    0.0451
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.1045,
+   "trimmed": 0.0763,
+   "total": 3.34,
+   "withoutBest": 2.76,
+   "win": 63,
+   "ci95": [
+    0.0422,
+    0.1674
+   ]
+  },
+  "validation+recent": {
+   "n": 110,
+   "mean": 0.0449,
+   "trimmed": 0.0357,
+   "total": 4.94,
+   "withoutBest": 4.36,
+   "win": 55,
+   "ci95": [
+    0.0209,
+    0.0714
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.0577,
+   "trimmed": 0.0468,
+   "total": 5.19,
+   "withoutBest": 4.62,
+   "win": 62,
+   "ci95": [
+    0.0294,
+    0.0865
+   ]
+  },
+  "olderTokens": {
+   "n": 20,
+   "mean": -0.0128,
+   "trimmed": -0.0421,
+   "total": -0.26,
+   "withoutBest": -0.73,
+   "win": 25,
+   "ci95": [
+    -0.0482,
+    0.0412
+   ]
+  }
+ },
+ {
+  "filter": "model top20",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 115,
+   "mean": 0.0364,
+   "trimmed": 0.0225,
+   "total": 4.18,
+   "withoutBest": 3.17,
+   "win": 43,
+   "ci95": [
+    0.01,
+    0.0667
+   ]
+  },
+  "validation": {
+   "n": 77,
+   "mean": 0.0177,
+   "trimmed": 0.0052,
+   "total": 1.36,
+   "withoutBest": 0.86,
+   "win": 48,
+   "ci95": [
+    -0.0039,
+    0.0421
+   ]
+  },
+  "recent": {
+   "n": 32,
+   "mean": 0.0944,
+   "trimmed": 0.065,
+   "total": 3.02,
+   "withoutBest": 2.44,
+   "win": 59,
+   "ci95": [
+    0.0356,
+    0.1566
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.0402,
+   "trimmed": 0.0308,
+   "total": 4.38,
+   "withoutBest": 3.8,
+   "win": 51,
+   "ci95": [
+    0.0162,
+    0.0672
+   ]
+  },
+  "newLaunches": {
+   "n": 89,
+   "mean": 0.0522,
+   "trimmed": 0.0409,
+   "total": 4.65,
+   "withoutBest": 4.06,
+   "win": 60,
+   "ci95": [
+    0.0261,
+    0.0821
+   ]
+  },
+  "olderTokens": {
+   "n": 20,
+   "mean": -0.0131,
+   "trimmed": -0.042,
+   "total": -0.26,
+   "withoutBest": -0.74,
+   "win": 15,
+   "ci95": [
+    -0.0482,
+    0.0411
+   ]
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "fixed tp500 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 108,
+   "mean": 0.0444,
+   "trimmed": 0.0362,
+   "total": 4.8,
+   "withoutBest": 4.32,
+   "win": 20,
+   "ci95": [
+    0.0071,
+    0.0837
+   ]
+  },
+  "validation": {
+   "n": 72,
+   "mean": 0.0443,
+   "trimmed": 0.0319,
+   "total": 3.19,
+   "withoutBest": 2.71,
+   "win": 22,
+   "ci95": [
+    0.0005,
+    0.0926
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.1199,
+   "trimmed": 0.0995,
+   "total": 4.44,
+   "withoutBest": 3.96,
+   "win": 35,
+   "ci95": [
+    0.0392,
+    0.1954
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.07,
+   "trimmed": 0.0623,
+   "total": 7.63,
+   "withoutBest": 7.15,
+   "win": 27,
+   "ci95": [
+    0.0278,
+    0.1108
+   ]
+  },
+  "newLaunches": {
+   "n": 109,
+   "mean": 0.07,
+   "trimmed": 0.0623,
+   "total": 7.63,
+   "withoutBest": 7.15,
+   "win": 27,
+   "ci95": [
+    0.0278,
+    0.1108
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "fixed tp500 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 108,
+   "mean": 0.0366,
+   "trimmed": 0.0282,
+   "total": 3.95,
+   "withoutBest": 3.47,
+   "win": 19,
+   "ci95": [
+    0.0016,
+    0.0755
+   ]
+  },
+  "validation": {
+   "n": 72,
+   "mean": 0.0446,
+   "trimmed": 0.0323,
+   "total": 3.21,
+   "withoutBest": 2.74,
+   "win": 22,
+   "ci95": [
+    0.001,
+    0.0926
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.1053,
+   "trimmed": 0.0844,
+   "total": 3.9,
+   "withoutBest": 3.43,
+   "win": 32,
+   "ci95": [
+    0.0289,
+    0.1797
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.0652,
+   "trimmed": 0.0575,
+   "total": 7.11,
+   "withoutBest": 6.63,
+   "win": 26,
+   "ci95": [
+    0.0239,
+    0.1051
+   ]
+  },
+  "newLaunches": {
+   "n": 109,
+   "mean": 0.0652,
+   "trimmed": 0.0575,
+   "total": 7.11,
+   "withoutBest": 6.63,
+   "win": 26,
+   "ci95": [
+    0.0239,
+    0.1051
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "fixed tp500 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 108,
+   "mean": 0.0359,
+   "trimmed": 0.0275,
+   "total": 3.87,
+   "withoutBest": 3.39,
+   "win": 18,
+   "ci95": [
+    0.0012,
+    0.0749
+   ]
+  },
+  "validation": {
+   "n": 70,
+   "mean": 0.0392,
+   "trimmed": 0.0263,
+   "total": 2.74,
+   "withoutBest": 2.27,
+   "win": 21,
+   "ci95": [
+    -0.0062,
+    0.0854
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.0905,
+   "trimmed": 0.0686,
+   "total": 3.35,
+   "withoutBest": 2.87,
+   "win": 30,
+   "ci95": [
+    0.0166,
+    0.1618
+   ]
+  },
+  "validation+recent": {
+   "n": 107,
+   "mean": 0.0569,
+   "trimmed": 0.0489,
+   "total": 6.09,
+   "withoutBest": 5.61,
+   "win": 24,
+   "ci95": [
+    0.018,
+    0.0966
+   ]
+  },
+  "newLaunches": {
+   "n": 107,
+   "mean": 0.0569,
+   "trimmed": 0.0489,
+   "total": 6.09,
+   "withoutBest": 5.61,
+   "win": 24,
+   "ci95": [
+    0.018,
+    0.0966
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "fixed tp200 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 108,
+   "mean": 0.0274,
+   "trimmed": 0.0244,
+   "total": 2.96,
+   "withoutBest": 2.77,
+   "win": 36,
+   "ci95": [
+    0.0074,
+    0.0496
+   ]
+  },
+  "validation": {
+   "n": 72,
+   "mean": 0.0458,
+   "trimmed": 0.0418,
+   "total": 3.3,
+   "withoutBest": 3.11,
+   "win": 43,
+   "ci95": [
+    0.0191,
+    0.0723
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.0545,
+   "trimmed": 0.0432,
+   "total": 2.02,
+   "withoutBest": 1.7,
+   "win": 46,
+   "ci95": [
+    0.0149,
+    0.0918
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.0488,
+   "trimmed": 0.045,
+   "total": 5.32,
+   "withoutBest": 5,
+   "win": 44,
+   "ci95": [
+    0.028,
+    0.0717
+   ]
+  },
+  "newLaunches": {
+   "n": 109,
+   "mean": 0.0488,
+   "trimmed": 0.045,
+   "total": 5.32,
+   "withoutBest": 5,
+   "win": 44,
+   "ci95": [
+    0.028,
+    0.0717
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "fixed tp200 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 108,
+   "mean": 0.0305,
+   "trimmed": 0.0275,
+   "total": 3.29,
+   "withoutBest": 3.1,
+   "win": 37,
+   "ci95": [
+    0.0101,
+    0.0523
+   ]
+  },
+  "validation": {
+   "n": 72,
+   "mean": 0.0393,
+   "trimmed": 0.0351,
+   "total": 2.83,
+   "withoutBest": 2.65,
+   "win": 40,
+   "ci95": [
+    0.0127,
+    0.0652
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.0514,
+   "trimmed": 0.0437,
+   "total": 1.9,
+   "withoutBest": 1.71,
+   "win": 46,
+   "ci95": [
+    0.0139,
+    0.088
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.0434,
+   "trimmed": 0.0407,
+   "total": 4.73,
+   "withoutBest": 4.55,
+   "win": 42,
+   "ci95": [
+    0.0233,
+    0.0655
+   ]
+  },
+  "newLaunches": {
+   "n": 109,
+   "mean": 0.0434,
+   "trimmed": 0.0407,
+   "total": 4.73,
+   "withoutBest": 4.55,
+   "win": 42,
+   "ci95": [
+    0.0233,
+    0.0655
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "fixed tp200 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 108,
+   "mean": 0.0246,
+   "trimmed": 0.0211,
+   "total": 2.65,
+   "withoutBest": 2.42,
+   "win": 34,
+   "ci95": [
+    0.0044,
+    0.0471
+   ]
+  },
+  "validation": {
+   "n": 70,
+   "mean": 0.0285,
+   "trimmed": 0.0239,
+   "total": 2,
+   "withoutBest": 1.81,
+   "win": 36,
+   "ci95": [
+    0.0019,
+    0.0535
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.0517,
+   "trimmed": 0.0439,
+   "total": 1.91,
+   "withoutBest": 1.72,
+   "win": 46,
+   "ci95": [
+    0.0145,
+    0.0876
+   ]
+  },
+  "validation+recent": {
+   "n": 107,
+   "mean": 0.0365,
+   "trimmed": 0.0337,
+   "total": 3.91,
+   "withoutBest": 3.72,
+   "win": 39,
+   "ci95": [
+    0.0156,
+    0.058
+   ]
+  },
+  "newLaunches": {
+   "n": 107,
+   "mean": 0.0365,
+   "trimmed": 0.0337,
+   "total": 3.91,
+   "withoutBest": 3.72,
+   "win": 39,
+   "ci95": [
+    0.0156,
+    0.058
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 108,
+   "mean": 0.0399,
+   "trimmed": 0.0254,
+   "total": 4.31,
+   "withoutBest": 3.29,
+   "win": 45,
+   "ci95": [
+    0.0131,
+    0.071
+   ]
+  },
+  "validation": {
+   "n": 72,
+   "mean": 0.0323,
+   "trimmed": 0.0188,
+   "total": 2.33,
+   "withoutBest": 1.81,
+   "win": 58,
+   "ci95": [
+    0.0093,
+    0.0601
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.0706,
+   "trimmed": 0.0438,
+   "total": 2.61,
+   "withoutBest": 1.95,
+   "win": 54,
+   "ci95": [
+    0.019,
+    0.1242
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.0453,
+   "trimmed": 0.0352,
+   "total": 4.94,
+   "withoutBest": 4.28,
+   "win": 57,
+   "ci95": [
+    0.0214,
+    0.0714
+   ]
+  },
+  "newLaunches": {
+   "n": 109,
+   "mean": 0.0453,
+   "trimmed": 0.0352,
+   "total": 4.94,
+   "withoutBest": 4.28,
+   "win": 57,
+   "ci95": [
+    0.0214,
+    0.0714
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 108,
+   "mean": 0.0417,
+   "trimmed": 0.0271,
+   "total": 4.51,
+   "withoutBest": 3.49,
+   "win": 47,
+   "ci95": [
+    0.0144,
+    0.0727
+   ]
+  },
+  "validation": {
+   "n": 72,
+   "mean": 0.0286,
+   "trimmed": 0.0156,
+   "total": 2.06,
+   "withoutBest": 1.56,
+   "win": 56,
+   "ci95": [
+    0.0068,
+    0.0545
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.0722,
+   "trimmed": 0.0481,
+   "total": 2.67,
+   "withoutBest": 2.09,
+   "win": 54,
+   "ci95": [
+    0.0191,
+    0.125
+   ]
+  },
+  "validation+recent": {
+   "n": 109,
+   "mean": 0.0434,
+   "trimmed": 0.0341,
+   "total": 4.73,
+   "withoutBest": 4.15,
+   "win": 55,
+   "ci95": [
+    0.0201,
+    0.0688
+   ]
+  },
+  "newLaunches": {
+   "n": 109,
+   "mean": 0.0434,
+   "trimmed": 0.0341,
+   "total": 4.73,
+   "withoutBest": 4.15,
+   "win": 55,
+   "ci95": [
+    0.0201,
+    0.0688
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "ablation: every call with <100 pre-call trades",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 108,
+   "mean": 0.0359,
+   "trimmed": 0.0211,
+   "total": 3.87,
+   "withoutBest": 2.86,
+   "win": 44,
+   "ci95": [
+    0.009,
+    0.067
+   ]
+  },
+  "validation": {
+   "n": 70,
+   "mean": 0.0266,
+   "trimmed": 0.0131,
+   "total": 1.86,
+   "withoutBest": 1.36,
+   "win": 54,
+   "ci95": [
+    0.0031,
+    0.0535
+   ]
+  },
+  "recent": {
+   "n": 37,
+   "mean": 0.0624,
+   "trimmed": 0.0354,
+   "total": 2.31,
+   "withoutBest": 1.72,
+   "win": 51,
+   "ci95": [
+    0.0122,
+    0.1141
+   ]
+  },
+  "validation+recent": {
+   "n": 107,
+   "mean": 0.039,
+   "trimmed": 0.0294,
+   "total": 4.17,
+   "withoutBest": 3.59,
+   "win": 53,
+   "ci95": [
+    0.0161,
+    0.0651
+   ]
+  },
+  "newLaunches": {
+   "n": 107,
+   "mean": 0.039,
+   "trimmed": 0.0294,
+   "total": 4.17,
+   "withoutBest": 3.59,
+   "win": 53,
+   "ci95": [
+    0.0161,
+    0.0651
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "fixed tp500 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 88,
+   "mean": 0.0604,
+   "trimmed": 0.0506,
+   "total": 5.31,
+   "withoutBest": 4.83,
+   "win": 24,
+   "ci95": [
+    0.0142,
+    0.1063
+   ]
+  },
+  "validation": {
+   "n": 61,
+   "mean": 0.0522,
+   "trimmed": 0.0378,
+   "total": 3.18,
+   "withoutBest": 2.7,
+   "win": 23,
+   "ci95": [
+    0.0011,
+    0.1048
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.1482,
+   "trimmed": 0.1241,
+   "total": 4.3,
+   "withoutBest": 3.82,
+   "win": 41,
+   "ci95": [
+    0.0569,
+    0.2342
+   ]
+  },
+  "validation+recent": {
+   "n": 90,
+   "mean": 0.0831,
+   "trimmed": 0.0742,
+   "total": 7.48,
+   "withoutBest": 7,
+   "win": 29,
+   "ci95": [
+    0.0348,
+    0.1289
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.0831,
+   "trimmed": 0.0742,
+   "total": 7.48,
+   "withoutBest": 7,
+   "win": 29,
+   "ci95": [
+    0.0348,
+    0.1289
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "fixed tp500 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 88,
+   "mean": 0.0503,
+   "trimmed": 0.0404,
+   "total": 4.43,
+   "withoutBest": 3.95,
+   "win": 22,
+   "ci95": [
+    0.0075,
+    0.095
+   ]
+  },
+  "validation": {
+   "n": 61,
+   "mean": 0.0518,
+   "trimmed": 0.0374,
+   "total": 3.16,
+   "withoutBest": 2.68,
+   "win": 23,
+   "ci95": [
+    0.0009,
+    0.1044
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.1299,
+   "trimmed": 0.1045,
+   "total": 3.77,
+   "withoutBest": 3.29,
+   "win": 38,
+   "ci95": [
+    0.039,
+    0.2208
+   ]
+  },
+  "validation+recent": {
+   "n": 90,
+   "mean": 0.077,
+   "trimmed": 0.0679,
+   "total": 6.93,
+   "withoutBest": 6.45,
+   "win": 28,
+   "ci95": [
+    0.0292,
+    0.1229
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.077,
+   "trimmed": 0.0679,
+   "total": 6.93,
+   "withoutBest": 6.45,
+   "win": 28,
+   "ci95": [
+    0.0292,
+    0.1229
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "fixed tp500 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 88,
+   "mean": 0.0494,
+   "trimmed": 0.0394,
+   "total": 4.35,
+   "withoutBest": 3.87,
+   "win": 20,
+   "ci95": [
+    0.0069,
+    0.0924
+   ]
+  },
+  "validation": {
+   "n": 60,
+   "mean": 0.0451,
+   "trimmed": 0.0303,
+   "total": 2.71,
+   "withoutBest": 2.23,
+   "win": 22,
+   "ci95": [
+    -0.004,
+    0.096
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.1106,
+   "trimmed": 0.0836,
+   "total": 3.21,
+   "withoutBest": 2.73,
+   "win": 34,
+   "ci95": [
+    0.0263,
+    0.1962
+   ]
+  },
+  "validation+recent": {
+   "n": 89,
+   "mean": 0.0665,
+   "trimmed": 0.057,
+   "total": 5.91,
+   "withoutBest": 5.44,
+   "win": 26,
+   "ci95": [
+    0.0216,
+    0.1116
+   ]
+  },
+  "newLaunches": {
+   "n": 89,
+   "mean": 0.0665,
+   "trimmed": 0.057,
+   "total": 5.91,
+   "withoutBest": 5.44,
+   "win": 26,
+   "ci95": [
+    0.0216,
+    0.1116
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "fixed tp200 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 88,
+   "mean": 0.0402,
+   "trimmed": 0.0368,
+   "total": 3.54,
+   "withoutBest": 3.35,
+   "win": 42,
+   "ci95": [
+    0.0172,
+    0.0656
+   ]
+  },
+  "validation": {
+   "n": 61,
+   "mean": 0.052,
+   "trimmed": 0.0474,
+   "total": 3.17,
+   "withoutBest": 2.98,
+   "win": 46,
+   "ci95": [
+    0.0236,
+    0.0799
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.0748,
+   "trimmed": 0.0616,
+   "total": 2.17,
+   "withoutBest": 1.85,
+   "win": 55,
+   "ci95": [
+    0.0315,
+    0.1168
+   ]
+  },
+  "validation+recent": {
+   "n": 90,
+   "mean": 0.0593,
+   "trimmed": 0.0549,
+   "total": 5.34,
+   "withoutBest": 5.02,
+   "win": 49,
+   "ci95": [
+    0.0347,
+    0.0847
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.0593,
+   "trimmed": 0.0549,
+   "total": 5.34,
+   "withoutBest": 5.02,
+   "win": 49,
+   "ci95": [
+    0.0347,
+    0.0847
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "fixed tp200 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 88,
+   "mean": 0.0437,
+   "trimmed": 0.0403,
+   "total": 3.84,
+   "withoutBest": 3.66,
+   "win": 43,
+   "ci95": [
+    0.0208,
+    0.0688
+   ]
+  },
+  "validation": {
+   "n": 61,
+   "mean": 0.044,
+   "trimmed": 0.0392,
+   "total": 2.68,
+   "withoutBest": 2.5,
+   "win": 43,
+   "ci95": [
+    0.0161,
+    0.0718
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.071,
+   "trimmed": 0.0624,
+   "total": 2.06,
+   "withoutBest": 1.87,
+   "win": 55,
+   "ci95": [
+    0.0301,
+    0.1117
+   ]
+  },
+  "validation+recent": {
+   "n": 90,
+   "mean": 0.0527,
+   "trimmed": 0.0496,
+   "total": 4.74,
+   "withoutBest": 4.55,
+   "win": 47,
+   "ci95": [
+    0.0291,
+    0.0772
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.0527,
+   "trimmed": 0.0496,
+   "total": 4.74,
+   "withoutBest": 4.55,
+   "win": 47,
+   "ci95": [
+    0.0291,
+    0.0772
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "fixed tp200 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 88,
+   "mean": 0.0363,
+   "trimmed": 0.0323,
+   "total": 3.2,
+   "withoutBest": 2.97,
+   "win": 40,
+   "ci95": [
+    0.0129,
+    0.0622
+   ]
+  },
+  "validation": {
+   "n": 60,
+   "mean": 0.0303,
+   "trimmed": 0.0249,
+   "total": 1.82,
+   "withoutBest": 1.63,
+   "win": 37,
+   "ci95": [
+    0.0023,
+    0.0581
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.0709,
+   "trimmed": 0.0623,
+   "total": 2.06,
+   "withoutBest": 1.87,
+   "win": 55,
+   "ci95": [
+    0.0301,
+    0.1114
+   ]
+  },
+  "validation+recent": {
+   "n": 89,
+   "mean": 0.0435,
+   "trimmed": 0.0402,
+   "total": 3.87,
+   "withoutBest": 3.68,
+   "win": 43,
+   "ci95": [
+    0.0203,
+    0.0693
+   ]
+  },
+  "newLaunches": {
+   "n": 89,
+   "mean": 0.0435,
+   "trimmed": 0.0402,
+   "total": 3.87,
+   "withoutBest": 3.68,
+   "win": 43,
+   "ci95": [
+    0.0203,
+    0.0693
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "minute-bar open (study)",
+  "fit": {
+   "n": 88,
+   "mean": 0.0542,
+   "trimmed": 0.0366,
+   "total": 4.77,
+   "withoutBest": 3.75,
+   "win": 52,
+   "ci95": [
+    0.0243,
+    0.0904
+   ]
+  },
+  "validation": {
+   "n": 61,
+   "mean": 0.0418,
+   "trimmed": 0.0261,
+   "total": 2.55,
+   "withoutBest": 2.04,
+   "win": 62,
+   "ci95": [
+    0.0147,
+    0.0719
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.0982,
+   "trimmed": 0.0655,
+   "total": 2.85,
+   "withoutBest": 2.19,
+   "win": 62,
+   "ci95": [
+    0.0371,
+    0.1626
+   ]
+  },
+  "validation+recent": {
+   "n": 90,
+   "mean": 0.06,
+   "trimmed": 0.048,
+   "total": 5.4,
+   "withoutBest": 4.74,
+   "win": 62,
+   "ci95": [
+    0.0315,
+    0.09
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.06,
+   "trimmed": 0.048,
+   "total": 5.4,
+   "withoutBest": 4.74,
+   "win": 62,
+   "ci95": [
+    0.0315,
+    0.09
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "1s: +5s",
+  "fit": {
+   "n": 88,
+   "mean": 0.0557,
+   "trimmed": 0.0379,
+   "total": 4.9,
+   "withoutBest": 3.88,
+   "win": 56,
+   "ci95": [
+    0.0248,
+    0.0921
+   ]
+  },
+  "validation": {
+   "n": 61,
+   "mean": 0.0363,
+   "trimmed": 0.0212,
+   "total": 2.21,
+   "withoutBest": 1.71,
+   "win": 61,
+   "ci95": [
+    0.0112,
+    0.065
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.1028,
+   "trimmed": 0.0739,
+   "total": 2.98,
+   "withoutBest": 2.4,
+   "win": 66,
+   "ci95": [
+    0.0422,
+    0.1653
+   ]
+  },
+  "validation+recent": {
+   "n": 90,
+   "mean": 0.0577,
+   "trimmed": 0.0468,
+   "total": 5.19,
+   "withoutBest": 4.62,
+   "win": 62,
+   "ci95": [
+    0.0294,
+    0.0865
+   ]
+  },
+  "newLaunches": {
+   "n": 90,
+   "mean": 0.0577,
+   "trimmed": 0.0468,
+   "total": 5.19,
+   "withoutBest": 4.62,
+   "win": 62,
+   "ci95": [
+    0.0294,
+    0.0865
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ },
+ {
+  "filter": "model top20 AND <100 trades",
+  "exit": "trail arm100 trail50 sl50",
+  "entry": "1s: +30s",
+  "fit": {
+   "n": 88,
+   "mean": 0.0496,
+   "trimmed": 0.0318,
+   "total": 4.37,
+   "withoutBest": 3.35,
+   "win": 51,
+   "ci95": [
+    0.0194,
+    0.0866
+   ]
+  },
+  "validation": {
+   "n": 60,
+   "mean": 0.034,
+   "trimmed": 0.0184,
+   "total": 2.04,
+   "withoutBest": 1.54,
+   "win": 58,
+   "ci95": [
+    0.0069,
+    0.0643
+   ]
+  },
+  "recent": {
+   "n": 29,
+   "mean": 0.0898,
+   "trimmed": 0.0568,
+   "total": 2.61,
+   "withoutBest": 2.02,
+   "win": 62,
+   "ci95": [
+    0.0309,
+    0.1518
+   ]
+  },
+  "validation+recent": {
+   "n": 89,
+   "mean": 0.0522,
+   "trimmed": 0.0409,
+   "total": 4.65,
+   "withoutBest": 4.06,
+   "win": 60,
+   "ci95": [
+    0.0261,
+    0.0821
+   ]
+  },
+  "newLaunches": {
+   "n": 89,
+   "mean": 0.0522,
+   "trimmed": 0.0409,
+   "total": 4.65,
+   "withoutBest": 4.06,
+   "win": 60,
+   "ci95": [
+    0.0261,
+    0.0821
+   ]
+  },
+  "olderTokens": {
+   "n": 0,
+   "mean": null,
+   "trimmed": null,
+   "total": 0,
+   "withoutBest": 0,
+   "win": null,
+   "ci95": null
+  }
+ }
+]

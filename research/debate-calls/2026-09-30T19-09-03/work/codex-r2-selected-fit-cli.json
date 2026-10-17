@@ -1,0 +1,18 @@
+{
+ "strategy": "sustained-recovery {\"wait\":15,\"window\":5,\"volumeRatio\":1,\"exit\":{\"family\":\"fixed\",\"tp\":50,\"sl\":30}}",
+ "eligibleCalls": 574,
+ "entries": 253,
+ "skippedNoData": 5,
+ "totalSol": -3.3856,
+ "meanSol": -0.01338,
+ "trimmedMeanSol": -0.01381,
+ "medianSol": -0.03768,
+ "winRate": 32,
+ "bestSol": 0.041,
+ "totalWithoutBestSol": -3.4266,
+ "captured5x": 0,
+ "captured10x": 0,
+ "tokensThatRan5x": 60,
+ "tokensThatRan10x": 26,
+ "maxDrawdownSol": 3.4926
+}

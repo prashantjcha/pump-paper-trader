@@ -1,0 +1,58 @@
+{
+  "researchOnly": true,
+  "selectedOn": "training only",
+  "name": "acceleration-hold60-bundle6",
+  "gate": "acceleration",
+  "params": {
+    "entry": {
+      "minAgeS": 10,
+      "maxAgeS": 180,
+      "minSolRaised": 5,
+      "maxSolRaised": 50,
+      "devBuyMin": 0,
+      "devBuyMax": 4,
+      "devHoldMaxPct": 8,
+      "maxSameSlotBuyers": 6,
+      "top1MaxPct": 15,
+      "top10MaxPct": 40,
+      "windowS": 15,
+      "minUniqueBuyers": 8,
+      "minBuySellRatio": 2.5,
+      "minNetInflowSol": 1,
+      "minBuysLast5s": 3,
+      "blacklistCreators": true,
+      "maxCreatorPriorLaunches": 1
+    },
+    "exit": {
+      "tpRisingPct": 30,
+      "tpFlatPct": 25,
+      "tpFallingPct": 20,
+      "trailArmPct": 15,
+      "trailPct": 8,
+      "slBasePct": 10,
+      "slTightPct": 6,
+      "noBuyTightenS": 8,
+      "bsTightenRatio": 1,
+      "bigSellSol": 1.5,
+      "bigSellSupplyPct": 5,
+      "timeStopS": 60,
+      "maxProgressPct": 95,
+      "exitOnDevSell": true,
+      "exitOnSmartExit": true
+    },
+    "risk": {
+      "positionSol": 0.1,
+      "maxOpen": 4,
+      "dailyLossPct": 10
+    },
+    "exec": {
+      "latencyMs": 600,
+      "priorityFeeSol": 0.001,
+      "tipSol": 0.002,
+      "maxEntrySlippagePct": 15,
+      "landProbability": 1
+    }
+  },
+  "deploymentStatus": "rejected-negative-training-and-validation",
+  "warning": "Diagnostic candidate, not a recommended live strategy. The standard replay CLI does not implement the research gate. Read REPORT.md."
+}

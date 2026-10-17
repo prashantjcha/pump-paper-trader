@@ -1,0 +1,1 @@
+{"name":"@pf/telegram","version":"0.1.0","private":true,"type":"module","dependencies":{"dotenv":"^18.0.4","telegram":"^2.26.22"}}

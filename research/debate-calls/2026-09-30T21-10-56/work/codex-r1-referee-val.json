@@ -1,0 +1,18 @@
+{
+ "strategy": "codex-r1: abstain after fit-only flow and exit audit",
+ "eligibleCalls": 351,
+ "entries": 0,
+ "skippedNoData": 1,
+ "totalSol": 0,
+ "meanSol": null,
+ "trimmedMeanSol": null,
+ "medianSol": null,
+ "winRate": null,
+ "bestSol": 0,
+ "totalWithoutBestSol": 0,
+ "captured5x": 0,
+ "captured10x": 0,
+ "tokensThatRan5x": 36,
+ "tokensThatRan10x": 14,
+ "maxDrawdownSol": 0
+}

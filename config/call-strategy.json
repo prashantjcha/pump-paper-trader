@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "name": "young-token calls",
+  "positionSol": 0.1,
+  "maxOpen": 10,
+  "startSol": 1,
+  "maxHoldMin": 1440,
+  "filter": {
+    "type": "young",
+    "maxTrades": 100
+  },
+  "policy": {
+    "family": "fixed",
+    "tp": 100,
+    "sl": 50
+  },
+  "notes": "Backtest (1 s entry at +5 s): validation +0.035 SOL per 0.1 SOL trade (72), recent +0.044 (37); 95% CI +0.023 to +0.066. Forward test from 2026-09-30T21:03:20.391Z"
+}

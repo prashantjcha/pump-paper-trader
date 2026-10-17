@@ -1,0 +1,7 @@
+{
+  "selected": "abstain",
+  "criterion": "n >= 30, positive fit trimmed mean and total without best; highest fit trimmed mean, else abstain",
+  "candidateCount": 12,
+  "passing": [],
+  "caveat": "Entry hypotheses and two exits were specified after reading Claude's round 1; neither later split is pristine."
+}

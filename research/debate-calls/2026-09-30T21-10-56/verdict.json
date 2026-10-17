@@ -1,0 +1,498 @@
+[
+ {
+  "file": "research/debate-calls/examples/young-token.ts",
+  "name": "young-token: <=100 pre-call trades, tp +100% / sl -50% (live v2)",
+  "holdout": {
+   "strategy": "young-token: <=100 pre-call trades, tp +100% / sl -50% (live v2)",
+   "eligibleCalls": 7,
+   "entries": 3,
+   "skippedNoData": 0,
+   "totalSol": 0.2532,
+   "meanSol": 0.08442,
+   "trimmedMeanSol": 0.08442,
+   "medianSol": 0.08632,
+   "winRate": 100,
+   "bestSol": 0.0881,
+   "totalWithoutBestSol": 0.1651,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 1,
+   "tokensThatRan10x": 0,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "young-token: <=100 pre-call trades, tp +100% / sl -50% (live v2)",
+   "eligibleCalls": 1079,
+   "entries": 220,
+   "skippedNoData": 6,
+   "totalSol": 5.3867,
+   "meanSol": 0.02448,
+   "trimmedMeanSol": 0.02388,
+   "medianSol": 0.08242,
+   "winRate": 56.8,
+   "bestSol": 0.09,
+   "totalWithoutBestSol": 5.2967,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 116,
+   "tokensThatRan10x": 50,
+   "maxDrawdownSol": 0.4193
+  },
+  "holdoutTrades": [
+   {
+    "mint": "J6YzMjZrDKmB41mrhESoQFsnpo2JURKnwkPqSjaUpump",
+    "caller": "caller_01",
+    "callMs": 1790713273000,
+    "entryMs": 1790713320000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.0000816062052664,
+    "sizeSol": 0.1,
+    "pnlSol": 0.08814495119740248,
+    "realizedMult": 1.941449511974025,
+    "peakMult": 2.0517339059011266,
+    "exits": [
+     "take_profit@2.00x"
+    ]
+   },
+   {
+    "mint": "5hGpv7aKs1h24QbGAGwyZ16CZ7m6xeZw4FpruzDMpump",
+    "caller": "caller_01",
+    "callMs": 1790717594000,
+    "entryMs": 1790717640000,
+    "entryDelayMin": 0.7666666666666667,
+    "entryPx": 0.0000219725646428,
+    "sizeSol": 0.1,
+    "pnlSol": 0.08632457611085467,
+    "realizedMult": 1.9232457611085467,
+    "peakMult": 2.4007567701608945,
+    "exits": [
+     "take_profit@2.00x"
+    ]
+   },
+   {
+    "mint": "B6DTxpSYoYhjha7D6FQJeRgzQxpMngCsckgjALvNpump",
+    "caller": "caller_01",
+    "callMs": 1790717740000,
+    "entryMs": 1790717760000,
+    "entryDelayMin": 0.3333333333333333,
+    "entryPx": 0.0000146734382366,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0787798084500784,
+    "realizedMult": 1.847798084500784,
+    "peakMult": 2.867745601718656,
+    "exits": [
+     "take_profit@2.00x"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "research/debate-calls/examples/baseline-trail.ts",
+  "name": "baseline: every call, trail 20%, stop -35%",
+  "holdout": {
+   "strategy": "baseline: every call, trail 20%, stop -35%",
+   "eligibleCalls": 7,
+   "entries": 7,
+   "skippedNoData": 0,
+   "totalSol": 0.0902,
+   "meanSol": 0.01288,
+   "trimmedMeanSol": -0.00715,
+   "medianSol": -0.00128,
+   "winRate": 42.9,
+   "bestSol": 0.0787,
+   "totalWithoutBestSol": 0.0115,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 1,
+   "tokensThatRan10x": 0,
+   "maxDrawdownSol": 0.0467
+  },
+  "research": {
+   "strategy": "baseline: every call, trail 20%, stop -35%",
+   "eligibleCalls": 1079,
+   "entries": 1079,
+   "skippedNoData": 6,
+   "totalSol": -6.2072,
+   "meanSol": -0.00575,
+   "trimmedMeanSol": -0.00667,
+   "medianSol": -0.02,
+   "winRate": 27.3,
+   "bestSol": 0.6537,
+   "totalWithoutBestSol": -6.8608,
+   "captured5x": 1,
+   "captured10x": 0,
+   "tokensThatRan5x": 116,
+   "tokensThatRan10x": 50,
+   "maxDrawdownSol": 7.2173
+  },
+  "holdoutTrades": [
+   {
+    "mint": "4Aa5PAJhKizn5nfTtdCiaCR5AbJeCFWumeAQqnoVBWRA",
+    "caller": "caller_03",
+    "callMs": 1790709336000,
+    "entryMs": 1790709360000,
+    "entryDelayMin": 0.4,
+    "entryPx": 0.0000104285900242,
+    "sizeSol": 0.1,
+    "pnlSol": -0.016259882414346304,
+    "realizedMult": 0.897401175856537,
+    "peakMult": 1.1605078408985021,
+    "exits": [
+     "stop@0.93x"
+    ]
+   },
+   {
+    "mint": "D1qPV7yMjZ8qP5GqUEWz8udSnuP8sXec7BNqEDe1pump",
+    "caller": "caller_01",
+    "callMs": 1790713065000,
+    "entryMs": 1790713080000,
+    "entryDelayMin": 0.25,
+    "entryPx": 0.0000452353198707,
+    "sizeSol": 0.1,
+    "pnlSol": 0.02850970260784331,
+    "realizedMult": 1.345097026078433,
+    "peakMult": 1.7568443625613788,
+    "exits": [
+     "stop@1.38x"
+    ]
+   },
+   {
+    "mint": "J6YzMjZrDKmB41mrhESoQFsnpo2JURKnwkPqSjaUpump",
+    "caller": "caller_01",
+    "callMs": 1790713273000,
+    "entryMs": 1790713320000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.0000816062052664,
+    "sizeSol": 0.1,
+    "pnlSol": -0.01832738817410908,
+    "realizedMult": 0.8767261182589092,
+    "peakMult": 1.5243269432381925,
+    "exits": [
+     "stop@0.90x"
+    ]
+   },
+   {
+    "mint": "8jMuMFZZeTMbFZERn2cJXSnwj5qjPPnYtitoWnhJpump",
+    "caller": "caller_01",
+    "callMs": 1790715232000,
+    "entryMs": 1790715240000,
+    "entryDelayMin": 0.13333333333333333,
+    "entryPx": 0.0000356383670822,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028415138020444534,
+    "realizedMult": 0.7758486197955546,
+    "peakMult": 1.0617742368111918,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "FTRiymcX8FTjTXjA8sVuAyrmV8sVvCmufZNGFaUppump",
+    "caller": "caller_01",
+    "callMs": 1790716909000,
+    "entryMs": 1790716920000,
+    "entryDelayMin": 0.18333333333333332,
+    "entryPx": 0.00000750041059521,
+    "sizeSol": 0.1,
+    "pnlSol": 0.04724406529641415,
+    "realizedMult": 1.5324406529641414,
+    "peakMult": 1.9910431955601333,
+    "exits": [
+     "stop@1.59x"
+    ]
+   },
+   {
+    "mint": "5hGpv7aKs1h24QbGAGwyZ16CZ7m6xeZw4FpruzDMpump",
+    "caller": "caller_01",
+    "callMs": 1790717594000,
+    "entryMs": 1790717640000,
+    "entryDelayMin": 0.7666666666666667,
+    "entryPx": 0.0000219725646428,
+    "sizeSol": 0.1,
+    "pnlSol": 0.07869109349267289,
+    "realizedMult": 1.846910934926729,
+    "peakMult": 2.4315778118148517,
+    "exits": [
+     "stop@1.92x"
+    ]
+   },
+   {
+    "mint": "B6DTxpSYoYhjha7D6FQJeRgzQxpMngCsckgjALvNpump",
+    "caller": "caller_01",
+    "callMs": 1790717740000,
+    "entryMs": 1790717760000,
+    "entryDelayMin": 0.3333333333333333,
+    "entryPx": 0.0000146734382366,
+    "sizeSol": 0.1,
+    "pnlSol": -0.00128099852164878,
+    "realizedMult": 1.0471900147835123,
+    "peakMult": 1.4546254071156077,
+    "exits": [
+     "stop@1.09x"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T21-10-56/proposals/claude-r1.ts",
+  "name": "claude-r1: stand aside (no leak-free entry beats zero on fit)",
+  "holdout": {
+   "strategy": "claude-r1: stand aside (no leak-free entry beats zero on fit)",
+   "eligibleCalls": 7,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 1,
+   "tokensThatRan10x": 0,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "claude-r1: stand aside (no leak-free entry beats zero on fit)",
+   "eligibleCalls": 1079,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 116,
+   "tokensThatRan10x": 50,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T21-10-56/proposals/claude-r2.ts",
+  "name": "claude-r2: stand aside (no leak-free entry passes the fit gate)",
+  "holdout": {
+   "strategy": "claude-r2: stand aside (no leak-free entry passes the fit gate)",
+   "eligibleCalls": 7,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 1,
+   "tokensThatRan10x": 0,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "claude-r2: stand aside (no leak-free entry passes the fit gate)",
+   "eligibleCalls": 1079,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 116,
+   "tokensThatRan10x": 50,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T21-10-56/proposals/claude-r3.ts",
+  "name": "claude-r3: stand aside (no leak-free entry survives validation)",
+  "holdout": {
+   "strategy": "claude-r3: stand aside (no leak-free entry survives validation)",
+   "eligibleCalls": 7,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 1,
+   "tokensThatRan10x": 0,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "claude-r3: stand aside (no leak-free entry survives validation)",
+   "eligibleCalls": 1079,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 116,
+   "tokensThatRan10x": 50,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T21-10-56/proposals/codex-r1.ts",
+  "name": "codex-r1: abstain after fit-only flow and exit audit",
+  "holdout": {
+   "strategy": "codex-r1: abstain after fit-only flow and exit audit",
+   "eligibleCalls": 7,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 1,
+   "tokensThatRan10x": 0,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "codex-r1: abstain after fit-only flow and exit audit",
+   "eligibleCalls": 1079,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 116,
+   "tokensThatRan10x": 50,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T21-10-56/proposals/codex-r2.ts",
+  "name": "codex-r2: completed flow <=300, stop25, trail200/40",
+  "holdout": {
+   "strategy": "codex-r2: completed flow <=300, stop25, trail200/40",
+   "eligibleCalls": 7,
+   "entries": 1,
+   "skippedNoData": 0,
+   "totalSol": 0.0764,
+   "meanSol": 0.07645,
+   "trimmedMeanSol": 0.07645,
+   "medianSol": 0.07645,
+   "winRate": 100,
+   "bestSol": 0.0764,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 1,
+   "tokensThatRan10x": 0,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "codex-r2: completed flow <=300, stop25, trail200/40",
+   "eligibleCalls": 1079,
+   "entries": 128,
+   "skippedNoData": 6,
+   "totalSol": 2.882,
+   "meanSol": 0.02252,
+   "trimmedMeanSol": 0.00633,
+   "medianSol": -0.03332,
+   "winRate": 16.4,
+   "bestSol": 1.2356,
+   "totalWithoutBestSol": 1.6464,
+   "captured5x": 5,
+   "captured10x": 1,
+   "tokensThatRan5x": 116,
+   "tokensThatRan10x": 50,
+   "maxDrawdownSol": 0.6594
+  },
+  "holdoutTrades": [
+   {
+    "mint": "5hGpv7aKs1h24QbGAGwyZ16CZ7m6xeZw4FpruzDMpump",
+    "caller": "caller_01",
+    "callMs": 1790717594000,
+    "entryMs": 1790717640000,
+    "entryDelayMin": 0.7666666666666667,
+    "entryPx": 0.0000219725646428,
+    "sizeSol": 0.1,
+    "pnlSol": 0.07644944959326358,
+    "realizedMult": 1.824494495932636,
+    "peakMult": 3.533607097755972,
+    "exits": [
+     "stop@1.90x"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T21-10-56/proposals/codex-r3.ts",
+  "name": "codex-r3: abstain after concentration and exit checks",
+  "holdout": {
+   "strategy": "codex-r3: abstain after concentration and exit checks",
+   "eligibleCalls": 7,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 1,
+   "tokensThatRan10x": 0,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "codex-r3: abstain after concentration and exit checks",
+   "eligibleCalls": 1079,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 116,
+   "tokensThatRan10x": 50,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ }
+]

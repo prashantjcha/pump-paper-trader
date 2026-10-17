@@ -1,0 +1,1383 @@
+{
+  "generated": "2026-09-30T13:44:27.620Z",
+  "events": 394915,
+  "duplicatesDropped": 507,
+  "segments": 2,
+  "coverage": "7 archive files",
+  "split": "2026-09-30T12:55:00.000Z",
+  "definitions": {
+    "entry": "snapshot + 600 ms at recorded reserves, 0.1 SOL, curve fee from events, 0.003 SOL fixed per leg",
+    "hit25": "net return after all costs reached +25% within the horizon",
+    "hit50": "reached +50% net (called a runner below)",
+    "x2": "reached +100% net",
+    "horizonS": 300,
+    "policy": "exit at +25% net, or -15% price from post-fill liquidation value, or 180 s"
+  },
+  "snapshots": {
+    "10s": {
+      "all": {
+        "n": 2302,
+        "hit25": 11.4,
+        "hit50": 7.2,
+        "x2": 3.4,
+        "policyWinRate": 10.7,
+        "policyExpectancySol": -0.00973,
+        "policyTotalSol": -22.4061
+      },
+      "train": {
+        "n": 1530,
+        "hit25": 10.3,
+        "hit50": 6.5,
+        "x2": 3.2,
+        "policyWinRate": 10,
+        "policyExpectancySol": -0.01013,
+        "policyTotalSol": -15.4976
+      },
+      "test": {
+        "n": 772,
+        "hit25": 13.7,
+        "hit50": 8.5,
+        "x2": 3.9,
+        "policyWinRate": 12.2,
+        "policyExpectancySol": -0.00895,
+        "policyTotalSol": -6.9085
+      },
+      "exitMix": {
+        "tp": 206,
+        "stop": 444,
+        "time": 1652
+      },
+      "model": {
+        "label": "hit25",
+        "trainAuc": 0.813,
+        "testAuc": 0.822,
+        "testTop1pct": {
+          "n": 8,
+          "hit25": 37.5,
+          "hit50": 37.5,
+          "x2": 12.5,
+          "policyWinRate": 12.5,
+          "policyExpectancySol": -0.01823,
+          "policyTotalSol": -0.1458
+        },
+        "testTop5pct": {
+          "n": 39,
+          "hit25": 56.4,
+          "hit50": 46.2,
+          "x2": 20.5,
+          "policyWinRate": 43.6,
+          "policyExpectancySol": -0.00108,
+          "policyTotalSol": -0.042
+        },
+        "testTop10pct": {
+          "n": 77,
+          "hit25": 55.8,
+          "hit50": 42.9,
+          "x2": 26,
+          "policyWinRate": 41.6,
+          "policyExpectancySol": -0.00234,
+          "policyTotalSol": -0.1803
+        },
+        "testTop25pct": {
+          "n": 193,
+          "hit25": 36.3,
+          "hit50": 24.9,
+          "x2": 13.5,
+          "policyWinRate": 28,
+          "policyExpectancySol": -0.0097,
+          "policyTotalSol": -1.872
+        },
+        "trainTop5pct": {
+          "n": 77,
+          "hit25": 44.2,
+          "hit50": 33.8,
+          "x2": 18.2,
+          "policyWinRate": 35.1,
+          "policyExpectancySol": -0.00841,
+          "policyTotalSol": -0.6475
+        },
+        "weights": [
+          {
+            "feature": "creatorPriorLaunches",
+            "weight": -0.227
+          },
+          {
+            "feature": "log_solRaised",
+            "weight": 0.213
+          },
+          {
+            "feature": "netInflowW",
+            "weight": 0.212
+          },
+          {
+            "feature": "netFlow10",
+            "weight": 0.212
+          },
+          {
+            "feature": "devHoldPct",
+            "weight": 0.204
+          },
+          {
+            "feature": "log_buyVol10",
+            "weight": 0.167
+          },
+          {
+            "feature": "log_holders",
+            "weight": 0.162
+          },
+          {
+            "feature": "hour_cos",
+            "weight": 0.129
+          },
+          {
+            "feature": "devSold",
+            "weight": -0.127
+          },
+          {
+            "feature": "log_buyVolPrev10",
+            "weight": -0.104
+          },
+          {
+            "feature": "log_sellsW",
+            "weight": 0.095
+          },
+          {
+            "feature": "top10Pct",
+            "weight": 0.083
+          }
+        ]
+      },
+      "activeOnly": {
+        "definition": ">=3 unique buyers in the last 15 s and a buy in the last 10 s",
+        "trainN": 883,
+        "testN": 405,
+        "testBaseHit25": 22,
+        "testAuc": 0.762
+      },
+      "exitPolicies": {
+        "chosenOnTrain": "tp50-sl15-180s",
+        "chosenTest": {
+          "n": 39,
+          "expectancySol": -0.00047,
+          "winRate": 30.8
+        },
+        "table": [
+          {
+            "policy": "tp25-sl15-180s",
+            "trainTop5": {
+              "n": 77,
+              "expectancySol": -0.00841,
+              "winRate": 35.1
+            },
+            "testTop5": {
+              "n": 39,
+              "expectancySol": -0.00108,
+              "winRate": 43.6
+            }
+          },
+          {
+            "policy": "tp50-sl15-180s",
+            "trainTop5": {
+              "n": 77,
+              "expectancySol": -0.00518,
+              "winRate": 28.6
+            },
+            "testTop5": {
+              "n": 39,
+              "expectancySol": -0.00047,
+              "winRate": 30.8
+            }
+          },
+          {
+            "policy": "tp50-sl25-300s",
+            "trainTop5": {
+              "n": 77,
+              "expectancySol": -0.00867,
+              "winRate": 31.2
+            },
+            "testTop5": {
+              "n": 39,
+              "expectancySol": -0.00331,
+              "winRate": 33.3
+            }
+          },
+          {
+            "policy": "tp100-sl25-300s",
+            "trainTop5": {
+              "n": 77,
+              "expectancySol": -0.00573,
+              "winRate": 24.7
+            },
+            "testTop5": {
+              "n": 39,
+              "expectancySol": -0.00503,
+              "winRate": 20.5
+            }
+          },
+          {
+            "policy": "tp100-sl35-300s",
+            "trainTop5": {
+              "n": 77,
+              "expectancySol": -0.00893,
+              "winRate": 27.3
+            },
+            "testTop5": {
+              "n": 39,
+              "expectancySol": -0.00631,
+              "winRate": 25.6
+            }
+          },
+          {
+            "policy": "tp35-sl20-120s",
+            "trainTop5": {
+              "n": 77,
+              "expectancySol": -0.00724,
+              "winRate": 33.8
+            },
+            "testTop5": {
+              "n": 39,
+              "expectancySol": 0.00198,
+              "winRate": 43.6
+            }
+          },
+          {
+            "policy": "tp25-sl10-60s",
+            "trainTop5": {
+              "n": 77,
+              "expectancySol": -0.01008,
+              "winRate": 26
+            },
+            "testTop5": {
+              "n": 39,
+              "expectancySol": -0.00117,
+              "winRate": 41
+            }
+          }
+        ]
+      }
+    },
+    "30s": {
+      "all": {
+        "n": 2291,
+        "hit25": 7.8,
+        "hit50": 4.8,
+        "x2": 2.2,
+        "policyWinRate": 8.1,
+        "policyExpectancySol": -0.00955,
+        "policyTotalSol": -21.8885
+      },
+      "train": {
+        "n": 1525,
+        "hit25": 7.2,
+        "hit50": 4.6,
+        "x2": 2.1,
+        "policyWinRate": 7.5,
+        "policyExpectancySol": -0.00974,
+        "policyTotalSol": -14.846
+      },
+      "test": {
+        "n": 766,
+        "hit25": 8.9,
+        "hit50": 5.2,
+        "x2": 2.3,
+        "policyWinRate": 9.4,
+        "policyExpectancySol": -0.00919,
+        "policyTotalSol": -7.0425
+      },
+      "exitMix": {
+        "tp": 145,
+        "stop": 311,
+        "time": 1835
+      },
+      "model": {
+        "label": "hit25",
+        "trainAuc": 0.902,
+        "testAuc": 0.887,
+        "testTop1pct": {
+          "n": 8,
+          "hit25": 50,
+          "hit50": 50,
+          "x2": 37.5,
+          "policyWinRate": 62.5,
+          "policyExpectancySol": 0.00893,
+          "policyTotalSol": 0.0714
+        },
+        "testTop5pct": {
+          "n": 38,
+          "hit25": 39.5,
+          "hit50": 31.6,
+          "x2": 15.8,
+          "policyWinRate": 36.8,
+          "policyExpectancySol": -0.00534,
+          "policyTotalSol": -0.2031
+        },
+        "testTop10pct": {
+          "n": 77,
+          "hit25": 41.6,
+          "hit50": 28.6,
+          "x2": 15.6,
+          "policyWinRate": 36.4,
+          "policyExpectancySol": -0.00502,
+          "policyTotalSol": -0.3869
+        },
+        "testTop25pct": {
+          "n": 192,
+          "hit25": 28.6,
+          "hit50": 16.7,
+          "x2": 7.8,
+          "policyWinRate": 28.1,
+          "policyExpectancySol": -0.00911,
+          "policyTotalSol": -1.7497
+        },
+        "trainTop5pct": {
+          "n": 76,
+          "hit25": 50,
+          "hit50": 36.8,
+          "x2": 21.1,
+          "policyWinRate": 43.4,
+          "policyExpectancySol": -0.00193,
+          "policyTotalSol": -0.1467
+        },
+        "weights": [
+          {
+            "feature": "log_holders",
+            "weight": 0.518
+          },
+          {
+            "feature": "log_solRaised",
+            "weight": 0.502
+          },
+          {
+            "feature": "solPerTrade",
+            "weight": 0.293
+          },
+          {
+            "feature": "log_lastBuyAgoS",
+            "weight": -0.256
+          },
+          {
+            "feature": "log_buyVol10",
+            "weight": -0.231
+          },
+          {
+            "feature": "log_peakMult",
+            "weight": -0.209
+          },
+          {
+            "feature": "creatorPriorLaunches",
+            "weight": -0.182
+          },
+          {
+            "feature": "log_bsRatioW",
+            "weight": 0.167
+          },
+          {
+            "feature": "log_buys5s",
+            "weight": 0.164
+          },
+          {
+            "feature": "devHoldPct",
+            "weight": 0.159
+          },
+          {
+            "feature": "sameSlotBuyers",
+            "weight": 0.156
+          },
+          {
+            "feature": "top10Pct",
+            "weight": 0.131
+          }
+        ]
+      },
+      "describe": {
+        "n": 2291,
+        "runners": 110,
+        "baseRate": 4.8,
+        "medians": [
+          {
+            "feature": "solRaised",
+            "runners": 10.193,
+            "rest": 0.308
+          },
+          {
+            "feature": "uniqueBuyersW",
+            "runners": 12,
+            "rest": 0
+          },
+          {
+            "feature": "buysW",
+            "runners": 15,
+            "rest": 0
+          },
+          {
+            "feature": "sellsW",
+            "runners": 7,
+            "rest": 0
+          },
+          {
+            "feature": "netInflowW",
+            "runners": 0.479,
+            "rest": 0
+          },
+          {
+            "feature": "bsRatioW",
+            "runners": 1.524,
+            "rest": 0
+          },
+          {
+            "feature": "buys5s",
+            "runners": 4,
+            "rest": 0
+          },
+          {
+            "feature": "buyVol10",
+            "runners": 2.16,
+            "rest": 0
+          },
+          {
+            "feature": "devBuySol",
+            "runners": 0.988,
+            "rest": 0.147
+          },
+          {
+            "feature": "devHoldPct",
+            "runners": 0,
+            "rest": 0
+          },
+          {
+            "feature": "sameSlotBuyers",
+            "runners": 4,
+            "rest": 1
+          },
+          {
+            "feature": "top1Pct",
+            "runners": 3.425,
+            "rest": 0.337
+          },
+          {
+            "feature": "top10Pct",
+            "runners": 20.243,
+            "rest": 0.412
+          },
+          {
+            "feature": "holders",
+            "runners": 22,
+            "rest": 1
+          },
+          {
+            "feature": "peakMult",
+            "runners": 2.314,
+            "rest": 1.136
+          },
+          {
+            "feature": "drawFromPeakPct",
+            "runners": 11.089,
+            "rest": 1.946
+          },
+          {
+            "feature": "creatorPriorLaunches",
+            "runners": 0,
+            "rest": 0
+          },
+          {
+            "feature": "lastBuyAgoS",
+            "runners": 1.6,
+            "rest": 27.933
+          }
+        ],
+        "quintiles": [
+          {
+            "feature": "solRaised",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 496,
+                "runnerRate": 0.2
+              },
+              {
+                "range": "0..0.14",
+                "n": 421,
+                "runnerRate": 1
+              },
+              {
+                "range": "0.14..0.89",
+                "n": 458,
+                "runnerRate": 0.4
+              },
+              {
+                "range": "0.89..2.85",
+                "n": 458,
+                "runnerRate": 3.9
+              },
+              {
+                "range": "2.85..max",
+                "n": 458,
+                "runnerRate": 18.6
+              }
+            ]
+          },
+          {
+            "feature": "uniqueBuyersW",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 1528,
+                "runnerRate": 0.9
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..3",
+                "n": 335,
+                "runnerRate": 5.1
+              },
+              {
+                "range": "3..max",
+                "n": 428,
+                "runnerRate": 18.5
+              }
+            ]
+          },
+          {
+            "feature": "buysW",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 1528,
+                "runnerRate": 0.9
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..3",
+                "n": 321,
+                "runnerRate": 5.3
+              },
+              {
+                "range": "3..max",
+                "n": 442,
+                "runnerRate": 17.9
+              }
+            ]
+          },
+          {
+            "feature": "sellsW",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 1316,
+                "runnerRate": 1.3
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..1",
+                "n": 324,
+                "runnerRate": 2.2
+              },
+              {
+                "range": "1..4",
+                "n": 227,
+                "runnerRate": 7.5
+              },
+              {
+                "range": "4..max",
+                "n": 424,
+                "runnerRate": 16.3
+              }
+            ]
+          },
+          {
+            "feature": "netInflowW",
+            "buckets": [
+              {
+                "range": "min..-0.25",
+                "n": 460,
+                "runnerRate": 6.1
+              },
+              {
+                "range": "-0.25..0",
+                "n": 1413,
+                "runnerRate": 1.1
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..max",
+                "n": 418,
+                "runnerRate": 15.8
+              }
+            ]
+          },
+          {
+            "feature": "bsRatioW",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 1528,
+                "runnerRate": 0.9
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..1",
+                "n": 388,
+                "runnerRate": 6.7
+              },
+              {
+                "range": "1..max",
+                "n": 375,
+                "runnerRate": 18.7
+              }
+            ]
+          },
+          {
+            "feature": "buys5s",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 1851,
+                "runnerRate": 1.6
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..max",
+                "n": 440,
+                "runnerRate": 18.2
+              }
+            ]
+          },
+          {
+            "feature": "buyVol10",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 1686,
+                "runnerRate": 1.4
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0.08",
+                "n": 147,
+                "runnerRate": 5.4
+              },
+              {
+                "range": "0.08..max",
+                "n": 458,
+                "runnerRate": 17
+              }
+            ]
+          },
+          {
+            "feature": "devBuySol",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 577,
+                "runnerRate": 5.9
+              },
+              {
+                "range": "0..0.02",
+                "n": 344,
+                "runnerRate": 0
+              },
+              {
+                "range": "0.02..0.49",
+                "n": 455,
+                "runnerRate": 1.5
+              },
+              {
+                "range": "0.49..1.36",
+                "n": 457,
+                "runnerRate": 5.3
+              },
+              {
+                "range": "1.36..max",
+                "n": 458,
+                "runnerRate": 9.8
+              }
+            ]
+          },
+          {
+            "feature": "devHoldPct",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 1208,
+                "runnerRate": 5.4
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 171,
+                "runnerRate": 0.6
+              },
+              {
+                "range": "0..1.05",
+                "n": 466,
+                "runnerRate": 0.4
+              },
+              {
+                "range": "1.05..max",
+                "n": 446,
+                "runnerRate": 9.4
+              }
+            ]
+          },
+          {
+            "feature": "sameSlotBuyers",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 925,
+                "runnerRate": 1.3
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..1",
+                "n": 454,
+                "runnerRate": 2.9
+              },
+              {
+                "range": "1..4",
+                "n": 519,
+                "runnerRate": 8.3
+              },
+              {
+                "range": "4..max",
+                "n": 393,
+                "runnerRate": 10.7
+              }
+            ]
+          },
+          {
+            "feature": "top1Pct",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 877,
+                "runnerRate": 0.5
+              },
+              {
+                "range": "0..0.01",
+                "n": 40,
+                "runnerRate": 2.5
+              },
+              {
+                "range": "0.01..1.2",
+                "n": 458,
+                "runnerRate": 2
+              },
+              {
+                "range": "1.2..3.3",
+                "n": 458,
+                "runnerRate": 7.9
+              },
+              {
+                "range": "3.3..max",
+                "n": 458,
+                "runnerRate": 13.1
+              }
+            ]
+          },
+          {
+            "feature": "top10Pct",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 877,
+                "runnerRate": 0.5
+              },
+              {
+                "range": "0..0.01",
+                "n": 40,
+                "runnerRate": 2.5
+              },
+              {
+                "range": "0.01..1.66",
+                "n": 458,
+                "runnerRate": 1.7
+              },
+              {
+                "range": "1.66..8.19",
+                "n": 458,
+                "runnerRate": 2.8
+              },
+              {
+                "range": "8.19..max",
+                "n": 458,
+                "runnerRate": 18.3
+              }
+            ]
+          },
+          {
+            "feature": "holders",
+            "buckets": [
+              {
+                "range": "min..1",
+                "n": 1101,
+                "runnerRate": 0.6
+              },
+              {
+                "range": "1..1",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "1..3",
+                "n": 412,
+                "runnerRate": 1.7
+              },
+              {
+                "range": "3..7",
+                "n": 324,
+                "runnerRate": 4
+              },
+              {
+                "range": "7..max",
+                "n": 454,
+                "runnerRate": 18.3
+              }
+            ]
+          },
+          {
+            "feature": "peakMult",
+            "buckets": [
+              {
+                "range": "min..1.01",
+                "n": 459,
+                "runnerRate": 0.2
+              },
+              {
+                "range": "1.01..1.08",
+                "n": 458,
+                "runnerRate": 0.7
+              },
+              {
+                "range": "1.08..1.26",
+                "n": 458,
+                "runnerRate": 2.2
+              },
+              {
+                "range": "1.26..1.89",
+                "n": 458,
+                "runnerRate": 5.9
+              },
+              {
+                "range": "1.89..max",
+                "n": 458,
+                "runnerRate": 15.1
+              }
+            ]
+          },
+          {
+            "feature": "drawFromPeakPct",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 812,
+                "runnerRate": 2.3
+              },
+              {
+                "range": "0..0.14",
+                "n": 105,
+                "runnerRate": 1.9
+              },
+              {
+                "range": "0.14..8.61",
+                "n": 458,
+                "runnerRate": 5.9
+              },
+              {
+                "range": "8.61..27.77",
+                "n": 458,
+                "runnerRate": 7.9
+              },
+              {
+                "range": "27.77..max",
+                "n": 458,
+                "runnerRate": 5.7
+              }
+            ]
+          },
+          {
+            "feature": "creatorPriorLaunches",
+            "buckets": [
+              {
+                "range": "min..0",
+                "n": 1656,
+                "runnerRate": 5.6
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..0",
+                "n": 0,
+                "runnerRate": null
+              },
+              {
+                "range": "0..1",
+                "n": 233,
+                "runnerRate": 3
+              },
+              {
+                "range": "1..max",
+                "n": 402,
+                "runnerRate": 2.5
+              }
+            ]
+          },
+          {
+            "feature": "lastBuyAgoS",
+            "buckets": [
+              {
+                "range": "min..5.45",
+                "n": 459,
+                "runnerRate": 17.9
+              },
+              {
+                "range": "5.45..20.42",
+                "n": 458,
+                "runnerRate": 3.3
+              },
+              {
+                "range": "20.42..29.5",
+                "n": 459,
+                "runnerRate": 1.1
+              },
+              {
+                "range": "29.5..30",
+                "n": 915,
+                "runnerRate": 0.9
+              },
+              {
+                "range": "30..max",
+                "n": 0,
+                "runnerRate": null
+              }
+            ]
+          }
+        ]
+      },
+      "activeOnly": {
+        "definition": ">=3 unique buyers in the last 15 s and a buy in the last 10 s",
+        "trainN": 300,
+        "testN": 156,
+        "testBaseHit25": 30.8,
+        "testAuc": 0.684
+      },
+      "exitPolicies": {
+        "chosenOnTrain": "tp35-sl20-120s",
+        "chosenTest": {
+          "n": 38,
+          "expectancySol": -0.00355,
+          "winRate": 39.5
+        },
+        "table": [
+          {
+            "policy": "tp25-sl15-180s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00193,
+              "winRate": 43.4
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00534,
+              "winRate": 36.8
+            }
+          },
+          {
+            "policy": "tp50-sl15-180s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": 0.0006,
+              "winRate": 32.9
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00358,
+              "winRate": 28.9
+            }
+          },
+          {
+            "policy": "tp50-sl25-300s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": 0.00028,
+              "winRate": 39.5
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00667,
+              "winRate": 34.2
+            }
+          },
+          {
+            "policy": "tp100-sl25-300s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00031,
+              "winRate": 27.6
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00408,
+              "winRate": 26.3
+            }
+          },
+          {
+            "policy": "tp100-sl35-300s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00203,
+              "winRate": 30.3
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00895,
+              "winRate": 26.3
+            }
+          },
+          {
+            "policy": "tp35-sl20-120s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": 0.00078,
+              "winRate": 44.7
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00355,
+              "winRate": 39.5
+            }
+          },
+          {
+            "policy": "tp25-sl10-60s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.0032,
+              "winRate": 35.5
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00353,
+              "winRate": 36.8
+            }
+          }
+        ]
+      }
+    },
+    "60s": {
+      "all": {
+        "n": 2278,
+        "hit25": 5.6,
+        "hit50": 3.2,
+        "x2": 1.2,
+        "policyWinRate": 5.8,
+        "policyExpectancySol": -0.00966,
+        "policyTotalSol": -22.0004
+      },
+      "train": {
+        "n": 1516,
+        "hit25": 5,
+        "hit50": 3.2,
+        "x2": 1.2,
+        "policyWinRate": 5.4,
+        "policyExpectancySol": -0.0098,
+        "policyTotalSol": -14.8571
+      },
+      "test": {
+        "n": 762,
+        "hit25": 6.8,
+        "hit50": 3,
+        "x2": 1.3,
+        "policyWinRate": 6.4,
+        "policyExpectancySol": -0.00937,
+        "policyTotalSol": -7.1432
+      },
+      "exitMix": {
+        "tp": 96,
+        "stop": 242,
+        "time": 1940
+      },
+      "model": {
+        "label": "hit25",
+        "trainAuc": 0.934,
+        "testAuc": 0.902,
+        "testTop1pct": {
+          "n": 8,
+          "hit25": 37.5,
+          "hit50": 25,
+          "x2": 0,
+          "policyWinRate": 37.5,
+          "policyExpectancySol": -0.0071,
+          "policyTotalSol": -0.0568
+        },
+        "testTop5pct": {
+          "n": 38,
+          "hit25": 50,
+          "hit50": 28.9,
+          "x2": 7.9,
+          "policyWinRate": 34.2,
+          "policyExpectancySol": -0.00621,
+          "policyTotalSol": -0.2361
+        },
+        "testTop10pct": {
+          "n": 76,
+          "hit25": 39.5,
+          "hit50": 21.1,
+          "x2": 9.2,
+          "policyWinRate": 27.6,
+          "policyExpectancySol": -0.00863,
+          "policyTotalSol": -0.6555
+        },
+        "testTop25pct": {
+          "n": 191,
+          "hit25": 24.6,
+          "hit50": 9.9,
+          "x2": 4.7,
+          "policyWinRate": 20.9,
+          "policyExpectancySol": -0.01027,
+          "policyTotalSol": -1.9611
+        },
+        "trainTop5pct": {
+          "n": 76,
+          "hit25": 44.7,
+          "hit50": 30.3,
+          "x2": 14.5,
+          "policyWinRate": 38.2,
+          "policyExpectancySol": -0.00465,
+          "policyTotalSol": -0.3532
+        },
+        "weights": [
+          {
+            "feature": "log_holders",
+            "weight": 0.795
+          },
+          {
+            "feature": "log_solRaised",
+            "weight": 0.558
+          },
+          {
+            "feature": "log_lastBuyAgoS",
+            "weight": -0.404
+          },
+          {
+            "feature": "devHoldPct",
+            "weight": 0.319
+          },
+          {
+            "feature": "log_buyVolPrev10",
+            "weight": 0.261
+          },
+          {
+            "feature": "creatorPriorLaunches",
+            "weight": -0.229
+          },
+          {
+            "feature": "top10Pct",
+            "weight": 0.219
+          },
+          {
+            "feature": "top1Pct",
+            "weight": -0.19
+          },
+          {
+            "feature": "log_buysW",
+            "weight": -0.166
+          },
+          {
+            "feature": "log_sellsW",
+            "weight": -0.162
+          },
+          {
+            "feature": "log_peakMult",
+            "weight": -0.16
+          },
+          {
+            "feature": "drawFromPeakPct",
+            "weight": 0.146
+          }
+        ]
+      },
+      "activeOnly": {
+        "definition": ">=3 unique buyers in the last 15 s and a buy in the last 10 s",
+        "trainN": 188,
+        "testN": 104,
+        "testBaseHit25": 35.6,
+        "testAuc": 0.666
+      },
+      "exitPolicies": {
+        "chosenOnTrain": "tp50-sl15-180s",
+        "chosenTest": {
+          "n": 38,
+          "expectancySol": -0.00835,
+          "winRate": 23.7
+        },
+        "table": [
+          {
+            "policy": "tp25-sl15-180s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00465,
+              "winRate": 38.2
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00621,
+              "winRate": 34.2
+            }
+          },
+          {
+            "policy": "tp50-sl15-180s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00217,
+              "winRate": 31.6
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00835,
+              "winRate": 23.7
+            }
+          },
+          {
+            "policy": "tp50-sl25-300s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00618,
+              "winRate": 32.9
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00448,
+              "winRate": 34.2
+            }
+          },
+          {
+            "policy": "tp100-sl25-300s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00668,
+              "winRate": 23.7
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00931,
+              "winRate": 23.7
+            }
+          },
+          {
+            "policy": "tp100-sl35-300s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.0111,
+              "winRate": 26.3
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00904,
+              "winRate": 31.6
+            }
+          },
+          {
+            "policy": "tp35-sl20-120s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00622,
+              "winRate": 32.9
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00711,
+              "winRate": 31.6
+            }
+          },
+          {
+            "policy": "tp25-sl10-60s",
+            "trainTop5": {
+              "n": 76,
+              "expectancySol": -0.00511,
+              "winRate": 32.9
+            },
+            "testTop5": {
+              "n": 38,
+              "expectancySol": -0.00675,
+              "winRate": 26.3
+            }
+          }
+        ]
+      }
+    }
+  }
+}

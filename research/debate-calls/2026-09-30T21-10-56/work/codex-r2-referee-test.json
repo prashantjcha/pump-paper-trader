@@ -1,0 +1,18 @@
+{
+ "strategy": "codex-r2: completed flow <=300, stop25, trail200/40",
+ "eligibleCalls": 154,
+ "entries": 16,
+ "skippedNoData": 0,
+ "totalSol": -0.1259,
+ "meanSol": -0.00787,
+ "trimmedMeanSol": -0.03177,
+ "medianSol": -0.03342,
+ "winRate": 12.5,
+ "bestSol": 0.2356,
+ "totalWithoutBestSol": -0.3615,
+ "captured5x": 0,
+ "captured10x": 0,
+ "tokensThatRan5x": 20,
+ "tokensThatRan10x": 10,
+ "maxDrawdownSol": 0.3569
+}

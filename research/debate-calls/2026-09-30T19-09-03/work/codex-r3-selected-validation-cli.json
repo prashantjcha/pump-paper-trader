@@ -1,0 +1,18 @@
+{
+ "strategy": "pre momentum plus post confirmation {\"delay\":3,\"momentum\":1,\"exit\":{\"family\":\"fixed\",\"tp\":50,\"sl\":30}}",
+ "eligibleCalls": 351,
+ "entries": 30,
+ "skippedNoData": 1,
+ "totalSol": -0.2756,
+ "meanSol": -0.00919,
+ "trimmedMeanSol": -0.01275,
+ "medianSol": -0.03756,
+ "winRate": 36.7,
+ "bestSol": 0.0408,
+ "totalWithoutBestSol": -0.3164,
+ "captured5x": 0,
+ "captured10x": 0,
+ "tokensThatRan5x": 36,
+ "tokensThatRan10x": 14,
+ "maxDrawdownSol": 0.2783
+}

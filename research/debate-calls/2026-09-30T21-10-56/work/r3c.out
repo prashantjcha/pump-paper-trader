@@ -1,0 +1,7 @@
+npm warn install-scripts .npmrc allow-scripts setting is being ignored because --allow-scripts was passed on the command line
+npm notice run npx
+npm notice run tsx research/debate-calls/2026-09-30T21-10-56/work/r3c.ts
+flow 0-100 fixed100/50     fit n24 m-0.0176 tm-0.0271 tot-0.42 woB-0.51 w20.8 5x0/10x0 | val n15 m-0.0070 tm-0.0217 tot-0.10 woB-0.19 w33.3 5x0/10x0 | test n5 m-0.0396 tm-0.0477 tot-0.20 woB-0.17 w0 5x0/10x0
+flow 0-100 trail200/40/50  fit n24 m0.0460 tm-0.0209 tot1.10 woB-0.13 w20.8 5x1/10x1 | val n15 m-0.0039 tm-0.0396 tot-0.06 woB-0.41 w20 5x0/10x0 | test n5 m-0.0396 tm-0.0477 tot-0.20 woB-0.17 w0 5x0/10x0
+flow 1-100 fixed100/50     fit n23 m-0.0220 tm-0.0323 tot-0.51 woB-0.59 w17.4 5x0/10x0 | val n14 m-0.0034 tm-0.0187 tot-0.05 woB-0.14 w35.7 5x0/10x0 | test n5 m-0.0396 tm-0.0477 tot-0.20 woB-0.17 w0 5x0/10x0
+flow 1-100 trail200/40/50  fit n23 m0.0445 tm-0.0257 tot1.02 woB-0.21 w17.4 5x1/10x1 | val n14 m-0.0000 tm-0.0381 tot-0.00 woB-0.35 w21.4 5x0/10x0 | test n5 m-0.0396 tm-0.0477 tot-0.20 woB-0.17 w0 5x0/10x0

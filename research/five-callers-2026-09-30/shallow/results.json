@@ -1,0 +1,4514 @@
+{
+ "generated": "2026-09-30T20:01:13.205Z",
+ "universe": [
+  "caller_05",
+  "caller_09",
+  "caller_03",
+  "caller_06",
+  "caller_01"
+ ],
+ "partA": {
+  "tokens": 766,
+  "shallow": 28,
+  "shallowPct": 3.7,
+  "medians": [
+   {
+    "feature": "ageAtCallH",
+    "shallow": 70.9,
+    "rest": 1.02
+   },
+   {
+    "feature": "mcapAtCallUsd",
+    "shallow": 91800,
+    "rest": 20500
+   },
+   {
+    "feature": "liqAtCallUsd",
+    "shallow": 19800,
+    "rest": 5990
+   },
+   {
+    "feature": "vol24hBeforeUsd",
+    "shallow": 205000,
+    "rest": 198000
+   },
+   {
+    "feature": "runupBeforeCall",
+    "shallow": 3.33,
+    "rest": 5.06
+   },
+   {
+    "feature": "ddFromHighAtCall",
+    "shallow": 0.248,
+    "rest": 0.657
+   },
+   {
+    "feature": "retSinceCall_1h",
+    "shallow": 0.993,
+    "rest": 0.766
+   },
+   {
+    "feature": "ddFromHigh_1h",
+    "shallow": 0.334,
+    "rest": 0.806
+   },
+   {
+    "feature": "retSinceCall_6h",
+    "shallow": 0.891,
+    "rest": 0.592
+   },
+   {
+    "feature": "ddFromHigh_6h",
+    "shallow": 0.55,
+    "rest": 0.881
+   }
+  ],
+  "byCaller": [
+   {
+    "caller": "caller_01",
+    "tokens": 419,
+    "shallowPct": 1.4
+   },
+   {
+    "caller": "caller_03",
+    "tokens": 170,
+    "shallowPct": 2.4
+   },
+   {
+    "caller": "caller_05",
+    "tokens": 105,
+    "shallowPct": 10.5
+   },
+   {
+    "caller": "caller_06",
+    "tokens": 54,
+    "shallowPct": 9.3
+   },
+   {
+    "caller": "caller_09",
+    "tokens": 18,
+    "shallowPct": 11.1
+   }
+  ]
+ },
+ "partB": [
+  {
+   "rule": "3h after call, within 40% of high, trail40",
+   "fit": {
+    "n": 37,
+    "meanSol": 0.029,
+    "trimmedMeanSol": -0.0165,
+    "totalSol": 1.073,
+    "withoutBestSol": -0.302,
+    "winRate": 24.3,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 13.5
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.0305,
+    "trimmedMeanSol": -0.0352,
+    "totalSol": -0.58,
+    "withoutBestSol": -0.598,
+    "winRate": 15.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.8
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": 0.0117,
+    "trimmedMeanSol": -0.0252,
+    "totalSol": 0.211,
+    "withoutBestSol": -0.342,
+    "winRate": 16.7,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 27.8
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, above call price, trail40",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.0036,
+    "trimmedMeanSol": -0.0175,
+    "totalSol": -0.124,
+    "withoutBestSol": -0.4,
+    "winRate": 26.5,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 5.9
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.0256,
+    "trimmedMeanSol": -0.0375,
+    "totalSol": -0.486,
+    "withoutBestSol": -0.576,
+    "winRate": 15.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 10.5
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0222,
+    "trimmedMeanSol": -0.0338,
+    "totalSol": -0.288,
+    "withoutBestSol": -0.35,
+    "winRate": 15.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.4
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, trail40",
+   "fit": {
+    "n": 55,
+    "meanSol": 0.0123,
+    "trimmedMeanSol": -0.0183,
+    "totalSol": 0.679,
+    "withoutBestSol": -0.696,
+    "winRate": 21.8,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 12.7
+   },
+   "validation": {
+    "n": 33,
+    "meanSol": -0.0191,
+    "trimmedMeanSol": -0.0265,
+    "totalSol": -0.632,
+    "withoutBestSol": -0.733,
+    "winRate": 21.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 20,
+    "meanSol": 0.0063,
+    "trimmedMeanSol": -0.0272,
+    "totalSol": 0.126,
+    "withoutBestSol": -0.427,
+    "winRate": 15,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 25
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.0104,
+    "trimmedMeanSol": -0.019,
+    "totalSol": -0.354,
+    "withoutBestSol": -0.508,
+    "winRate": 29.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 5.9
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.0203,
+    "trimmedMeanSol": -0.033,
+    "totalSol": -0.386,
+    "withoutBestSol": -0.474,
+    "winRate": 21.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 10.5
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0163,
+    "trimmedMeanSol": -0.0309,
+    "totalSol": -0.212,
+    "withoutBestSol": -0.278,
+    "winRate": 23.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.4
+   }
+  },
+  {
+   "rule": "3h after call, within 40% of high, half2x-trail50",
+   "fit": {
+    "n": 37,
+    "meanSol": 0.0026,
+    "trimmedMeanSol": -0.02,
+    "totalSol": 0.097,
+    "withoutBestSol": -0.547,
+    "winRate": 27,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 13.5
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.024,
+    "trimmedMeanSol": -0.0348,
+    "totalSol": -0.457,
+    "withoutBestSol": -0.543,
+    "winRate": 15.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.8
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": 0.0031,
+    "trimmedMeanSol": -0.0244,
+    "totalSol": 0.055,
+    "withoutBestSol": -0.263,
+    "winRate": 22.2,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 27.8
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, half2x-trail50",
+   "fit": {
+    "n": 55,
+    "meanSol": -0.0076,
+    "trimmedMeanSol": -0.0229,
+    "totalSol": -0.415,
+    "withoutBestSol": -1.059,
+    "winRate": 23.6,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 12.7
+   },
+   "validation": {
+    "n": 33,
+    "meanSol": -0.0188,
+    "trimmedMeanSol": -0.0256,
+    "totalSol": -0.619,
+    "withoutBestSol": -0.706,
+    "winRate": 21.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 20,
+    "meanSol": 0.0037,
+    "trimmedMeanSol": -0.0206,
+    "totalSol": 0.074,
+    "withoutBestSol": -0.244,
+    "winRate": 25,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 25
+   }
+  },
+  {
+   "rule": "3h after call, within 40% of high, trail50",
+   "fit": {
+    "n": 37,
+    "meanSol": 0.0144,
+    "trimmedMeanSol": -0.0255,
+    "totalSol": 0.532,
+    "withoutBestSol": -0.617,
+    "winRate": 27,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 13.5
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.028,
+    "trimmedMeanSol": -0.0373,
+    "totalSol": -0.533,
+    "withoutBestSol": -0.622,
+    "winRate": 10.5,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.8
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": 0.015,
+    "trimmedMeanSol": -0.0283,
+    "totalSol": 0.271,
+    "withoutBestSol": -0.282,
+    "winRate": 22.2,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 27.8
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, above call price, trail50",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.013,
+    "trimmedMeanSol": -0.026,
+    "totalSol": -0.441,
+    "withoutBestSol": -0.717,
+    "winRate": 29.4,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 5.9
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.0225,
+    "trimmedMeanSol": -0.0358,
+    "totalSol": -0.427,
+    "withoutBestSol": -0.519,
+    "winRate": 21.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 10.5
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0225,
+    "trimmedMeanSol": -0.0346,
+    "totalSol": -0.292,
+    "withoutBestSol": -0.341,
+    "winRate": 23.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.4
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, trail50",
+   "fit": {
+    "n": 55,
+    "meanSol": -0.0003,
+    "trimmedMeanSol": -0.0272,
+    "totalSol": -0.017,
+    "withoutBestSol": -1.166,
+    "winRate": 23.6,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 12.7
+   },
+   "validation": {
+    "n": 33,
+    "meanSol": -0.0222,
+    "trimmedMeanSol": -0.0294,
+    "totalSol": -0.731,
+    "withoutBestSol": -0.823,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 20,
+    "meanSol": 0.0136,
+    "trimmedMeanSol": -0.025,
+    "totalSol": 0.272,
+    "withoutBestSol": -0.281,
+    "winRate": 25,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 25
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, trail40",
+   "fit": {
+    "n": 41,
+    "meanSol": -0.0169,
+    "trimmedMeanSol": -0.028,
+    "totalSol": -0.693,
+    "withoutBestSol": -0.961,
+    "winRate": 17.1,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 9.8
+   },
+   "validation": {
+    "n": 22,
+    "meanSol": -0.0237,
+    "trimmedMeanSol": -0.029,
+    "totalSol": -0.52,
+    "withoutBestSol": -0.557,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.6
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0006,
+    "trimmedMeanSol": -0.0308,
+    "totalSol": -0.007,
+    "withoutBestSol": -0.338,
+    "winRate": 15.4,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 38.5
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, trail40",
+   "fit": {
+    "n": 64,
+    "meanSol": -0.0044,
+    "trimmedMeanSol": -0.0289,
+    "totalSol": -0.279,
+    "withoutBestSol": -1.606,
+    "winRate": 10.9,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 10.9
+   },
+   "validation": {
+    "n": 45,
+    "meanSol": -0.02,
+    "trimmedMeanSol": -0.0293,
+    "totalSol": -0.901,
+    "withoutBestSol": -1.136,
+    "winRate": 11.1,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 31,
+    "meanSol": 0.0702,
+    "trimmedMeanSol": -0.0264,
+    "totalSol": 2.176,
+    "withoutBestSol": -0.695,
+    "winRate": 16.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 16.1
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, trail40",
+   "fit": {
+    "n": 45,
+    "meanSol": 0.0054,
+    "trimmedMeanSol": -0.0296,
+    "totalSol": 0.244,
+    "withoutBestSol": -1.083,
+    "winRate": 11.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 15.6
+   },
+   "validation": {
+    "n": 31,
+    "meanSol": -0.0154,
+    "trimmedMeanSol": -0.0279,
+    "totalSol": -0.478,
+    "withoutBestSol": -0.714,
+    "winRate": 12.9,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 16.1
+   },
+   "recent": {
+    "n": 21,
+    "meanSol": -0.0319,
+    "trimmedMeanSol": -0.0354,
+    "totalSol": -0.671,
+    "withoutBestSol": -0.679,
+    "winRate": 4.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.8
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, half2x-trail50",
+   "fit": {
+    "n": 45,
+    "meanSol": -0.0135,
+    "trimmedMeanSol": -0.031,
+    "totalSol": -0.605,
+    "withoutBestSol": -1.226,
+    "winRate": 17.8,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 15.6
+   },
+   "validation": {
+    "n": 31,
+    "meanSol": -0.0183,
+    "trimmedMeanSol": -0.0268,
+    "totalSol": -0.569,
+    "withoutBestSol": -0.704,
+    "winRate": 19.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.1
+   },
+   "recent": {
+    "n": 21,
+    "meanSol": -0.0307,
+    "trimmedMeanSol": -0.0398,
+    "totalSol": -0.645,
+    "withoutBestSol": -0.764,
+    "winRate": 4.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.8
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, half2x-trail50",
+   "fit": {
+    "n": 64,
+    "meanSol": -0.0189,
+    "trimmedMeanSol": -0.0313,
+    "totalSol": -1.211,
+    "withoutBestSol": -1.832,
+    "winRate": 14.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 10.9
+   },
+   "validation": {
+    "n": 45,
+    "meanSol": -0.0245,
+    "trimmedMeanSol": -0.0308,
+    "totalSol": -1.103,
+    "withoutBestSol": -1.238,
+    "winRate": 15.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 31,
+    "meanSol": 0.0187,
+    "trimmedMeanSol": -0.0285,
+    "totalSol": 0.58,
+    "withoutBestSol": -0.708,
+    "winRate": 16.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 16.1
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, half2x-trail50",
+   "fit": {
+    "n": 41,
+    "meanSol": -0.0268,
+    "trimmedMeanSol": -0.0343,
+    "totalSol": -1.1,
+    "withoutBestSol": -1.25,
+    "winRate": 14.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.8
+   },
+   "validation": {
+    "n": 22,
+    "meanSol": -0.0224,
+    "trimmedMeanSol": -0.0327,
+    "totalSol": -0.493,
+    "withoutBestSol": -0.598,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.6
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0137,
+    "trimmedMeanSol": -0.0364,
+    "totalSol": -0.178,
+    "withoutBestSol": -0.369,
+    "winRate": 15.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 38.5
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.027,
+    "trimmedMeanSol": -0.0345,
+    "totalSol": -0.918,
+    "withoutBestSol": -1.026,
+    "winRate": 17.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.8
+   },
+   "validation": {
+    "n": 26,
+    "meanSol": -0.0184,
+    "trimmedMeanSol": -0.0286,
+    "totalSol": -0.479,
+    "withoutBestSol": -0.615,
+    "winRate": 19.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.5
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": -0.0307,
+    "trimmedMeanSol": -0.0415,
+    "totalSol": -0.553,
+    "withoutBestSol": -0.673,
+    "winRate": 5.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "1h after call, within 30% of high, trail40",
+   "fit": {
+    "n": 33,
+    "meanSol": -0.0247,
+    "trimmedMeanSol": -0.0348,
+    "totalSol": -0.814,
+    "withoutBestSol": -1.002,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.2
+   },
+   "validation": {
+    "n": 24,
+    "meanSol": -0.012,
+    "trimmedMeanSol": -0.0282,
+    "totalSol": -0.289,
+    "withoutBestSol": -0.525,
+    "winRate": 16.7,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 20.8
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0329,
+    "trimmedMeanSol": -0.0384,
+    "totalSol": -0.461,
+    "withoutBestSol": -0.47,
+    "winRate": 7.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, trail50",
+   "fit": {
+    "n": 64,
+    "meanSol": -0.0137,
+    "trimmedMeanSol": -0.0351,
+    "totalSol": -0.877,
+    "withoutBestSol": -1.985,
+    "winRate": 7.8,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 10.9
+   },
+   "validation": {
+    "n": 45,
+    "meanSol": -0.0265,
+    "trimmedMeanSol": -0.034,
+    "totalSol": -1.191,
+    "withoutBestSol": -1.379,
+    "winRate": 13.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 31,
+    "meanSol": 0.056,
+    "trimmedMeanSol": -0.0312,
+    "totalSol": 1.737,
+    "withoutBestSol": -0.748,
+    "winRate": 12.9,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 16.1
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, trail50",
+   "fit": {
+    "n": 45,
+    "meanSol": -0.005,
+    "trimmedMeanSol": -0.0354,
+    "totalSol": -0.226,
+    "withoutBestSol": -1.334,
+    "winRate": 11.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 15.6
+   },
+   "validation": {
+    "n": 31,
+    "meanSol": -0.0212,
+    "trimmedMeanSol": -0.0313,
+    "totalSol": -0.658,
+    "withoutBestSol": -0.846,
+    "winRate": 16.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.1
+   },
+   "recent": {
+    "n": 21,
+    "meanSol": -0.029,
+    "trimmedMeanSol": -0.0398,
+    "totalSol": -0.609,
+    "withoutBestSol": -0.764,
+    "winRate": 4.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.8
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, above call price, trail40",
+   "fit": {
+    "n": 44,
+    "meanSol": -0.027,
+    "trimmedMeanSol": -0.0354,
+    "totalSol": -1.186,
+    "withoutBestSol": -1.374,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 32,
+    "meanSol": -0.0132,
+    "trimmedMeanSol": -0.026,
+    "totalSol": -0.422,
+    "withoutBestSol": -0.658,
+    "winRate": 15.6,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 9.4
+   },
+   "recent": {
+    "n": 23,
+    "meanSol": 0.096,
+    "trimmedMeanSol": -0.0349,
+    "totalSol": 2.209,
+    "withoutBestSol": -0.662,
+    "winRate": 13,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 17.4
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, above call price, trail40",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.0249,
+    "trimmedMeanSol": -0.0358,
+    "totalSol": -0.847,
+    "withoutBestSol": -1.035,
+    "winRate": 8.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.8
+   },
+   "validation": {
+    "n": 26,
+    "meanSol": -0.0134,
+    "trimmedMeanSol": -0.0283,
+    "totalSol": -0.348,
+    "withoutBestSol": -0.584,
+    "winRate": 15.4,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 11.5
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": -0.0336,
+    "trimmedMeanSol": -0.0378,
+    "totalSol": -0.605,
+    "withoutBestSol": -0.614,
+    "winRate": 5.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 44,
+    "meanSol": -0.0299,
+    "trimmedMeanSol": -0.0358,
+    "totalSol": -1.317,
+    "withoutBestSol": -1.426,
+    "winRate": 13.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 32,
+    "meanSol": -0.0195,
+    "trimmedMeanSol": -0.0282,
+    "totalSol": -0.625,
+    "withoutBestSol": -0.761,
+    "winRate": 18.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.4
+   },
+   "recent": {
+    "n": 23,
+    "meanSol": 0.0288,
+    "trimmedMeanSol": -0.0355,
+    "totalSol": 0.662,
+    "withoutBestSol": -0.625,
+    "winRate": 13,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 17.4
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, trail50",
+   "fit": {
+    "n": 41,
+    "meanSol": -0.0257,
+    "trimmedMeanSol": -0.0362,
+    "totalSol": -1.052,
+    "withoutBestSol": -1.32,
+    "winRate": 14.6,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 9.8
+   },
+   "validation": {
+    "n": 22,
+    "meanSol": -0.0262,
+    "trimmedMeanSol": -0.0366,
+    "totalSol": -0.576,
+    "withoutBestSol": -0.704,
+    "winRate": 13.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.6
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0094,
+    "trimmedMeanSol": -0.0374,
+    "totalSol": -0.123,
+    "withoutBestSol": -0.42,
+    "winRate": 7.7,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 38.5
+   }
+  },
+  {
+   "rule": "1h after call, within 30% of high, half2x-trail50",
+   "fit": {
+    "n": 33,
+    "meanSol": -0.029,
+    "trimmedMeanSol": -0.0365,
+    "totalSol": -0.958,
+    "withoutBestSol": -1.066,
+    "winRate": 15.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.2
+   },
+   "validation": {
+    "n": 24,
+    "meanSol": -0.0133,
+    "trimmedMeanSol": -0.024,
+    "totalSol": -0.32,
+    "withoutBestSol": -0.455,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20.8
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0279,
+    "trimmedMeanSol": -0.0419,
+    "totalSol": -0.391,
+    "withoutBestSol": -0.511,
+    "winRate": 7.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, above call price, trail50",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.0296,
+    "trimmedMeanSol": -0.0397,
+    "totalSol": -1.007,
+    "withoutBestSol": -1.196,
+    "winRate": 8.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.8
+   },
+   "validation": {
+    "n": 26,
+    "meanSol": -0.0199,
+    "trimmedMeanSol": -0.032,
+    "totalSol": -0.518,
+    "withoutBestSol": -0.706,
+    "winRate": 19.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.5
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": -0.0288,
+    "trimmedMeanSol": -0.0415,
+    "totalSol": -0.518,
+    "withoutBestSol": -0.673,
+    "winRate": 5.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, above call price, trail50",
+   "fit": {
+    "n": 44,
+    "meanSol": -0.032,
+    "trimmedMeanSol": -0.0397,
+    "totalSol": -1.407,
+    "withoutBestSol": -1.595,
+    "winRate": 6.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 32,
+    "meanSol": -0.0207,
+    "trimmedMeanSol": -0.0312,
+    "totalSol": -0.663,
+    "withoutBestSol": -0.85,
+    "winRate": 18.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.4
+   },
+   "recent": {
+    "n": 23,
+    "meanSol": 0.0819,
+    "trimmedMeanSol": -0.0361,
+    "totalSol": 1.883,
+    "withoutBestSol": -0.602,
+    "winRate": 13,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 17.4
+   }
+  },
+  {
+   "rule": "1h after call, within 30% of high, trail50",
+   "fit": {
+    "n": 33,
+    "meanSol": -0.0308,
+    "trimmedMeanSol": -0.0404,
+    "totalSol": -1.017,
+    "withoutBestSol": -1.205,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.2
+   },
+   "validation": {
+    "n": 24,
+    "meanSol": -0.017,
+    "trimmedMeanSol": -0.0299,
+    "totalSol": -0.409,
+    "withoutBestSol": -0.597,
+    "winRate": 20.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20.8
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0254,
+    "trimmedMeanSol": -0.0419,
+    "totalSol": -0.355,
+    "withoutBestSol": -0.511,
+    "winRate": 7.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   }
+  }
+ ],
+ "partBAll": [
+  {
+   "rule": "1h after call, within 30% of high, trail40",
+   "fit": {
+    "n": 33,
+    "meanSol": -0.0247,
+    "trimmedMeanSol": -0.0348,
+    "totalSol": -0.814,
+    "withoutBestSol": -1.002,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.2
+   },
+   "validation": {
+    "n": 24,
+    "meanSol": -0.012,
+    "trimmedMeanSol": -0.0282,
+    "totalSol": -0.289,
+    "withoutBestSol": -0.525,
+    "winRate": 16.7,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 20.8
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0329,
+    "trimmedMeanSol": -0.0384,
+    "totalSol": -0.461,
+    "withoutBestSol": -0.47,
+    "winRate": 7.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   }
+  },
+  {
+   "rule": "1h after call, within 30% of high, trail50",
+   "fit": {
+    "n": 33,
+    "meanSol": -0.0308,
+    "trimmedMeanSol": -0.0404,
+    "totalSol": -1.017,
+    "withoutBestSol": -1.205,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.2
+   },
+   "validation": {
+    "n": 24,
+    "meanSol": -0.017,
+    "trimmedMeanSol": -0.0299,
+    "totalSol": -0.409,
+    "withoutBestSol": -0.597,
+    "winRate": 20.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20.8
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0254,
+    "trimmedMeanSol": -0.0419,
+    "totalSol": -0.355,
+    "withoutBestSol": -0.511,
+    "winRate": 7.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   }
+  },
+  {
+   "rule": "1h after call, within 30% of high, half2x-trail50",
+   "fit": {
+    "n": 33,
+    "meanSol": -0.029,
+    "trimmedMeanSol": -0.0365,
+    "totalSol": -0.958,
+    "withoutBestSol": -1.066,
+    "winRate": 15.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.2
+   },
+   "validation": {
+    "n": 24,
+    "meanSol": -0.0133,
+    "trimmedMeanSol": -0.024,
+    "totalSol": -0.32,
+    "withoutBestSol": -0.455,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20.8
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0279,
+    "trimmedMeanSol": -0.0419,
+    "totalSol": -0.391,
+    "withoutBestSol": -0.511,
+    "winRate": 7.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   }
+  },
+  {
+   "rule": "1h after call, within 30% of high, above call price, trail40",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.0271,
+    "trimmedMeanSol": -0.0374,
+    "totalSol": -0.731,
+    "withoutBestSol": -0.92,
+    "winRate": 7.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "validation": {
+    "n": 20,
+    "meanSol": -0.0101,
+    "trimmedMeanSol": -0.0296,
+    "totalSol": -0.202,
+    "withoutBestSol": -0.437,
+    "winRate": 20,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 15
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0326,
+    "trimmedMeanSol": -0.0385,
+    "totalSol": -0.424,
+    "withoutBestSol": -0.432,
+    "winRate": 7.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.1
+   }
+  },
+  {
+   "rule": "1h after call, within 30% of high, above call price, trail50",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.0318,
+    "trimmedMeanSol": -0.0427,
+    "totalSol": -0.859,
+    "withoutBestSol": -1.047,
+    "winRate": 7.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "validation": {
+    "n": 20,
+    "meanSol": -0.0158,
+    "trimmedMeanSol": -0.0314,
+    "totalSol": -0.317,
+    "withoutBestSol": -0.504,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0244,
+    "trimmedMeanSol": -0.0422,
+    "totalSol": -0.317,
+    "withoutBestSol": -0.472,
+    "winRate": 7.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.1
+   }
+  },
+  {
+   "rule": "1h after call, within 30% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.0303,
+    "trimmedMeanSol": -0.0391,
+    "totalSol": -0.818,
+    "withoutBestSol": -0.926,
+    "winRate": 14.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "validation": {
+    "n": 20,
+    "meanSol": -0.0139,
+    "trimmedMeanSol": -0.027,
+    "totalSol": -0.278,
+    "withoutBestSol": -0.414,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0271,
+    "trimmedMeanSol": -0.0422,
+    "totalSol": -0.353,
+    "withoutBestSol": -0.472,
+    "winRate": 7.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.1
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, trail40",
+   "fit": {
+    "n": 45,
+    "meanSol": 0.0054,
+    "trimmedMeanSol": -0.0296,
+    "totalSol": 0.244,
+    "withoutBestSol": -1.083,
+    "winRate": 11.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 15.6
+   },
+   "validation": {
+    "n": 31,
+    "meanSol": -0.0154,
+    "trimmedMeanSol": -0.0279,
+    "totalSol": -0.478,
+    "withoutBestSol": -0.714,
+    "winRate": 12.9,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 16.1
+   },
+   "recent": {
+    "n": 21,
+    "meanSol": -0.0319,
+    "trimmedMeanSol": -0.0354,
+    "totalSol": -0.671,
+    "withoutBestSol": -0.679,
+    "winRate": 4.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.8
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, trail50",
+   "fit": {
+    "n": 45,
+    "meanSol": -0.005,
+    "trimmedMeanSol": -0.0354,
+    "totalSol": -0.226,
+    "withoutBestSol": -1.334,
+    "winRate": 11.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 15.6
+   },
+   "validation": {
+    "n": 31,
+    "meanSol": -0.0212,
+    "trimmedMeanSol": -0.0313,
+    "totalSol": -0.658,
+    "withoutBestSol": -0.846,
+    "winRate": 16.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.1
+   },
+   "recent": {
+    "n": 21,
+    "meanSol": -0.029,
+    "trimmedMeanSol": -0.0398,
+    "totalSol": -0.609,
+    "withoutBestSol": -0.764,
+    "winRate": 4.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.8
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, half2x-trail50",
+   "fit": {
+    "n": 45,
+    "meanSol": -0.0135,
+    "trimmedMeanSol": -0.031,
+    "totalSol": -0.605,
+    "withoutBestSol": -1.226,
+    "winRate": 17.8,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 15.6
+   },
+   "validation": {
+    "n": 31,
+    "meanSol": -0.0183,
+    "trimmedMeanSol": -0.0268,
+    "totalSol": -0.569,
+    "withoutBestSol": -0.704,
+    "winRate": 19.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.1
+   },
+   "recent": {
+    "n": 21,
+    "meanSol": -0.0307,
+    "trimmedMeanSol": -0.0398,
+    "totalSol": -0.645,
+    "withoutBestSol": -0.764,
+    "winRate": 4.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.8
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, above call price, trail40",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.0249,
+    "trimmedMeanSol": -0.0358,
+    "totalSol": -0.847,
+    "withoutBestSol": -1.035,
+    "winRate": 8.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.8
+   },
+   "validation": {
+    "n": 26,
+    "meanSol": -0.0134,
+    "trimmedMeanSol": -0.0283,
+    "totalSol": -0.348,
+    "withoutBestSol": -0.584,
+    "winRate": 15.4,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 11.5
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": -0.0336,
+    "trimmedMeanSol": -0.0378,
+    "totalSol": -0.605,
+    "withoutBestSol": -0.614,
+    "winRate": 5.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, above call price, trail50",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.0296,
+    "trimmedMeanSol": -0.0397,
+    "totalSol": -1.007,
+    "withoutBestSol": -1.196,
+    "winRate": 8.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.8
+   },
+   "validation": {
+    "n": 26,
+    "meanSol": -0.0199,
+    "trimmedMeanSol": -0.032,
+    "totalSol": -0.518,
+    "withoutBestSol": -0.706,
+    "winRate": 19.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.5
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": -0.0288,
+    "trimmedMeanSol": -0.0415,
+    "totalSol": -0.518,
+    "withoutBestSol": -0.673,
+    "winRate": 5.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "1h after call, within 40% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.027,
+    "trimmedMeanSol": -0.0345,
+    "totalSol": -0.918,
+    "withoutBestSol": -1.026,
+    "winRate": 17.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.8
+   },
+   "validation": {
+    "n": 26,
+    "meanSol": -0.0184,
+    "trimmedMeanSol": -0.0286,
+    "totalSol": -0.479,
+    "withoutBestSol": -0.615,
+    "winRate": 19.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.5
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": -0.0307,
+    "trimmedMeanSol": -0.0415,
+    "totalSol": -0.553,
+    "withoutBestSol": -0.673,
+    "winRate": 5.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, trail40",
+   "fit": {
+    "n": 64,
+    "meanSol": -0.0044,
+    "trimmedMeanSol": -0.0289,
+    "totalSol": -0.279,
+    "withoutBestSol": -1.606,
+    "winRate": 10.9,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 10.9
+   },
+   "validation": {
+    "n": 45,
+    "meanSol": -0.02,
+    "trimmedMeanSol": -0.0293,
+    "totalSol": -0.901,
+    "withoutBestSol": -1.136,
+    "winRate": 11.1,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 31,
+    "meanSol": 0.0702,
+    "trimmedMeanSol": -0.0264,
+    "totalSol": 2.176,
+    "withoutBestSol": -0.695,
+    "winRate": 16.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 16.1
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, trail50",
+   "fit": {
+    "n": 64,
+    "meanSol": -0.0137,
+    "trimmedMeanSol": -0.0351,
+    "totalSol": -0.877,
+    "withoutBestSol": -1.985,
+    "winRate": 7.8,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 10.9
+   },
+   "validation": {
+    "n": 45,
+    "meanSol": -0.0265,
+    "trimmedMeanSol": -0.034,
+    "totalSol": -1.191,
+    "withoutBestSol": -1.379,
+    "winRate": 13.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 31,
+    "meanSol": 0.056,
+    "trimmedMeanSol": -0.0312,
+    "totalSol": 1.737,
+    "withoutBestSol": -0.748,
+    "winRate": 12.9,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 16.1
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, half2x-trail50",
+   "fit": {
+    "n": 64,
+    "meanSol": -0.0189,
+    "trimmedMeanSol": -0.0313,
+    "totalSol": -1.211,
+    "withoutBestSol": -1.832,
+    "winRate": 14.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 10.9
+   },
+   "validation": {
+    "n": 45,
+    "meanSol": -0.0245,
+    "trimmedMeanSol": -0.0308,
+    "totalSol": -1.103,
+    "withoutBestSol": -1.238,
+    "winRate": 15.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 31,
+    "meanSol": 0.0187,
+    "trimmedMeanSol": -0.0285,
+    "totalSol": 0.58,
+    "withoutBestSol": -0.708,
+    "winRate": 16.1,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 16.1
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, above call price, trail40",
+   "fit": {
+    "n": 44,
+    "meanSol": -0.027,
+    "trimmedMeanSol": -0.0354,
+    "totalSol": -1.186,
+    "withoutBestSol": -1.374,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 32,
+    "meanSol": -0.0132,
+    "trimmedMeanSol": -0.026,
+    "totalSol": -0.422,
+    "withoutBestSol": -0.658,
+    "winRate": 15.6,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 9.4
+   },
+   "recent": {
+    "n": 23,
+    "meanSol": 0.096,
+    "trimmedMeanSol": -0.0349,
+    "totalSol": 2.209,
+    "withoutBestSol": -0.662,
+    "winRate": 13,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 17.4
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, above call price, trail50",
+   "fit": {
+    "n": 44,
+    "meanSol": -0.032,
+    "trimmedMeanSol": -0.0397,
+    "totalSol": -1.407,
+    "withoutBestSol": -1.595,
+    "winRate": 6.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 32,
+    "meanSol": -0.0207,
+    "trimmedMeanSol": -0.0312,
+    "totalSol": -0.663,
+    "withoutBestSol": -0.85,
+    "winRate": 18.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.4
+   },
+   "recent": {
+    "n": 23,
+    "meanSol": 0.0819,
+    "trimmedMeanSol": -0.0361,
+    "totalSol": 1.883,
+    "withoutBestSol": -0.602,
+    "winRate": 13,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 17.4
+   }
+  },
+  {
+   "rule": "1h after call, within 50% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 44,
+    "meanSol": -0.0299,
+    "trimmedMeanSol": -0.0358,
+    "totalSol": -1.317,
+    "withoutBestSol": -1.426,
+    "winRate": 13.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 32,
+    "meanSol": -0.0195,
+    "trimmedMeanSol": -0.0282,
+    "totalSol": -0.625,
+    "withoutBestSol": -0.761,
+    "winRate": 18.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.4
+   },
+   "recent": {
+    "n": 23,
+    "meanSol": 0.0288,
+    "trimmedMeanSol": -0.0355,
+    "totalSol": 0.662,
+    "withoutBestSol": -0.625,
+    "winRate": 13,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 17.4
+   }
+  },
+  {
+   "rule": "3h after call, within 30% of high, trail40",
+   "fit": {
+    "n": 21,
+    "meanSol": -0.0049,
+    "trimmedMeanSol": -0.0237,
+    "totalSol": -0.103,
+    "withoutBestSol": -0.379,
+    "winRate": 23.8,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 14.3
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0327,
+    "trimmedMeanSol": -0.0397,
+    "totalSol": -0.359,
+    "withoutBestSol": -0.361,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 27.3
+   },
+   "recent": {
+    "n": 12,
+    "meanSol": -0.0173,
+    "trimmedMeanSol": -0.0291,
+    "totalSol": -0.208,
+    "withoutBestSol": -0.27,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  },
+  {
+   "rule": "3h after call, within 30% of high, trail50",
+   "fit": {
+    "n": 21,
+    "meanSol": -0.0143,
+    "trimmedMeanSol": -0.0325,
+    "totalSol": -0.3,
+    "withoutBestSol": -0.576,
+    "winRate": 23.8,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 14.3
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0228,
+    "trimmedMeanSol": -0.0392,
+    "totalSol": -0.25,
+    "withoutBestSol": -0.34,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 27.3
+   },
+   "recent": {
+    "n": 12,
+    "meanSol": -0.0097,
+    "trimmedMeanSol": -0.0327,
+    "totalSol": -0.117,
+    "withoutBestSol": -0.287,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  },
+  {
+   "rule": "3h after call, within 30% of high, half2x-trail50",
+   "fit": {
+    "n": 21,
+    "meanSol": -0.0148,
+    "trimmedMeanSol": -0.0278,
+    "totalSol": -0.311,
+    "withoutBestSol": -0.465,
+    "winRate": 23.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 14.3
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0198,
+    "trimmedMeanSol": -0.0392,
+    "totalSol": -0.218,
+    "withoutBestSol": -0.304,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 27.3
+   },
+   "recent": {
+    "n": 12,
+    "meanSol": -0.0081,
+    "trimmedMeanSol": -0.0286,
+    "totalSol": -0.097,
+    "withoutBestSol": -0.224,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  },
+  {
+   "rule": "3h after call, within 30% of high, above call price, trail40",
+   "fit": {
+    "n": 14,
+    "meanSol": 0.005,
+    "trimmedMeanSol": -0.0217,
+    "totalSol": 0.07,
+    "withoutBestSol": -0.205,
+    "winRate": 28.6,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 9,
+    "meanSol": -0.0348,
+    "trimmedMeanSol": -0.0405,
+    "totalSol": -0.313,
+    "withoutBestSol": -0.315,
+    "winRate": 11.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.015,
+    "trimmedMeanSol": -0.0312,
+    "totalSol": -0.135,
+    "withoutBestSol": -0.197,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "3h after call, within 30% of high, above call price, trail50",
+   "fit": {
+    "n": 14,
+    "meanSol": -0.0053,
+    "trimmedMeanSol": -0.0315,
+    "totalSol": -0.074,
+    "withoutBestSol": -0.35,
+    "winRate": 28.6,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 9,
+    "meanSol": -0.0222,
+    "trimmedMeanSol": -0.0431,
+    "totalSol": -0.2,
+    "withoutBestSol": -0.289,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.0241,
+    "trimmedMeanSol": -0.0367,
+    "totalSol": -0.217,
+    "withoutBestSol": -0.257,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "3h after call, within 30% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 14,
+    "meanSol": -0.0075,
+    "trimmedMeanSol": -0.0262,
+    "totalSol": -0.106,
+    "withoutBestSol": -0.259,
+    "winRate": 28.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 9,
+    "meanSol": -0.0185,
+    "trimmedMeanSol": -0.0431,
+    "totalSol": -0.167,
+    "withoutBestSol": -0.253,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.0171,
+    "trimmedMeanSol": -0.0367,
+    "totalSol": -0.154,
+    "withoutBestSol": -0.215,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 22.2
+   }
+  },
+  {
+   "rule": "3h after call, within 40% of high, trail40",
+   "fit": {
+    "n": 37,
+    "meanSol": 0.029,
+    "trimmedMeanSol": -0.0165,
+    "totalSol": 1.073,
+    "withoutBestSol": -0.302,
+    "winRate": 24.3,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 13.5
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.0305,
+    "trimmedMeanSol": -0.0352,
+    "totalSol": -0.58,
+    "withoutBestSol": -0.598,
+    "winRate": 15.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.8
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": 0.0117,
+    "trimmedMeanSol": -0.0252,
+    "totalSol": 0.211,
+    "withoutBestSol": -0.342,
+    "winRate": 16.7,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 27.8
+   }
+  },
+  {
+   "rule": "3h after call, within 40% of high, trail50",
+   "fit": {
+    "n": 37,
+    "meanSol": 0.0144,
+    "trimmedMeanSol": -0.0255,
+    "totalSol": 0.532,
+    "withoutBestSol": -0.617,
+    "winRate": 27,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 13.5
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.028,
+    "trimmedMeanSol": -0.0373,
+    "totalSol": -0.533,
+    "withoutBestSol": -0.622,
+    "winRate": 10.5,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.8
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": 0.015,
+    "trimmedMeanSol": -0.0283,
+    "totalSol": 0.271,
+    "withoutBestSol": -0.282,
+    "winRate": 22.2,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 27.8
+   }
+  },
+  {
+   "rule": "3h after call, within 40% of high, half2x-trail50",
+   "fit": {
+    "n": 37,
+    "meanSol": 0.0026,
+    "trimmedMeanSol": -0.02,
+    "totalSol": 0.097,
+    "withoutBestSol": -0.547,
+    "winRate": 27,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 13.5
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.024,
+    "trimmedMeanSol": -0.0348,
+    "totalSol": -0.457,
+    "withoutBestSol": -0.543,
+    "winRate": 15.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.8
+   },
+   "recent": {
+    "n": 18,
+    "meanSol": 0.0031,
+    "trimmedMeanSol": -0.0244,
+    "totalSol": 0.055,
+    "withoutBestSol": -0.263,
+    "winRate": 22.2,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 27.8
+   }
+  },
+  {
+   "rule": "3h after call, within 40% of high, above call price, trail40",
+   "fit": {
+    "n": 26,
+    "meanSol": -0.0005,
+    "trimmedMeanSol": -0.0186,
+    "totalSol": -0.012,
+    "withoutBestSol": -0.288,
+    "winRate": 26.9,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0358,
+    "trimmedMeanSol": -0.04,
+    "totalSol": -0.429,
+    "withoutBestSol": -0.431,
+    "winRate": 8.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.7
+   },
+   "recent": {
+    "n": 11,
+    "meanSol": -0.0185,
+    "trimmedMeanSol": -0.0318,
+    "totalSol": -0.203,
+    "withoutBestSol": -0.265,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.2
+   }
+  },
+  {
+   "rule": "3h after call, within 40% of high, above call price, trail50",
+   "fit": {
+    "n": 26,
+    "meanSol": -0.0096,
+    "trimmedMeanSol": -0.0267,
+    "totalSol": -0.251,
+    "withoutBestSol": -0.526,
+    "winRate": 30.8,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0282,
+    "trimmedMeanSol": -0.044,
+    "totalSol": -0.338,
+    "withoutBestSol": -0.428,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.7
+   },
+   "recent": {
+    "n": 11,
+    "meanSol": -0.0267,
+    "trimmedMeanSol": -0.0371,
+    "totalSol": -0.293,
+    "withoutBestSol": -0.333,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.2
+   }
+  },
+  {
+   "rule": "3h after call, within 40% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 26,
+    "meanSol": -0.0077,
+    "trimmedMeanSol": -0.019,
+    "totalSol": -0.201,
+    "withoutBestSol": -0.355,
+    "winRate": 30.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0254,
+    "trimmedMeanSol": -0.044,
+    "totalSol": -0.305,
+    "withoutBestSol": -0.392,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.7
+   },
+   "recent": {
+    "n": 11,
+    "meanSol": -0.021,
+    "trimmedMeanSol": -0.0371,
+    "totalSol": -0.231,
+    "withoutBestSol": -0.292,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.2
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, trail40",
+   "fit": {
+    "n": 55,
+    "meanSol": 0.0123,
+    "trimmedMeanSol": -0.0183,
+    "totalSol": 0.679,
+    "withoutBestSol": -0.696,
+    "winRate": 21.8,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 12.7
+   },
+   "validation": {
+    "n": 33,
+    "meanSol": -0.0191,
+    "trimmedMeanSol": -0.0265,
+    "totalSol": -0.632,
+    "withoutBestSol": -0.733,
+    "winRate": 21.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 20,
+    "meanSol": 0.0063,
+    "trimmedMeanSol": -0.0272,
+    "totalSol": 0.126,
+    "withoutBestSol": -0.427,
+    "winRate": 15,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 25
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, trail50",
+   "fit": {
+    "n": 55,
+    "meanSol": -0.0003,
+    "trimmedMeanSol": -0.0272,
+    "totalSol": -0.017,
+    "withoutBestSol": -1.166,
+    "winRate": 23.6,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 12.7
+   },
+   "validation": {
+    "n": 33,
+    "meanSol": -0.0222,
+    "trimmedMeanSol": -0.0294,
+    "totalSol": -0.731,
+    "withoutBestSol": -0.823,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 20,
+    "meanSol": 0.0136,
+    "trimmedMeanSol": -0.025,
+    "totalSol": 0.272,
+    "withoutBestSol": -0.281,
+    "winRate": 25,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 25
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, half2x-trail50",
+   "fit": {
+    "n": 55,
+    "meanSol": -0.0076,
+    "trimmedMeanSol": -0.0229,
+    "totalSol": -0.415,
+    "withoutBestSol": -1.059,
+    "winRate": 23.6,
+    "realized3x": 1,
+    "realized5x": 1,
+    "pickedShallowPct": 12.7
+   },
+   "validation": {
+    "n": 33,
+    "meanSol": -0.0188,
+    "trimmedMeanSol": -0.0256,
+    "totalSol": -0.619,
+    "withoutBestSol": -0.706,
+    "winRate": 21.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 20,
+    "meanSol": 0.0037,
+    "trimmedMeanSol": -0.0206,
+    "totalSol": 0.074,
+    "withoutBestSol": -0.244,
+    "winRate": 25,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 25
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, above call price, trail40",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.0036,
+    "trimmedMeanSol": -0.0175,
+    "totalSol": -0.124,
+    "withoutBestSol": -0.4,
+    "winRate": 26.5,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 5.9
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.0256,
+    "trimmedMeanSol": -0.0375,
+    "totalSol": -0.486,
+    "withoutBestSol": -0.576,
+    "winRate": 15.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 10.5
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0222,
+    "trimmedMeanSol": -0.0338,
+    "totalSol": -0.288,
+    "withoutBestSol": -0.35,
+    "winRate": 15.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.4
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, above call price, trail50",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.013,
+    "trimmedMeanSol": -0.026,
+    "totalSol": -0.441,
+    "withoutBestSol": -0.717,
+    "winRate": 29.4,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 5.9
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.0225,
+    "trimmedMeanSol": -0.0358,
+    "totalSol": -0.427,
+    "withoutBestSol": -0.519,
+    "winRate": 21.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 10.5
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0225,
+    "trimmedMeanSol": -0.0346,
+    "totalSol": -0.292,
+    "withoutBestSol": -0.341,
+    "winRate": 23.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.4
+   }
+  },
+  {
+   "rule": "3h after call, within 50% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 34,
+    "meanSol": -0.0104,
+    "trimmedMeanSol": -0.019,
+    "totalSol": -0.354,
+    "withoutBestSol": -0.508,
+    "winRate": 29.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 5.9
+   },
+   "validation": {
+    "n": 19,
+    "meanSol": -0.0203,
+    "trimmedMeanSol": -0.033,
+    "totalSol": -0.386,
+    "withoutBestSol": -0.474,
+    "winRate": 21.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 10.5
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0163,
+    "trimmedMeanSol": -0.0309,
+    "totalSol": -0.212,
+    "withoutBestSol": -0.278,
+    "winRate": 23.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 15.4
+   }
+  },
+  {
+   "rule": "6h after call, within 30% of high, trail40",
+   "fit": {
+    "n": 16,
+    "meanSol": -0.0113,
+    "trimmedMeanSol": -0.0346,
+    "totalSol": -0.181,
+    "withoutBestSol": -0.449,
+    "winRate": 18.8,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 18.8
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0206,
+    "trimmedMeanSol": -0.0285,
+    "totalSol": -0.206,
+    "withoutBestSol": -0.226,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 30
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0323,
+    "trimmedMeanSol": -0.0323,
+    "totalSol": -0.129,
+    "withoutBestSol": -0.12,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 75
+   }
+  },
+  {
+   "rule": "6h after call, within 30% of high, trail50",
+   "fit": {
+    "n": 16,
+    "meanSol": -0.02,
+    "trimmedMeanSol": -0.0428,
+    "totalSol": -0.32,
+    "withoutBestSol": -0.588,
+    "winRate": 12.5,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 18.8
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0242,
+    "trimmedMeanSol": -0.0337,
+    "totalSol": -0.242,
+    "withoutBestSol": -0.27,
+    "winRate": 10,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 30
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0379,
+    "trimmedMeanSol": -0.0379,
+    "totalSol": -0.151,
+    "withoutBestSol": -0.142,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 75
+   }
+  },
+  {
+   "rule": "6h after call, within 30% of high, half2x-trail50",
+   "fit": {
+    "n": 16,
+    "meanSol": -0.0251,
+    "trimmedMeanSol": -0.0428,
+    "totalSol": -0.402,
+    "withoutBestSol": -0.552,
+    "winRate": 12.5,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.8
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0172,
+    "trimmedMeanSol": -0.0337,
+    "totalSol": -0.172,
+    "withoutBestSol": -0.228,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 30
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0379,
+    "trimmedMeanSol": -0.0379,
+    "totalSol": -0.151,
+    "withoutBestSol": -0.142,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 75
+   }
+  },
+  {
+   "rule": "6h after call, within 30% of high, above call price, trail40",
+   "fit": {
+    "n": 11,
+    "meanSol": -0.0004,
+    "trimmedMeanSol": -0.0341,
+    "totalSol": -0.004,
+    "withoutBestSol": -0.272,
+    "winRate": 27.3,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0259,
+    "trimmedMeanSol": -0.0401,
+    "totalSol": -0.156,
+    "withoutBestSol": -0.176,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.7
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0323,
+    "trimmedMeanSol": -0.0323,
+    "totalSol": -0.129,
+    "withoutBestSol": -0.12,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 75
+   }
+  },
+  {
+   "rule": "6h after call, within 30% of high, above call price, trail50",
+   "fit": {
+    "n": 11,
+    "meanSol": -0.01,
+    "trimmedMeanSol": -0.0433,
+    "totalSol": -0.11,
+    "withoutBestSol": -0.378,
+    "winRate": 18.2,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0344,
+    "trimmedMeanSol": -0.0438,
+    "totalSol": -0.206,
+    "withoutBestSol": -0.205,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.7
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0379,
+    "trimmedMeanSol": -0.0379,
+    "totalSol": -0.151,
+    "withoutBestSol": -0.142,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 75
+   }
+  },
+  {
+   "rule": "6h after call, within 30% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 11,
+    "meanSol": -0.0175,
+    "trimmedMeanSol": -0.0433,
+    "totalSol": -0.193,
+    "withoutBestSol": -0.342,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0273,
+    "trimmedMeanSol": -0.0438,
+    "totalSol": -0.164,
+    "withoutBestSol": -0.205,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 16.7
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0379,
+    "trimmedMeanSol": -0.0379,
+    "totalSol": -0.151,
+    "withoutBestSol": -0.142,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 75
+   }
+  },
+  {
+   "rule": "6h after call, within 40% of high, trail40",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.0195,
+    "trimmedMeanSol": -0.0332,
+    "totalSol": -0.526,
+    "withoutBestSol": -0.794,
+    "winRate": 11.1,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "validation": {
+    "n": 14,
+    "meanSol": -0.0196,
+    "trimmedMeanSol": -0.0264,
+    "totalSol": -0.274,
+    "withoutBestSol": -0.297,
+    "winRate": 21.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   },
+   "recent": {
+    "n": 10,
+    "meanSol": 0.0077,
+    "trimmedMeanSol": -0.0318,
+    "totalSol": 0.077,
+    "withoutBestSol": -0.254,
+    "winRate": 20,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "6h after call, within 40% of high, trail50",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.0281,
+    "trimmedMeanSol": -0.0415,
+    "totalSol": -0.758,
+    "withoutBestSol": -1.026,
+    "winRate": 7.4,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "validation": {
+    "n": 14,
+    "meanSol": -0.0172,
+    "trimmedMeanSol": -0.0331,
+    "totalSol": -0.241,
+    "withoutBestSol": -0.369,
+    "winRate": 14.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   },
+   "recent": {
+    "n": 10,
+    "meanSol": -0.0021,
+    "trimmedMeanSol": -0.0387,
+    "totalSol": -0.021,
+    "withoutBestSol": -0.318,
+    "winRate": 10,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "6h after call, within 40% of high, half2x-trail50",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.0311,
+    "trimmedMeanSol": -0.0415,
+    "totalSol": -0.84,
+    "withoutBestSol": -0.99,
+    "winRate": 7.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "validation": {
+    "n": 14,
+    "meanSol": -0.0138,
+    "trimmedMeanSol": -0.0296,
+    "totalSol": -0.193,
+    "withoutBestSol": -0.299,
+    "winRate": 21.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 21.4
+   },
+   "recent": {
+    "n": 10,
+    "meanSol": -0.0128,
+    "trimmedMeanSol": -0.0387,
+    "totalSol": -0.128,
+    "withoutBestSol": -0.318,
+    "winRate": 10,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "6h after call, within 40% of high, above call price, trail40",
+   "fit": {
+    "n": 21,
+    "meanSol": -0.0159,
+    "trimmedMeanSol": -0.0335,
+    "totalSol": -0.334,
+    "withoutBestSol": -0.602,
+    "winRate": 14.3,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 4.8
+   },
+   "validation": {
+    "n": 9,
+    "meanSol": -0.0207,
+    "trimmedMeanSol": -0.0327,
+    "totalSol": -0.186,
+    "withoutBestSol": -0.209,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 6,
+    "meanSol": 0.0275,
+    "trimmedMeanSol": -0.0391,
+    "totalSol": 0.165,
+    "withoutBestSol": -0.166,
+    "winRate": 16.7,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "6h after call, within 40% of high, above call price, trail50",
+   "fit": {
+    "n": 21,
+    "meanSol": -0.0247,
+    "trimmedMeanSol": -0.0421,
+    "totalSol": -0.519,
+    "withoutBestSol": -0.787,
+    "winRate": 9.5,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 4.8
+   },
+   "validation": {
+    "n": 9,
+    "meanSol": -0.0176,
+    "trimmedMeanSol": -0.0407,
+    "totalSol": -0.159,
+    "withoutBestSol": -0.286,
+    "winRate": 11.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 6,
+    "meanSol": 0.0165,
+    "trimmedMeanSol": -0.0474,
+    "totalSol": 0.099,
+    "withoutBestSol": -0.199,
+    "winRate": 16.7,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "6h after call, within 40% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 21,
+    "meanSol": -0.0286,
+    "trimmedMeanSol": -0.0421,
+    "totalSol": -0.602,
+    "withoutBestSol": -0.751,
+    "winRate": 9.5,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 4.8
+   },
+   "validation": {
+    "n": 9,
+    "meanSol": -0.0153,
+    "trimmedMeanSol": -0.0407,
+    "totalSol": -0.138,
+    "withoutBestSol": -0.244,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 11.1
+   },
+   "recent": {
+    "n": 6,
+    "meanSol": -0.0013,
+    "trimmedMeanSol": -0.0474,
+    "totalSol": -0.008,
+    "withoutBestSol": -0.199,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, trail40",
+   "fit": {
+    "n": 41,
+    "meanSol": -0.0169,
+    "trimmedMeanSol": -0.028,
+    "totalSol": -0.693,
+    "withoutBestSol": -0.961,
+    "winRate": 17.1,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 9.8
+   },
+   "validation": {
+    "n": 22,
+    "meanSol": -0.0237,
+    "trimmedMeanSol": -0.029,
+    "totalSol": -0.52,
+    "withoutBestSol": -0.557,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.6
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0006,
+    "trimmedMeanSol": -0.0308,
+    "totalSol": -0.007,
+    "withoutBestSol": -0.338,
+    "winRate": 15.4,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 38.5
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, trail50",
+   "fit": {
+    "n": 41,
+    "meanSol": -0.0257,
+    "trimmedMeanSol": -0.0362,
+    "totalSol": -1.052,
+    "withoutBestSol": -1.32,
+    "winRate": 14.6,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 9.8
+   },
+   "validation": {
+    "n": 22,
+    "meanSol": -0.0262,
+    "trimmedMeanSol": -0.0366,
+    "totalSol": -0.576,
+    "withoutBestSol": -0.704,
+    "winRate": 13.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.6
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0094,
+    "trimmedMeanSol": -0.0374,
+    "totalSol": -0.123,
+    "withoutBestSol": -0.42,
+    "winRate": 7.7,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 38.5
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, half2x-trail50",
+   "fit": {
+    "n": 41,
+    "meanSol": -0.0268,
+    "trimmedMeanSol": -0.0343,
+    "totalSol": -1.1,
+    "withoutBestSol": -1.25,
+    "winRate": 14.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.8
+   },
+   "validation": {
+    "n": 22,
+    "meanSol": -0.0224,
+    "trimmedMeanSol": -0.0327,
+    "totalSol": -0.493,
+    "withoutBestSol": -0.598,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.6
+   },
+   "recent": {
+    "n": 13,
+    "meanSol": -0.0137,
+    "trimmedMeanSol": -0.0364,
+    "totalSol": -0.178,
+    "withoutBestSol": -0.369,
+    "winRate": 15.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 38.5
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, above call price, trail40",
+   "fit": {
+    "n": 26,
+    "meanSol": -0.0122,
+    "trimmedMeanSol": -0.0299,
+    "totalSol": -0.318,
+    "withoutBestSol": -0.586,
+    "winRate": 19.2,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 3.8
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0234,
+    "trimmedMeanSol": -0.0333,
+    "totalSol": -0.257,
+    "withoutBestSol": -0.279,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 8,
+    "meanSol": 0.0148,
+    "trimmedMeanSol": -0.0338,
+    "totalSol": 0.119,
+    "withoutBestSol": -0.212,
+    "winRate": 12.5,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 37.5
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, above call price, trail50",
+   "fit": {
+    "n": 26,
+    "meanSol": -0.0216,
+    "trimmedMeanSol": -0.0384,
+    "totalSol": -0.561,
+    "withoutBestSol": -0.829,
+    "winRate": 15.4,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 3.8
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0227,
+    "trimmedMeanSol": -0.0418,
+    "totalSol": -0.25,
+    "withoutBestSol": -0.378,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 8,
+    "meanSol": 0.0049,
+    "trimmedMeanSol": -0.0415,
+    "totalSol": 0.039,
+    "withoutBestSol": -0.259,
+    "winRate": 12.5,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 37.5
+   }
+  },
+  {
+   "rule": "6h after call, within 50% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 26,
+    "meanSol": -0.0249,
+    "trimmedMeanSol": -0.0369,
+    "totalSol": -0.648,
+    "withoutBestSol": -0.797,
+    "winRate": 15.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 3.8
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0209,
+    "trimmedMeanSol": -0.0418,
+    "totalSol": -0.23,
+    "withoutBestSol": -0.335,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "recent": {
+    "n": 8,
+    "meanSol": -0.0021,
+    "trimmedMeanSol": -0.0398,
+    "totalSol": -0.017,
+    "withoutBestSol": -0.207,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 37.5
+   }
+  },
+  {
+   "rule": "12h after call, within 30% of high, trail40",
+   "fit": {
+    "n": 5,
+    "meanSol": -0.0191,
+    "trimmedMeanSol": -0.0398,
+    "totalSol": -0.095,
+    "withoutBestSol": -0.139,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20
+   },
+   "validation": {
+    "n": 8,
+    "meanSol": -0.0293,
+    "trimmedMeanSol": -0.036,
+    "totalSol": -0.234,
+    "withoutBestSol": -0.232,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 37.5
+   },
+   "recent": {
+    "n": 5,
+    "meanSol": 0.0022,
+    "trimmedMeanSol": -0.0366,
+    "totalSol": 0.011,
+    "withoutBestSol": -0.119,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 40
+   }
+  },
+  {
+   "rule": "12h after call, within 30% of high, trail50",
+   "fit": {
+    "n": 5,
+    "meanSol": -0.0205,
+    "trimmedMeanSol": -0.0407,
+    "totalSol": -0.102,
+    "withoutBestSol": -0.146,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20
+   },
+   "validation": {
+    "n": 8,
+    "meanSol": -0.0345,
+    "trimmedMeanSol": -0.0429,
+    "totalSol": -0.276,
+    "withoutBestSol": -0.273,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 37.5
+   },
+   "recent": {
+    "n": 5,
+    "meanSol": -0.0017,
+    "trimmedMeanSol": -0.0431,
+    "totalSol": -0.009,
+    "withoutBestSol": -0.139,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 40
+   }
+  },
+  {
+   "rule": "12h after call, within 30% of high, half2x-trail50",
+   "fit": {
+    "n": 5,
+    "meanSol": -0.0224,
+    "trimmedMeanSol": -0.0407,
+    "totalSol": -0.112,
+    "withoutBestSol": -0.146,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20
+   },
+   "validation": {
+    "n": 8,
+    "meanSol": -0.0345,
+    "trimmedMeanSol": -0.0429,
+    "totalSol": -0.276,
+    "withoutBestSol": -0.273,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 37.5
+   },
+   "recent": {
+    "n": 5,
+    "meanSol": -0.0063,
+    "trimmedMeanSol": -0.0431,
+    "totalSol": -0.032,
+    "withoutBestSol": -0.139,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 40
+   }
+  },
+  {
+   "rule": "12h after call, within 30% of high, above call price, trail40",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0009,
+    "trimmedMeanSol": 0.0009,
+    "totalSol": 0.002,
+    "withoutBestSol": -0.042,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.0348,
+    "trimmedMeanSol": -0.0406,
+    "totalSol": -0.174,
+    "withoutBestSol": -0.151,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0122,
+    "trimmedMeanSol": 0.0122,
+    "totalSol": 0.049,
+    "withoutBestSol": -0.081,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "12h after call, within 30% of high, above call price, trail50",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0099,
+    "trimmedMeanSol": 0.0099,
+    "totalSol": 0.02,
+    "withoutBestSol": -0.024,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.042,
+    "trimmedMeanSol": -0.0456,
+    "totalSol": -0.21,
+    "withoutBestSol": -0.174,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0074,
+    "trimmedMeanSol": 0.0074,
+    "totalSol": 0.03,
+    "withoutBestSol": -0.1,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "12h after call, within 30% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0052,
+    "trimmedMeanSol": 0.0052,
+    "totalSol": 0.01,
+    "withoutBestSol": -0.024,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.042,
+    "trimmedMeanSol": -0.0456,
+    "totalSol": -0.21,
+    "withoutBestSol": -0.174,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 20
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0017,
+    "trimmedMeanSol": 0.0017,
+    "totalSol": 0.007,
+    "withoutBestSol": -0.1,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 50
+   }
+  },
+  {
+   "rule": "12h after call, within 40% of high, trail40",
+   "fit": {
+    "n": 11,
+    "meanSol": -0.0078,
+    "trimmedMeanSol": -0.0328,
+    "totalSol": -0.086,
+    "withoutBestSol": -0.251,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 17,
+    "meanSol": -0.0212,
+    "trimmedMeanSol": -0.0303,
+    "totalSol": -0.361,
+    "withoutBestSol": -0.428,
+    "winRate": 17.6,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.5
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.0006,
+    "trimmedMeanSol": -0.0251,
+    "totalSol": -0.005,
+    "withoutBestSol": -0.135,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 44.4
+   }
+  },
+  {
+   "rule": "12h after call, within 40% of high, trail50",
+   "fit": {
+    "n": 11,
+    "meanSol": -0.0168,
+    "trimmedMeanSol": -0.0398,
+    "totalSol": -0.184,
+    "withoutBestSol": -0.315,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 17,
+    "meanSol": -0.0251,
+    "trimmedMeanSol": -0.0348,
+    "totalSol": -0.427,
+    "withoutBestSol": -0.485,
+    "winRate": 11.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.5
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.0076,
+    "trimmedMeanSol": -0.0306,
+    "totalSol": -0.068,
+    "withoutBestSol": -0.198,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 44.4
+   }
+  },
+  {
+   "rule": "12h after call, within 40% of high, half2x-trail50",
+   "fit": {
+    "n": 11,
+    "meanSol": -0.0197,
+    "trimmedMeanSol": -0.0398,
+    "totalSol": -0.217,
+    "withoutBestSol": -0.324,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 9.1
+   },
+   "validation": {
+    "n": 17,
+    "meanSol": -0.023,
+    "trimmedMeanSol": -0.0348,
+    "totalSol": -0.391,
+    "withoutBestSol": -0.462,
+    "winRate": 11.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 23.5
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.0064,
+    "trimmedMeanSol": -0.0306,
+    "totalSol": -0.058,
+    "withoutBestSol": -0.165,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 44.4
+   }
+  },
+  {
+   "rule": "12h after call, within 40% of high, above call price, trail40",
+   "fit": {
+    "n": 6,
+    "meanSol": 0.0111,
+    "trimmedMeanSol": -0.0356,
+    "totalSol": 0.067,
+    "withoutBestSol": -0.099,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0221,
+    "trimmedMeanSol": -0.0344,
+    "totalSol": -0.243,
+    "withoutBestSol": -0.309,
+    "winRate": 18.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.2
+   },
+   "recent": {
+    "n": 6,
+    "meanSol": 0.0164,
+    "trimmedMeanSol": -0.018,
+    "totalSol": 0.098,
+    "withoutBestSol": -0.032,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  },
+  {
+   "rule": "12h after call, within 40% of high, above call price, trail50",
+   "fit": {
+    "n": 6,
+    "meanSol": 0.0032,
+    "trimmedMeanSol": -0.0387,
+    "totalSol": 0.019,
+    "withoutBestSol": -0.111,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0295,
+    "trimmedMeanSol": -0.0383,
+    "totalSol": -0.324,
+    "withoutBestSol": -0.362,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.2
+   },
+   "recent": {
+    "n": 6,
+    "meanSol": 0.0059,
+    "trimmedMeanSol": -0.0276,
+    "totalSol": 0.036,
+    "withoutBestSol": -0.094,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  },
+  {
+   "rule": "12h after call, within 40% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 6,
+    "meanSol": -0.0023,
+    "trimmedMeanSol": -0.0387,
+    "totalSol": -0.014,
+    "withoutBestSol": -0.121,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 0
+   },
+   "validation": {
+    "n": 11,
+    "meanSol": -0.0274,
+    "trimmedMeanSol": -0.0383,
+    "totalSol": -0.302,
+    "withoutBestSol": -0.362,
+    "winRate": 9.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.2
+   },
+   "recent": {
+    "n": 6,
+    "meanSol": 0.0077,
+    "trimmedMeanSol": -0.0276,
+    "totalSol": 0.046,
+    "withoutBestSol": -0.061,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  },
+  {
+   "rule": "12h after call, within 50% of high, trail40",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.015,
+    "trimmedMeanSol": -0.0263,
+    "totalSol": -0.404,
+    "withoutBestSol": -0.569,
+    "winRate": 14.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.5
+   },
+   "validation": {
+    "n": 23,
+    "meanSol": -0.0206,
+    "trimmedMeanSol": -0.027,
+    "totalSol": -0.474,
+    "withoutBestSol": -0.54,
+    "winRate": 21.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 17.4
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0147,
+    "trimmedMeanSol": -0.0313,
+    "totalSol": -0.205,
+    "withoutBestSol": -0.335,
+    "winRate": 21.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 35.7
+   }
+  },
+  {
+   "rule": "12h after call, within 50% of high, trail50",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.0227,
+    "trimmedMeanSol": -0.032,
+    "totalSol": -0.614,
+    "withoutBestSol": -0.744,
+    "winRate": 14.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.5
+   },
+   "validation": {
+    "n": 23,
+    "meanSol": -0.012,
+    "trimmedMeanSol": -0.0319,
+    "totalSol": -0.275,
+    "withoutBestSol": -0.611,
+    "winRate": 13,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 17.4
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0222,
+    "trimmedMeanSol": -0.0381,
+    "totalSol": -0.311,
+    "withoutBestSol": -0.441,
+    "winRate": 14.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 35.7
+   }
+  },
+  {
+   "rule": "12h after call, within 50% of high, half2x-trail50",
+   "fit": {
+    "n": 27,
+    "meanSol": -0.0224,
+    "trimmedMeanSol": -0.0313,
+    "totalSol": -0.605,
+    "withoutBestSol": -0.712,
+    "winRate": 14.8,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 18.5
+   },
+   "validation": {
+    "n": 23,
+    "meanSol": -0.0159,
+    "trimmedMeanSol": -0.0308,
+    "totalSol": -0.366,
+    "withoutBestSol": -0.576,
+    "winRate": 13,
+    "realized3x": 1,
+    "realized5x": 0,
+    "pickedShallowPct": 17.4
+   },
+   "recent": {
+    "n": 14,
+    "meanSol": -0.0214,
+    "trimmedMeanSol": -0.0381,
+    "totalSol": -0.3,
+    "withoutBestSol": -0.407,
+    "winRate": 14.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 35.7
+   }
+  },
+  {
+   "rule": "12h after call, within 50% of high, above call price, trail40",
+   "fit": {
+    "n": 15,
+    "meanSol": -0.0048,
+    "trimmedMeanSol": -0.025,
+    "totalSol": -0.072,
+    "withoutBestSol": -0.237,
+    "winRate": 26.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.3
+   },
+   "validation": {
+    "n": 14,
+    "meanSol": -0.0231,
+    "trimmedMeanSol": -0.0328,
+    "totalSol": -0.324,
+    "withoutBestSol": -0.39,
+    "winRate": 21.4,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 14.3
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.0022,
+    "trimmedMeanSol": -0.0272,
+    "totalSol": -0.02,
+    "withoutBestSol": -0.15,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  },
+  {
+   "rule": "12h after call, within 50% of high, above call price, trail50",
+   "fit": {
+    "n": 15,
+    "meanSol": -0.0149,
+    "trimmedMeanSol": -0.0315,
+    "totalSol": -0.224,
+    "withoutBestSol": -0.354,
+    "winRate": 26.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.3
+   },
+   "validation": {
+    "n": 14,
+    "meanSol": -0.031,
+    "trimmedMeanSol": -0.0381,
+    "totalSol": -0.434,
+    "withoutBestSol": -0.471,
+    "winRate": 7.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 14.3
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.0118,
+    "trimmedMeanSol": -0.0361,
+    "totalSol": -0.106,
+    "withoutBestSol": -0.236,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  },
+  {
+   "rule": "12h after call, within 50% of high, above call price, half2x-trail50",
+   "fit": {
+    "n": 15,
+    "meanSol": -0.0144,
+    "trimmedMeanSol": -0.0302,
+    "totalSol": -0.215,
+    "withoutBestSol": -0.322,
+    "winRate": 26.7,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 13.3
+   },
+   "validation": {
+    "n": 14,
+    "meanSol": -0.0294,
+    "trimmedMeanSol": -0.0381,
+    "totalSol": -0.411,
+    "withoutBestSol": -0.471,
+    "winRate": 7.1,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 14.3
+   },
+   "recent": {
+    "n": 9,
+    "meanSol": -0.0107,
+    "trimmedMeanSol": -0.0361,
+    "totalSol": -0.096,
+    "withoutBestSol": -0.203,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0,
+    "pickedShallowPct": 33.3
+   }
+  }
+ ],
+ "baseline": [
+  {
+   "rule": "baseline: every call, 1h after, trail40",
+   "fit": {
+    "n": 391,
+    "meanSol": -0.0134,
+    "trimmedMeanSol": -0.0183,
+    "totalSol": -5.229,
+    "withoutBestSol": -6.556,
+    "winRate": 18.7,
+    "realized3x": 4,
+    "realized5x": 2,
+    "pickedShallowPct": 2.8
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0129,
+    "trimmedMeanSol": -0.0199,
+    "totalSol": -2.726,
+    "withoutBestSol": -3.506,
+    "winRate": 15.1,
+    "realized3x": 3,
+    "realized5x": 2,
+    "pickedShallowPct": 4.7
+   },
+   "recent": {
+    "n": 160,
+    "meanSol": 0.0009,
+    "trimmedMeanSol": -0.0222,
+    "totalSol": 0.149,
+    "withoutBestSol": -2.722,
+    "winRate": 10,
+    "realized3x": 3,
+    "realized5x": 2,
+    "pickedShallowPct": 3.1
+   }
+  },
+  {
+   "rule": "baseline: every call, 1h after, trail50",
+   "fit": {
+    "n": 391,
+    "meanSol": -0.0169,
+    "trimmedMeanSol": -0.0216,
+    "totalSol": -6.606,
+    "withoutBestSol": -7.713,
+    "winRate": 16.4,
+    "realized3x": 5,
+    "realized5x": 2,
+    "pickedShallowPct": 2.8
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0182,
+    "trimmedMeanSol": -0.0247,
+    "totalSol": -3.863,
+    "withoutBestSol": -4.643,
+    "winRate": 12.7,
+    "realized3x": 2,
+    "realized5x": 2,
+    "pickedShallowPct": 4.7
+   },
+   "recent": {
+    "n": 160,
+    "meanSol": -0.0042,
+    "trimmedMeanSol": -0.025,
+    "totalSol": -0.67,
+    "withoutBestSol": -3.155,
+    "winRate": 8.1,
+    "realized3x": 3,
+    "realized5x": 2,
+    "pickedShallowPct": 3.1
+   }
+  },
+  {
+   "rule": "baseline: every call, 1h after, half2x-trail50",
+   "fit": {
+    "n": 391,
+    "meanSol": -0.0162,
+    "trimmedMeanSol": -0.0188,
+    "totalSol": -6.328,
+    "withoutBestSol": -6.948,
+    "winRate": 21.2,
+    "realized3x": 3,
+    "realized5x": 1,
+    "pickedShallowPct": 2.8
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0177,
+    "trimmedMeanSol": -0.0215,
+    "totalSol": -3.758,
+    "withoutBestSol": -4.197,
+    "winRate": 16.5,
+    "realized3x": 2,
+    "realized5x": 1,
+    "pickedShallowPct": 4.7
+   },
+   "recent": {
+    "n": 160,
+    "meanSol": -0.0126,
+    "trimmedMeanSol": -0.0237,
+    "totalSol": -2.012,
+    "withoutBestSol": -3.3,
+    "winRate": 10.6,
+    "realized3x": 2,
+    "realized5x": 2,
+    "pickedShallowPct": 3.1
+   }
+  }
+ ],
+ "partC": [
+  {
+   "caller": "caller_01",
+   "fitCalls": 223,
+   "fit2x": 26,
+   "fit5x": 9,
+   "laterCalls": 196,
+   "later2x": 22.4,
+   "later5x": 8.2
+  },
+  {
+   "caller": "caller_03",
+   "fitCalls": 88,
+   "fit2x": 20.5,
+   "fit5x": 11.4,
+   "laterCalls": 82,
+   "later2x": 23.2,
+   "later5x": 7.3
+  },
+  {
+   "caller": "caller_05",
+   "fitCalls": 36,
+   "fit2x": 16.7,
+   "fit5x": 2.8,
+   "laterCalls": 69,
+   "later2x": 33.3,
+   "later5x": 10.1
+  },
+  {
+   "caller": "caller_06",
+   "fitCalls": 39,
+   "fit2x": 28.2,
+   "fit5x": 7.7,
+   "laterCalls": 15,
+   "later2x": 40,
+   "later5x": 13.3
+  },
+  {
+   "caller": "caller_09",
+   "fitCalls": 7,
+   "fit2x": 71.4,
+   "fit5x": 28.6,
+   "laterCalls": 11,
+   "later2x": 45.5,
+   "later5x": 18.2
+  }
+ ],
+ "partD": [
+  {
+   "segment": "age < 6h",
+   "tokens": 644,
+   "shallowPct": 1.6,
+   "reached2x24h": 24.2,
+   "reached5x24h": 8.5,
+   "trail40": {
+    "fit": {
+     "n": 334,
+     "meanSol": -0.0237,
+     "trimmedMeanSol": -0.0269,
+     "totalSol": -7.913,
+     "withoutBestSol": -8.451,
+     "winRate": 11.4,
+     "realized3x": 7,
+     "realized5x": 3,
+     "pickedShallowPct": 1.5
+    },
+    "validation": {
+     "n": 172,
+     "meanSol": -0.0111,
+     "trimmedMeanSol": -0.0201,
+     "totalSol": -1.906,
+     "withoutBestSol": -2.67,
+     "winRate": 14,
+     "realized3x": 5,
+     "realized5x": 3,
+     "pickedShallowPct": 1.2
+    },
+    "recent": {
+     "n": 138,
+     "meanSol": -0.0274,
+     "trimmedMeanSol": -0.0308,
+     "totalSol": -3.777,
+     "withoutBestSol": -3.994,
+     "winRate": 6.5,
+     "realized3x": 1,
+     "realized5x": 0,
+     "pickedShallowPct": 2.2
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 334,
+     "meanSol": -0.0254,
+     "trimmedMeanSol": -0.0279,
+     "totalSol": -8.471,
+     "withoutBestSol": -9.001,
+     "winRate": 13.8,
+     "realized3x": 6,
+     "realized5x": 1,
+     "pickedShallowPct": 1.5
+    },
+    "validation": {
+     "n": 172,
+     "meanSol": -0.0194,
+     "trimmedMeanSol": -0.0243,
+     "totalSol": -3.343,
+     "withoutBestSol": -3.767,
+     "winRate": 14,
+     "realized3x": 3,
+     "realized5x": 1,
+     "pickedShallowPct": 1.2
+    },
+    "recent": {
+     "n": 138,
+     "meanSol": -0.0307,
+     "trimmedMeanSol": -0.0331,
+     "totalSol": -4.242,
+     "withoutBestSol": -4.379,
+     "winRate": 7.2,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 2.2
+    }
+   }
+  },
+  {
+   "segment": "age 6-48h",
+   "tokens": 80,
+   "shallowPct": 1.3,
+   "reached2x24h": 33.8,
+   "reached5x24h": 15,
+   "trail40": {
+    "fit": {
+     "n": 44,
+     "meanSol": 0.0069,
+     "trimmedMeanSol": -0.0298,
+     "totalSol": 0.302,
+     "withoutBestSol": -0.942,
+     "winRate": 11.4,
+     "realized3x": 2,
+     "realized5x": 1,
+     "pickedShallowPct": 2.3
+    },
+    "validation": {
+     "n": 20,
+     "meanSol": 0.0146,
+     "trimmedMeanSol": -0.017,
+     "totalSol": 0.292,
+     "withoutBestSol": -0.233,
+     "winRate": 35,
+     "realized3x": 1,
+     "realized5x": 1,
+     "pickedShallowPct": 0
+    },
+    "recent": {
+     "n": 16,
+     "meanSol": -0.0112,
+     "trimmedMeanSol": -0.0296,
+     "totalSol": -0.179,
+     "withoutBestSol": -0.322,
+     "winRate": 18.8,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 0
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 44,
+     "meanSol": -0.0117,
+     "trimmedMeanSol": -0.0321,
+     "totalSol": -0.517,
+     "withoutBestSol": -1.099,
+     "winRate": 11.4,
+     "realized3x": 3,
+     "realized5x": 1,
+     "pickedShallowPct": 2.3
+    },
+    "validation": {
+     "n": 20,
+     "meanSol": 0.0024,
+     "trimmedMeanSol": -0.0149,
+     "totalSol": 0.047,
+     "withoutBestSol": -0.205,
+     "winRate": 35,
+     "realized3x": 1,
+     "realized5x": 0,
+     "pickedShallowPct": 0
+    },
+    "recent": {
+     "n": 16,
+     "meanSol": -0.0198,
+     "trimmedMeanSol": -0.0343,
+     "totalSol": -0.316,
+     "withoutBestSol": -0.409,
+     "winRate": 18.8,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 0
+    }
+   }
+  },
+  {
+   "segment": "age >= 48h",
+   "tokens": 42,
+   "shallowPct": 40.5,
+   "reached2x24h": 28.6,
+   "reached5x24h": 4.8,
+   "trail40": {
+    "fit": {
+     "n": 13,
+     "meanSol": -0.0207,
+     "trimmedMeanSol": -0.0345,
+     "totalSol": -0.269,
+     "withoutBestSol": -0.342,
+     "winRate": 23.1,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 38.5
+    },
+    "validation": {
+     "n": 20,
+     "meanSol": -0.026,
+     "trimmedMeanSol": -0.0313,
+     "totalSol": -0.521,
+     "withoutBestSol": -0.546,
+     "winRate": 10,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 40
+    },
+    "recent": {
+     "n": 8,
+     "meanSol": -0.0289,
+     "trimmedMeanSol": -0.0395,
+     "totalSol": -0.231,
+     "withoutBestSol": -0.271,
+     "winRate": 12.5,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 37.5
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 13,
+     "meanSol": -0.0239,
+     "trimmedMeanSol": -0.0385,
+     "totalSol": -0.311,
+     "withoutBestSol": -0.375,
+     "winRate": 23.1,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 38.5
+    },
+    "validation": {
+     "n": 20,
+     "meanSol": -0.0257,
+     "trimmedMeanSol": -0.0339,
+     "totalSol": -0.514,
+     "withoutBestSol": -0.567,
+     "winRate": 15,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 40
+    },
+    "recent": {
+     "n": 8,
+     "meanSol": -0.012,
+     "trimmedMeanSol": -0.0444,
+     "totalSol": -0.096,
+     "withoutBestSol": -0.217,
+     "winRate": 25,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 37.5
+    }
+   }
+  },
+  {
+   "segment": "liquidity < $5k",
+   "tokens": 344,
+   "shallowPct": 2.3,
+   "reached2x24h": 16.9,
+   "reached5x24h": 7,
+   "trail40": {
+    "fit": {
+     "n": 182,
+     "meanSol": -0.0181,
+     "trimmedMeanSol": -0.0275,
+     "totalSol": -3.292,
+     "withoutBestSol": -4.536,
+     "winRate": 12.1,
+     "realized3x": 4,
+     "realized5x": 2,
+     "pickedShallowPct": 1.6
+    },
+    "validation": {
+     "n": 94,
+     "meanSol": -0.0168,
+     "trimmedMeanSol": -0.0268,
+     "totalSol": -1.579,
+     "withoutBestSol": -2.332,
+     "winRate": 10.6,
+     "realized3x": 1,
+     "realized5x": 1,
+     "pickedShallowPct": 3.2
+    },
+    "recent": {
+     "n": 68,
+     "meanSol": -0.019,
+     "trimmedMeanSol": -0.0258,
+     "totalSol": -1.292,
+     "withoutBestSol": -1.509,
+     "winRate": 7.4,
+     "realized3x": 1,
+     "realized5x": 0,
+     "pickedShallowPct": 2.9
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 182,
+     "meanSol": -0.0196,
+     "trimmedMeanSol": -0.026,
+     "totalSol": -3.569,
+     "withoutBestSol": -4.151,
+     "winRate": 15.4,
+     "realized3x": 5,
+     "realized5x": 2,
+     "pickedShallowPct": 1.6
+    },
+    "validation": {
+     "n": 94,
+     "meanSol": -0.0216,
+     "trimmedMeanSol": -0.0279,
+     "totalSol": -2.028,
+     "withoutBestSol": -2.453,
+     "winRate": 11.7,
+     "realized3x": 1,
+     "realized5x": 1,
+     "pickedShallowPct": 3.2
+    },
+    "recent": {
+     "n": 68,
+     "meanSol": -0.0227,
+     "trimmedMeanSol": -0.0273,
+     "totalSol": -1.542,
+     "withoutBestSol": -1.678,
+     "winRate": 7.4,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 2.9
+    }
+   }
+  },
+  {
+   "segment": "liquidity $5k-20k",
+   "tokens": 317,
+   "shallowPct": 2.2,
+   "reached2x24h": 33.8,
+   "reached5x24h": 11,
+   "trail40": {
+    "fit": {
+     "n": 156,
+     "meanSol": -0.0194,
+     "trimmedMeanSol": -0.0263,
+     "totalSol": -3.024,
+     "withoutBestSol": -3.563,
+     "winRate": 11.5,
+     "realized3x": 5,
+     "realized5x": 2,
+     "pickedShallowPct": 1.9
+    },
+    "validation": {
+     "n": 96,
+     "meanSol": 0.0023,
+     "trimmedMeanSol": -0.0114,
+     "totalSol": 0.22,
+     "withoutBestSol": -0.544,
+     "winRate": 22.9,
+     "realized3x": 5,
+     "realized5x": 3,
+     "pickedShallowPct": 4.2
+    },
+    "recent": {
+     "n": 65,
+     "meanSol": -0.0347,
+     "trimmedMeanSol": -0.0381,
+     "totalSol": -2.253,
+     "withoutBestSol": -2.372,
+     "winRate": 6.2,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 0
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 156,
+     "meanSol": -0.0262,
+     "trimmedMeanSol": -0.03,
+     "totalSol": -4.093,
+     "withoutBestSol": -4.368,
+     "winRate": 12.2,
+     "realized3x": 4,
+     "realized5x": 0,
+     "pickedShallowPct": 1.9
+    },
+    "validation": {
+     "n": 96,
+     "meanSol": -0.0102,
+     "trimmedMeanSol": -0.017,
+     "totalSol": -0.978,
+     "withoutBestSol": -1.341,
+     "winRate": 22.9,
+     "realized3x": 3,
+     "realized5x": 0,
+     "pickedShallowPct": 4.2
+    },
+    "recent": {
+     "n": 65,
+     "meanSol": -0.0375,
+     "trimmedMeanSol": -0.041,
+     "totalSol": -2.437,
+     "withoutBestSol": -2.523,
+     "winRate": 7.7,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 0
+    }
+   }
+  },
+  {
+   "segment": "liquidity >= $20k",
+   "tokens": 105,
+   "shallowPct": 12.4,
+   "reached2x24h": 28.6,
+   "reached5x24h": 9.5,
+   "trail40": {
+    "fit": {
+     "n": 53,
+     "meanSol": -0.0295,
+     "trimmedMeanSol": -0.0338,
+     "totalSol": -1.564,
+     "withoutBestSol": -1.649,
+     "winRate": 11.3,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 9.4
+    },
+    "validation": {
+     "n": 22,
+     "meanSol": -0.0353,
+     "trimmedMeanSol": -0.0389,
+     "totalSol": -0.776,
+     "withoutBestSol": -0.781,
+     "winRate": 4.5,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 13.6
+    },
+    "recent": {
+     "n": 29,
+     "meanSol": -0.0221,
+     "trimmedMeanSol": -0.0325,
+     "totalSol": -0.642,
+     "withoutBestSol": -0.784,
+     "winRate": 13.8,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 13.8
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 53,
+     "meanSol": -0.0309,
+     "trimmedMeanSol": -0.035,
+     "totalSol": -1.637,
+     "withoutBestSol": -1.718,
+     "winRate": 13.2,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 9.4
+    },
+    "validation": {
+     "n": 22,
+     "meanSol": -0.0365,
+     "trimmedMeanSol": -0.0425,
+     "totalSol": -0.803,
+     "withoutBestSol": -0.855,
+     "winRate": 4.5,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 13.6
+    },
+    "recent": {
+     "n": 29,
+     "meanSol": -0.0233,
+     "trimmedMeanSol": -0.0329,
+     "totalSol": -0.676,
+     "withoutBestSol": -0.797,
+     "winRate": 17.2,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 13.8
+    }
+   }
+  },
+  {
+   "segment": "age >= 24h and liquidity >= $10k",
+   "tokens": 38,
+   "shallowPct": 36.8,
+   "reached2x24h": 28.9,
+   "reached5x24h": 5.3,
+   "trail40": {
+    "fit": {
+     "n": 17,
+     "meanSol": -0.0168,
+     "trimmedMeanSol": -0.0296,
+     "totalSol": -0.286,
+     "withoutBestSol": -0.372,
+     "winRate": 23.5,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 23.5
+    },
+    "validation": {
+     "n": 12,
+     "meanSol": -0.026,
+     "trimmedMeanSol": -0.0332,
+     "totalSol": -0.311,
+     "withoutBestSol": -0.336,
+     "winRate": 8.3,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 50
+    },
+    "recent": {
+     "n": 8,
+     "meanSol": -0.0289,
+     "trimmedMeanSol": -0.0395,
+     "totalSol": -0.231,
+     "withoutBestSol": -0.271,
+     "winRate": 12.5,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 37.5
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 17,
+     "meanSol": -0.0214,
+     "trimmedMeanSol": -0.033,
+     "totalSol": -0.364,
+     "withoutBestSol": -0.432,
+     "winRate": 23.5,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 23.5
+    },
+    "validation": {
+     "n": 12,
+     "meanSol": -0.0237,
+     "trimmedMeanSol": -0.038,
+     "totalSol": -0.284,
+     "withoutBestSol": -0.337,
+     "winRate": 16.7,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 50
+    },
+    "recent": {
+     "n": 8,
+     "meanSol": -0.012,
+     "trimmedMeanSol": -0.0444,
+     "totalSol": -0.096,
+     "withoutBestSol": -0.217,
+     "winRate": 25,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 37.5
+    }
+   }
+  },
+  {
+   "segment": "down < 40% from high at call",
+   "tokens": 216,
+   "shallowPct": 8.3,
+   "reached2x24h": 30.6,
+   "reached5x24h": 11.1,
+   "trail40": {
+    "fit": {
+     "n": 103,
+     "meanSol": -0.0015,
+     "trimmedMeanSol": -0.0192,
+     "totalSol": -0.154,
+     "withoutBestSol": -1.398,
+     "winRate": 13.6,
+     "realized3x": 6,
+     "realized5x": 3,
+     "pickedShallowPct": 5.8
+    },
+    "validation": {
+     "n": 65,
+     "meanSol": -0.0281,
+     "trimmedMeanSol": -0.0374,
+     "totalSol": -1.826,
+     "withoutBestSol": -2.284,
+     "winRate": 6.2,
+     "realized3x": 1,
+     "realized5x": 1,
+     "pickedShallowPct": 9.2
+    },
+    "recent": {
+     "n": 48,
+     "meanSol": -0.0256,
+     "trimmedMeanSol": -0.0328,
+     "totalSol": -1.227,
+     "withoutBestSol": -1.445,
+     "winRate": 12.5,
+     "realized3x": 1,
+     "realized5x": 0,
+     "pickedShallowPct": 12.5
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 103,
+     "meanSol": -0.0187,
+     "trimmedMeanSol": -0.0274,
+     "totalSol": -1.923,
+     "withoutBestSol": -2.505,
+     "winRate": 13.6,
+     "realized3x": 5,
+     "realized5x": 1,
+     "pickedShallowPct": 5.8
+    },
+    "validation": {
+     "n": 65,
+     "meanSol": -0.0345,
+     "trimmedMeanSol": -0.0401,
+     "totalSol": -2.241,
+     "withoutBestSol": -2.466,
+     "winRate": 7.7,
+     "realized3x": 1,
+     "realized5x": 0,
+     "pickedShallowPct": 9.2
+    },
+    "recent": {
+     "n": 48,
+     "meanSol": -0.025,
+     "trimmedMeanSol": -0.0314,
+     "totalSol": -1.201,
+     "withoutBestSol": -1.325,
+     "winRate": 16.7,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 12.5
+    }
+   }
+  },
+  {
+   "segment": "down >= 70% from high at call",
+   "tokens": 338,
+   "shallowPct": 0.6,
+   "reached2x24h": 17.8,
+   "reached5x24h": 5,
+   "trail40": {
+    "fit": {
+     "n": 172,
+     "meanSol": -0.0269,
+     "trimmedMeanSol": -0.0315,
+     "totalSol": -4.626,
+     "withoutBestSol": -5.042,
+     "winRate": 10.5,
+     "realized3x": 2,
+     "realized5x": 1,
+     "pickedShallowPct": 0.6
+    },
+    "validation": {
+     "n": 94,
+     "meanSol": -0.0028,
+     "trimmedMeanSol": -0.0168,
+     "totalSol": -0.265,
+     "withoutBestSol": -1.018,
+     "winRate": 16,
+     "realized3x": 4,
+     "realized5x": 2,
+     "pickedShallowPct": 1.1
+    },
+    "recent": {
+     "n": 72,
+     "meanSol": -0.0259,
+     "trimmedMeanSol": -0.0313,
+     "totalSol": -1.861,
+     "withoutBestSol": -2.052,
+     "winRate": 4.2,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 0
+    }
+   },
+   "half2x-trail50": {
+    "fit": {
+     "n": 172,
+     "meanSol": -0.025,
+     "trimmedMeanSol": -0.0299,
+     "totalSol": -4.293,
+     "withoutBestSol": -4.823,
+     "winRate": 12.8,
+     "realized3x": 3,
+     "realized5x": 1,
+     "pickedShallowPct": 0.6
+    },
+    "validation": {
+     "n": 94,
+     "meanSol": -0.0114,
+     "trimmedMeanSol": -0.019,
+     "totalSol": -1.073,
+     "withoutBestSol": -1.497,
+     "winRate": 17,
+     "realized3x": 2,
+     "realized5x": 1,
+     "pickedShallowPct": 1.1
+    },
+    "recent": {
+     "n": 72,
+     "meanSol": -0.0302,
+     "trimmedMeanSol": -0.0343,
+     "totalSol": -2.175,
+     "withoutBestSol": -2.311,
+     "winRate": 4.2,
+     "realized3x": 0,
+     "realized5x": 0,
+     "pickedShallowPct": 0
+    }
+   }
+  }
+ ]
+}

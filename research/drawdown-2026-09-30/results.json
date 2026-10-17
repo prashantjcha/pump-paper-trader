@@ -1,0 +1,1865 @@
+{
+ "generated": "2026-09-30T19:54:09.809Z",
+ "tokens": 1121,
+ "dataEnd": "2026-09-30T19:00:00.000Z",
+ "part1": [
+  {
+   "depth": "0-40%",
+   "tokens": 22,
+   "madeNewAth": 72.7,
+   "ran5xOffLow": 31.8,
+   "ran10xOffLow": 27.3
+  },
+  {
+   "depth": "40-60%",
+   "tokens": 26,
+   "madeNewAth": 53.8,
+   "ran5xOffLow": 34.6,
+   "ran10xOffLow": 19.2
+  },
+  {
+   "depth": "60-80%",
+   "tokens": 95,
+   "madeNewAth": 11.6,
+   "ran5xOffLow": 9.5,
+   "ran10xOffLow": 7.4
+  },
+  {
+   "depth": "80-90%",
+   "tokens": 194,
+   "madeNewAth": 6.2,
+   "ran5xOffLow": 7.7,
+   "ran10xOffLow": 4.6
+  },
+  {
+   "depth": "90-97%",
+   "tokens": 358,
+   "madeNewAth": 3.9,
+   "ran5xOffLow": 8.9,
+   "ran10xOffLow": 6.4
+  },
+  {
+   "depth": "97-100%",
+   "tokens": 416,
+   "madeNewAth": 0.5,
+   "ran5xOffLow": 7.9,
+   "ran10xOffLow": 5.8
+  }
+ ],
+ "pointInTime": [
+  {
+   "firstDropOf": "50%",
+   "tokens": 1111,
+   "laterNewAth": 46.8,
+   "laterFellBelow90pctDown": 53.4,
+   "laterDoubledFromThatPoint": 46.9
+  },
+  {
+   "firstDropOf": "60%",
+   "tokens": 1099,
+   "laterNewAth": 46.2,
+   "laterFellBelow90pctDown": 54.7,
+   "laterDoubledFromThatPoint": 53
+  },
+  {
+   "firstDropOf": "70%",
+   "tokens": 1078,
+   "laterNewAth": 44.4,
+   "laterFellBelow90pctDown": 58.1,
+   "laterDoubledFromThatPoint": 58.3
+  },
+  {
+   "firstDropOf": "80%",
+   "tokens": 1016,
+   "laterNewAth": 41.2,
+   "laterFellBelow90pctDown": 66.3,
+   "laterDoubledFromThatPoint": 64.2
+  }
+ ],
+ "part2": [
+  {
+   "rule": "control: any 24h-high breakout on 2x volume, trail",
+   "fit": {
+    "n": 143,
+    "meanSol": -0.0026,
+    "trimmedMeanSol": -0.0134,
+    "totalSol": -0.379,
+    "withoutBestSol": -1.441,
+    "winRate": 21.7,
+    "realized3x": 4,
+    "realized5x": 2
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0161,
+    "trimmedMeanSol": -0.0177,
+    "totalSol": -3.41,
+    "withoutBestSol": -3.582,
+    "winRate": 10.8,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 76,
+    "meanSol": 0.0202,
+    "trimmedMeanSol": -0.0196,
+    "totalSol": 1.534,
+    "withoutBestSol": -1.337,
+    "winRate": 14.5,
+    "realized3x": 1,
+    "realized5x": 1
+   }
+  },
+  {
+   "rule": "control: any 24h-high breakout on 2x volume, half-trail",
+   "fit": {
+    "n": 143,
+    "meanSol": -0.0013,
+    "trimmedMeanSol": -0.0174,
+    "totalSol": -0.184,
+    "withoutBestSol": -1.794,
+    "winRate": 16.1,
+    "realized3x": 5,
+    "realized5x": 3
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0202,
+    "trimmedMeanSol": -0.0212,
+    "totalSol": -4.277,
+    "withoutBestSol": -4.37,
+    "winRate": 9.9,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 76,
+    "meanSol": -0.005,
+    "trimmedMeanSol": -0.0259,
+    "totalSol": -0.381,
+    "withoutBestSol": -1.862,
+    "winRate": 10.5,
+    "realized3x": 1,
+    "realized5x": 1
+   }
+  },
+  {
+   "rule": "control: any 24h-high breakout on 2x volume, target",
+   "fit": {
+    "n": 143,
+    "meanSol": -0.0127,
+    "trimmedMeanSol": -0.0198,
+    "totalSol": -1.821,
+    "withoutBestSol": -2.322,
+    "winRate": 20.3,
+    "realized3x": 5,
+    "realized5x": 3
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0202,
+    "trimmedMeanSol": -0.0216,
+    "totalSol": -4.278,
+    "withoutBestSol": -4.422,
+    "winRate": 9.9,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 76,
+    "meanSol": -0.0235,
+    "trimmedMeanSol": -0.026,
+    "totalSol": -1.788,
+    "withoutBestSol": -1.874,
+    "winRate": 11.8,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  }
+ ],
+ "part2All": [
+  {
+   "rule": "drop 50-80%, base 6h, vol 1x, target",
+   "fit": {
+    "n": 12,
+    "meanSol": -0.0219,
+    "trimmedMeanSol": -0.0337,
+    "totalSol": -0.263,
+    "withoutBestSol": -0.314,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0422,
+    "trimmedMeanSol": -0.0531,
+    "totalSol": -0.506,
+    "withoutBestSol": -0.532,
+    "winRate": 8.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": 0.0052,
+    "trimmedMeanSol": 0.0052,
+    "totalSol": 0.016,
+    "withoutBestSol": -0.045,
+    "winRate": 66.7,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 6h, vol 1x, half-trail",
+   "fit": {
+    "n": 12,
+    "meanSol": -0.0189,
+    "trimmedMeanSol": -0.0318,
+    "totalSol": -0.227,
+    "withoutBestSol": -0.292,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0471,
+    "trimmedMeanSol": -0.0545,
+    "totalSol": -0.566,
+    "withoutBestSol": -0.556,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": 0.0045,
+    "trimmedMeanSol": 0.0045,
+    "totalSol": 0.014,
+    "withoutBestSol": -0.063,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 6h, vol 1x, trail",
+   "fit": {
+    "n": 12,
+    "meanSol": -0.0092,
+    "trimmedMeanSol": -0.0265,
+    "totalSol": -0.111,
+    "withoutBestSol": -0.25,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0367,
+    "trimmedMeanSol": -0.0404,
+    "totalSol": -0.44,
+    "withoutBestSol": -0.43,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": -0.0392,
+    "trimmedMeanSol": -0.0392,
+    "totalSol": -0.118,
+    "withoutBestSol": -0.092,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 6h, vol 2x, target",
+   "fit": {
+    "n": 8,
+    "meanSol": -0.014,
+    "trimmedMeanSol": -0.0291,
+    "totalSol": -0.112,
+    "withoutBestSol": -0.163,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0383,
+    "trimmedMeanSol": -0.0493,
+    "totalSol": -0.46,
+    "withoutBestSol": -0.485,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": 0.0133,
+    "trimmedMeanSol": 0.0133,
+    "totalSol": 0.04,
+    "withoutBestSol": -0.016,
+    "winRate": 66.7,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 6h, vol 2x, half-trail",
+   "fit": {
+    "n": 8,
+    "meanSol": -0.0086,
+    "trimmedMeanSol": -0.0266,
+    "totalSol": -0.069,
+    "withoutBestSol": -0.134,
+    "winRate": 37.5,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0358,
+    "trimmedMeanSol": -0.0517,
+    "totalSol": -0.43,
+    "withoutBestSol": -0.527,
+    "winRate": 8.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": 0.0154,
+    "trimmedMeanSol": 0.0154,
+    "totalSol": 0.046,
+    "withoutBestSol": -0.025,
+    "winRate": 66.7,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 6h, vol 2x, trail",
+   "fit": {
+    "n": 8,
+    "meanSol": -0.0006,
+    "trimmedMeanSol": -0.0258,
+    "totalSol": -0.004,
+    "withoutBestSol": -0.144,
+    "winRate": 37.5,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0155,
+    "trimmedMeanSol": -0.0368,
+    "totalSol": -0.186,
+    "withoutBestSol": -0.378,
+    "winRate": 8.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": 0.0222,
+    "trimmedMeanSol": 0.0222,
+    "totalSol": 0.067,
+    "withoutBestSol": -0.026,
+    "winRate": 66.7,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 24h, vol 1x, target",
+   "fit": {
+    "n": 3,
+    "meanSol": -0.0103,
+    "trimmedMeanSol": -0.0103,
+    "totalSol": -0.031,
+    "withoutBestSol": -0.027,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0474,
+    "trimmedMeanSol": -0.0692,
+    "totalSol": -0.284,
+    "withoutBestSol": -0.287,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0314,
+    "trimmedMeanSol": 0.0314,
+    "totalSol": 0.063,
+    "withoutBestSol": 0.007,
+    "winRate": 100,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 24h, vol 1x, half-trail",
+   "fit": {
+    "n": 3,
+    "meanSol": 0.0126,
+    "trimmedMeanSol": 0.0126,
+    "totalSol": 0.038,
+    "withoutBestSol": -0.027,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0474,
+    "trimmedMeanSol": -0.0692,
+    "totalSol": -0.284,
+    "withoutBestSol": -0.287,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0393,
+    "trimmedMeanSol": 0.0393,
+    "totalSol": 0.079,
+    "withoutBestSol": 0.007,
+    "winRate": 100,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 24h, vol 1x, trail",
+   "fit": {
+    "n": 3,
+    "meanSol": 0.0374,
+    "trimmedMeanSol": 0.0374,
+    "totalSol": 0.112,
+    "withoutBestSol": -0.027,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0292,
+    "trimmedMeanSol": -0.042,
+    "totalSol": -0.175,
+    "withoutBestSol": -0.178,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0255,
+    "trimmedMeanSol": 0.0255,
+    "totalSol": 0.051,
+    "withoutBestSol": -0.042,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 24h, vol 2x, target",
+   "fit": {
+    "n": 2,
+    "meanSol": -0.0128,
+    "trimmedMeanSol": -0.0128,
+    "totalSol": -0.026,
+    "withoutBestSol": -0.022,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.036,
+    "trimmedMeanSol": -0.0556,
+    "totalSol": -0.18,
+    "withoutBestSol": -0.174,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0267,
+    "trimmedMeanSol": 0.0267,
+    "totalSol": 0.053,
+    "withoutBestSol": -0.003,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 24h, vol 2x, half-trail",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0215,
+    "trimmedMeanSol": 0.0215,
+    "totalSol": 0.043,
+    "withoutBestSol": -0.022,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.036,
+    "trimmedMeanSol": -0.0556,
+    "totalSol": -0.18,
+    "withoutBestSol": -0.174,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0345,
+    "trimmedMeanSol": 0.0345,
+    "totalSol": 0.069,
+    "withoutBestSol": -0.003,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-80%, base 24h, vol 2x, trail",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0586,
+    "trimmedMeanSol": 0.0586,
+    "totalSol": 0.117,
+    "withoutBestSol": -0.022,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.022,
+    "trimmedMeanSol": -0.0322,
+    "totalSol": -0.11,
+    "withoutBestSol": -0.104,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.048,
+    "trimmedMeanSol": 0.048,
+    "totalSol": 0.096,
+    "withoutBestSol": 0.003,
+    "winRate": 100,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 6h, vol 1x, target",
+   "fit": {
+    "n": 13,
+    "meanSol": -0.0268,
+    "trimmedMeanSol": -0.0384,
+    "totalSol": -0.349,
+    "withoutBestSol": -0.4,
+    "winRate": 23.1,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0422,
+    "trimmedMeanSol": -0.0531,
+    "totalSol": -0.506,
+    "withoutBestSol": -0.532,
+    "winRate": 8.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0077,
+    "trimmedMeanSol": -0.0077,
+    "totalSol": -0.031,
+    "withoutBestSol": -0.092,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 6h, vol 1x, half-trail",
+   "fit": {
+    "n": 13,
+    "meanSol": -0.024,
+    "trimmedMeanSol": -0.0366,
+    "totalSol": -0.313,
+    "withoutBestSol": -0.378,
+    "winRate": 30.8,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0471,
+    "trimmedMeanSol": -0.0545,
+    "totalSol": -0.566,
+    "withoutBestSol": -0.556,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0083,
+    "trimmedMeanSol": -0.0083,
+    "totalSol": -0.033,
+    "withoutBestSol": -0.11,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 6h, vol 1x, trail",
+   "fit": {
+    "n": 13,
+    "meanSol": -0.0122,
+    "trimmedMeanSol": -0.0284,
+    "totalSol": -0.158,
+    "withoutBestSol": -0.297,
+    "winRate": 30.8,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0367,
+    "trimmedMeanSol": -0.0404,
+    "totalSol": -0.44,
+    "withoutBestSol": -0.43,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": -0.0388,
+    "trimmedMeanSol": -0.0388,
+    "totalSol": -0.155,
+    "withoutBestSol": -0.13,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 6h, vol 2x, target",
+   "fit": {
+    "n": 9,
+    "meanSol": -0.0219,
+    "trimmedMeanSol": -0.0371,
+    "totalSol": -0.197,
+    "withoutBestSol": -0.248,
+    "winRate": 22.2,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0383,
+    "trimmedMeanSol": -0.0493,
+    "totalSol": -0.46,
+    "withoutBestSol": -0.485,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 5,
+    "meanSol": 0.0101,
+    "trimmedMeanSol": -0.0209,
+    "totalSol": 0.051,
+    "withoutBestSol": -0.007,
+    "winRate": 60,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 6h, vol 2x, half-trail",
+   "fit": {
+    "n": 9,
+    "meanSol": -0.0171,
+    "trimmedMeanSol": -0.0349,
+    "totalSol": -0.154,
+    "withoutBestSol": -0.219,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0358,
+    "trimmedMeanSol": -0.0517,
+    "totalSol": -0.43,
+    "withoutBestSol": -0.527,
+    "winRate": 8.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 5,
+    "meanSol": 0.0089,
+    "trimmedMeanSol": -0.024,
+    "totalSol": 0.045,
+    "withoutBestSol": -0.027,
+    "winRate": 60,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 6h, vol 2x, trail",
+   "fit": {
+    "n": 9,
+    "meanSol": -0.0057,
+    "trimmedMeanSol": -0.0289,
+    "totalSol": -0.052,
+    "withoutBestSol": -0.191,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 12,
+    "meanSol": -0.0155,
+    "trimmedMeanSol": -0.0368,
+    "totalSol": -0.186,
+    "withoutBestSol": -0.378,
+    "winRate": 8.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 5,
+    "meanSol": 0.0136,
+    "trimmedMeanSol": -0.0212,
+    "totalSol": 0.068,
+    "withoutBestSol": -0.025,
+    "winRate": 60,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 24h, vol 1x, target",
+   "fit": {
+    "n": 4,
+    "meanSol": -0.029,
+    "trimmedMeanSol": -0.029,
+    "totalSol": -0.116,
+    "withoutBestSol": -0.112,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0474,
+    "trimmedMeanSol": -0.0692,
+    "totalSol": -0.284,
+    "withoutBestSol": -0.287,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0183,
+    "trimmedMeanSol": 0.0183,
+    "totalSol": 0.073,
+    "withoutBestSol": 0.016,
+    "winRate": 75,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 24h, vol 1x, half-trail",
+   "fit": {
+    "n": 4,
+    "meanSol": -0.0118,
+    "trimmedMeanSol": -0.0118,
+    "totalSol": -0.047,
+    "withoutBestSol": -0.112,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0474,
+    "trimmedMeanSol": -0.0692,
+    "totalSol": -0.284,
+    "withoutBestSol": -0.287,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0192,
+    "trimmedMeanSol": 0.0192,
+    "totalSol": 0.077,
+    "withoutBestSol": 0.005,
+    "winRate": 75,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 24h, vol 1x, trail",
+   "fit": {
+    "n": 4,
+    "meanSol": 0.0162,
+    "trimmedMeanSol": 0.0162,
+    "totalSol": 0.065,
+    "withoutBestSol": -0.074,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0292,
+    "trimmedMeanSol": -0.042,
+    "totalSol": -0.175,
+    "withoutBestSol": -0.178,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.013,
+    "trimmedMeanSol": 0.013,
+    "totalSol": 0.052,
+    "withoutBestSol": -0.041,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 24h, vol 2x, target",
+   "fit": {
+    "n": 3,
+    "meanSol": -0.037,
+    "trimmedMeanSol": -0.037,
+    "totalSol": -0.111,
+    "withoutBestSol": -0.107,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.036,
+    "trimmedMeanSol": -0.0556,
+    "totalSol": -0.18,
+    "withoutBestSol": -0.174,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.016,
+    "trimmedMeanSol": 0.016,
+    "totalSol": 0.064,
+    "withoutBestSol": 0.007,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 24h, vol 2x, half-trail",
+   "fit": {
+    "n": 3,
+    "meanSol": -0.014,
+    "trimmedMeanSol": -0.014,
+    "totalSol": -0.042,
+    "withoutBestSol": -0.107,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.036,
+    "trimmedMeanSol": -0.0556,
+    "totalSol": -0.18,
+    "withoutBestSol": -0.174,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0168,
+    "trimmedMeanSol": 0.0168,
+    "totalSol": 0.067,
+    "withoutBestSol": -0.004,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 50-90%, base 24h, vol 2x, trail",
+   "fit": {
+    "n": 3,
+    "meanSol": 0.0233,
+    "trimmedMeanSol": 0.0233,
+    "totalSol": 0.07,
+    "withoutBestSol": -0.069,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 5,
+    "meanSol": -0.022,
+    "trimmedMeanSol": -0.0322,
+    "totalSol": -0.11,
+    "withoutBestSol": -0.104,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0243,
+    "trimmedMeanSol": 0.0243,
+    "totalSol": 0.097,
+    "withoutBestSol": 0.004,
+    "winRate": 75,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 6h, vol 1x, target",
+   "fit": {
+    "n": 7,
+    "meanSol": -0.0188,
+    "trimmedMeanSol": -0.0411,
+    "totalSol": -0.131,
+    "withoutBestSol": -0.182,
+    "winRate": 28.6,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0368,
+    "trimmedMeanSol": -0.0502,
+    "totalSol": -0.368,
+    "withoutBestSol": -0.394,
+    "winRate": 30,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0052,
+    "trimmedMeanSol": 0.0052,
+    "totalSol": 0.01,
+    "withoutBestSol": -0.05,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 6h, vol 1x, half-trail",
+   "fit": {
+    "n": 7,
+    "meanSol": -0.0136,
+    "trimmedMeanSol": -0.0371,
+    "totalSol": -0.095,
+    "withoutBestSol": -0.16,
+    "winRate": 42.9,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0315,
+    "trimmedMeanSol": -0.0518,
+    "totalSol": -0.315,
+    "withoutBestSol": -0.412,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0133,
+    "trimmedMeanSol": 0.0133,
+    "totalSol": 0.027,
+    "withoutBestSol": -0.05,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 6h, vol 1x, trail",
+   "fit": {
+    "n": 7,
+    "meanSol": 0.0011,
+    "trimmedMeanSol": -0.0293,
+    "totalSol": 0.008,
+    "withoutBestSol": -0.131,
+    "winRate": 42.9,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0083,
+    "trimmedMeanSol": -0.0347,
+    "totalSol": -0.083,
+    "withoutBestSol": -0.275,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": -0.0461,
+    "trimmedMeanSol": -0.0461,
+    "totalSol": -0.092,
+    "withoutBestSol": -0.048,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 6h, vol 2x, target",
+   "fit": {
+    "n": 4,
+    "meanSol": -0.0044,
+    "trimmedMeanSol": -0.0044,
+    "totalSol": -0.018,
+    "withoutBestSol": -0.069,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0382,
+    "trimmedMeanSol": -0.052,
+    "totalSol": -0.382,
+    "withoutBestSol": -0.408,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0029,
+    "trimmedMeanSol": 0.0029,
+    "totalSol": 0.006,
+    "withoutBestSol": -0.05,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 6h, vol 2x, half-trail",
+   "fit": {
+    "n": 4,
+    "meanSol": 0.0063,
+    "trimmedMeanSol": 0.0063,
+    "totalSol": 0.025,
+    "withoutBestSol": -0.04,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0329,
+    "trimmedMeanSol": -0.0525,
+    "totalSol": -0.329,
+    "withoutBestSol": -0.426,
+    "winRate": 10,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0106,
+    "trimmedMeanSol": 0.0106,
+    "totalSol": 0.021,
+    "withoutBestSol": -0.05,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 6h, vol 2x, trail",
+   "fit": {
+    "n": 4,
+    "meanSol": 0.0199,
+    "trimmedMeanSol": 0.0199,
+    "totalSol": 0.08,
+    "withoutBestSol": -0.06,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0071,
+    "trimmedMeanSol": -0.0321,
+    "totalSol": -0.071,
+    "withoutBestSol": -0.263,
+    "winRate": 10,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0226,
+    "trimmedMeanSol": 0.0226,
+    "totalSol": 0.045,
+    "withoutBestSol": -0.048,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 24h, vol 1x, target",
+   "fit": {
+    "n": 2,
+    "meanSol": -0.0128,
+    "trimmedMeanSol": -0.0128,
+    "totalSol": -0.026,
+    "withoutBestSol": -0.022,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0479,
+    "trimmedMeanSol": -0.0692,
+    "totalSol": -0.287,
+    "withoutBestSol": -0.29,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0314,
+    "trimmedMeanSol": 0.0314,
+    "totalSol": 0.063,
+    "withoutBestSol": 0.007,
+    "winRate": 100,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 24h, vol 1x, half-trail",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0215,
+    "trimmedMeanSol": 0.0215,
+    "totalSol": 0.043,
+    "withoutBestSol": -0.022,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0479,
+    "trimmedMeanSol": -0.0692,
+    "totalSol": -0.287,
+    "withoutBestSol": -0.29,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0393,
+    "trimmedMeanSol": 0.0393,
+    "totalSol": 0.079,
+    "withoutBestSol": 0.007,
+    "winRate": 100,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 24h, vol 1x, trail",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0586,
+    "trimmedMeanSol": 0.0586,
+    "totalSol": 0.117,
+    "withoutBestSol": -0.022,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0298,
+    "trimmedMeanSol": -0.042,
+    "totalSol": -0.179,
+    "withoutBestSol": -0.181,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0255,
+    "trimmedMeanSol": 0.0255,
+    "totalSol": 0.051,
+    "withoutBestSol": -0.042,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 24h, vol 2x, target",
+   "fit": {
+    "n": 2,
+    "meanSol": -0.0128,
+    "trimmedMeanSol": -0.0128,
+    "totalSol": -0.026,
+    "withoutBestSol": -0.022,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 4,
+    "meanSol": -0.044,
+    "trimmedMeanSol": -0.044,
+    "totalSol": -0.176,
+    "withoutBestSol": -0.17,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0267,
+    "trimmedMeanSol": 0.0267,
+    "totalSol": 0.053,
+    "withoutBestSol": -0.003,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 24h, vol 2x, half-trail",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0215,
+    "trimmedMeanSol": 0.0215,
+    "totalSol": 0.043,
+    "withoutBestSol": -0.022,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 4,
+    "meanSol": -0.044,
+    "trimmedMeanSol": -0.044,
+    "totalSol": -0.176,
+    "withoutBestSol": -0.17,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.0345,
+    "trimmedMeanSol": 0.0345,
+    "totalSol": 0.069,
+    "withoutBestSol": -0.003,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-80%, base 24h, vol 2x, trail",
+   "fit": {
+    "n": 2,
+    "meanSol": 0.0586,
+    "trimmedMeanSol": 0.0586,
+    "totalSol": 0.117,
+    "withoutBestSol": -0.022,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 4,
+    "meanSol": -0.0265,
+    "trimmedMeanSol": -0.0265,
+    "totalSol": -0.106,
+    "withoutBestSol": -0.1,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 2,
+    "meanSol": 0.048,
+    "trimmedMeanSol": 0.048,
+    "totalSol": 0.096,
+    "withoutBestSol": 0.003,
+    "winRate": 100,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 6h, vol 1x, target",
+   "fit": {
+    "n": 8,
+    "meanSol": -0.0271,
+    "trimmedMeanSol": -0.0484,
+    "totalSol": -0.217,
+    "withoutBestSol": -0.268,
+    "winRate": 25,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0368,
+    "trimmedMeanSol": -0.0502,
+    "totalSol": -0.368,
+    "withoutBestSol": -0.394,
+    "winRate": 30,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": -0.012,
+    "trimmedMeanSol": -0.012,
+    "totalSol": -0.036,
+    "withoutBestSol": -0.097,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 6h, vol 1x, half-trail",
+   "fit": {
+    "n": 8,
+    "meanSol": -0.0226,
+    "trimmedMeanSol": -0.0452,
+    "totalSol": -0.181,
+    "withoutBestSol": -0.246,
+    "winRate": 37.5,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0315,
+    "trimmedMeanSol": -0.0518,
+    "totalSol": -0.315,
+    "withoutBestSol": -0.412,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": -0.0067,
+    "trimmedMeanSol": -0.0067,
+    "totalSol": -0.02,
+    "withoutBestSol": -0.097,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 6h, vol 1x, trail",
+   "fit": {
+    "n": 8,
+    "meanSol": -0.0049,
+    "trimmedMeanSol": -0.0322,
+    "totalSol": -0.04,
+    "withoutBestSol": -0.179,
+    "winRate": 37.5,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0083,
+    "trimmedMeanSol": -0.0347,
+    "totalSol": -0.083,
+    "withoutBestSol": -0.275,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 3,
+    "meanSol": -0.0433,
+    "trimmedMeanSol": -0.0433,
+    "totalSol": -0.13,
+    "withoutBestSol": -0.092,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 6h, vol 2x, target",
+   "fit": {
+    "n": 5,
+    "meanSol": -0.0206,
+    "trimmedMeanSol": -0.05,
+    "totalSol": -0.103,
+    "withoutBestSol": -0.154,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0382,
+    "trimmedMeanSol": -0.052,
+    "totalSol": -0.382,
+    "withoutBestSol": -0.408,
+    "winRate": 20,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0041,
+    "trimmedMeanSol": 0.0041,
+    "totalSol": 0.016,
+    "withoutBestSol": -0.041,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 6h, vol 2x, half-trail",
+   "fit": {
+    "n": 5,
+    "meanSol": -0.012,
+    "trimmedMeanSol": -0.05,
+    "totalSol": -0.06,
+    "withoutBestSol": -0.125,
+    "winRate": 40,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0329,
+    "trimmedMeanSol": -0.0525,
+    "totalSol": -0.329,
+    "withoutBestSol": -0.426,
+    "winRate": 10,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0049,
+    "trimmedMeanSol": 0.0049,
+    "totalSol": 0.02,
+    "withoutBestSol": -0.052,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 6h, vol 2x, trail",
+   "fit": {
+    "n": 5,
+    "meanSol": 0.0065,
+    "trimmedMeanSol": -0.0374,
+    "totalSol": 0.032,
+    "withoutBestSol": -0.107,
+    "winRate": 40,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 10,
+    "meanSol": -0.0071,
+    "trimmedMeanSol": -0.0321,
+    "totalSol": -0.071,
+    "withoutBestSol": -0.263,
+    "winRate": 10,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0116,
+    "trimmedMeanSol": 0.0116,
+    "totalSol": 0.046,
+    "withoutBestSol": -0.047,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 24h, vol 1x, target",
+   "fit": {
+    "n": 3,
+    "meanSol": -0.037,
+    "trimmedMeanSol": -0.037,
+    "totalSol": -0.111,
+    "withoutBestSol": -0.107,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0479,
+    "trimmedMeanSol": -0.0692,
+    "totalSol": -0.287,
+    "withoutBestSol": -0.29,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0183,
+    "trimmedMeanSol": 0.0183,
+    "totalSol": 0.073,
+    "withoutBestSol": 0.016,
+    "winRate": 75,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 24h, vol 1x, half-trail",
+   "fit": {
+    "n": 3,
+    "meanSol": -0.014,
+    "trimmedMeanSol": -0.014,
+    "totalSol": -0.042,
+    "withoutBestSol": -0.107,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0479,
+    "trimmedMeanSol": -0.0692,
+    "totalSol": -0.287,
+    "withoutBestSol": -0.29,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0192,
+    "trimmedMeanSol": 0.0192,
+    "totalSol": 0.077,
+    "withoutBestSol": 0.005,
+    "winRate": 75,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 24h, vol 1x, trail",
+   "fit": {
+    "n": 3,
+    "meanSol": 0.0233,
+    "trimmedMeanSol": 0.0233,
+    "totalSol": 0.07,
+    "withoutBestSol": -0.069,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 6,
+    "meanSol": -0.0298,
+    "trimmedMeanSol": -0.042,
+    "totalSol": -0.179,
+    "withoutBestSol": -0.181,
+    "winRate": 16.7,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.013,
+    "trimmedMeanSol": 0.013,
+    "totalSol": 0.052,
+    "withoutBestSol": -0.041,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 24h, vol 2x, target",
+   "fit": {
+    "n": 3,
+    "meanSol": -0.037,
+    "trimmedMeanSol": -0.037,
+    "totalSol": -0.111,
+    "withoutBestSol": -0.107,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 4,
+    "meanSol": -0.044,
+    "trimmedMeanSol": -0.044,
+    "totalSol": -0.176,
+    "withoutBestSol": -0.17,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.016,
+    "trimmedMeanSol": 0.016,
+    "totalSol": 0.064,
+    "withoutBestSol": 0.007,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 24h, vol 2x, half-trail",
+   "fit": {
+    "n": 3,
+    "meanSol": -0.014,
+    "trimmedMeanSol": -0.014,
+    "totalSol": -0.042,
+    "withoutBestSol": -0.107,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 4,
+    "meanSol": -0.044,
+    "trimmedMeanSol": -0.044,
+    "totalSol": -0.176,
+    "withoutBestSol": -0.17,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0168,
+    "trimmedMeanSol": 0.0168,
+    "totalSol": 0.067,
+    "withoutBestSol": -0.004,
+    "winRate": 50,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "drop 60-90%, base 24h, vol 2x, trail",
+   "fit": {
+    "n": 3,
+    "meanSol": 0.0233,
+    "trimmedMeanSol": 0.0233,
+    "totalSol": 0.07,
+    "withoutBestSol": -0.069,
+    "winRate": 33.3,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "validation": {
+    "n": 4,
+    "meanSol": -0.0265,
+    "trimmedMeanSol": -0.0265,
+    "totalSol": -0.106,
+    "withoutBestSol": -0.1,
+    "winRate": 0,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 4,
+    "meanSol": 0.0243,
+    "trimmedMeanSol": 0.0243,
+    "totalSol": 0.097,
+    "withoutBestSol": 0.004,
+    "winRate": 75,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "control: any 24h-high breakout on 2x volume, target",
+   "fit": {
+    "n": 143,
+    "meanSol": -0.0127,
+    "trimmedMeanSol": -0.0198,
+    "totalSol": -1.821,
+    "withoutBestSol": -2.322,
+    "winRate": 20.3,
+    "realized3x": 5,
+    "realized5x": 3
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0202,
+    "trimmedMeanSol": -0.0216,
+    "totalSol": -4.278,
+    "withoutBestSol": -4.422,
+    "winRate": 9.9,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 76,
+    "meanSol": -0.0235,
+    "trimmedMeanSol": -0.026,
+    "totalSol": -1.788,
+    "withoutBestSol": -1.874,
+    "winRate": 11.8,
+    "realized3x": 0,
+    "realized5x": 0
+   }
+  },
+  {
+   "rule": "control: any 24h-high breakout on 2x volume, half-trail",
+   "fit": {
+    "n": 143,
+    "meanSol": -0.0013,
+    "trimmedMeanSol": -0.0174,
+    "totalSol": -0.184,
+    "withoutBestSol": -1.794,
+    "winRate": 16.1,
+    "realized3x": 5,
+    "realized5x": 3
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0202,
+    "trimmedMeanSol": -0.0212,
+    "totalSol": -4.277,
+    "withoutBestSol": -4.37,
+    "winRate": 9.9,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 76,
+    "meanSol": -0.005,
+    "trimmedMeanSol": -0.0259,
+    "totalSol": -0.381,
+    "withoutBestSol": -1.862,
+    "winRate": 10.5,
+    "realized3x": 1,
+    "realized5x": 1
+   }
+  },
+  {
+   "rule": "control: any 24h-high breakout on 2x volume, trail",
+   "fit": {
+    "n": 143,
+    "meanSol": -0.0026,
+    "trimmedMeanSol": -0.0134,
+    "totalSol": -0.379,
+    "withoutBestSol": -1.441,
+    "winRate": 21.7,
+    "realized3x": 4,
+    "realized5x": 2
+   },
+   "validation": {
+    "n": 212,
+    "meanSol": -0.0161,
+    "trimmedMeanSol": -0.0177,
+    "totalSol": -3.41,
+    "withoutBestSol": -3.582,
+    "winRate": 10.8,
+    "realized3x": 0,
+    "realized5x": 0
+   },
+   "recent": {
+    "n": 76,
+    "meanSol": 0.0202,
+    "trimmedMeanSol": -0.0196,
+    "totalSol": 1.534,
+    "withoutBestSol": -1.337,
+    "winRate": 14.5,
+    "realized3x": 1,
+    "realized5x": 1
+   }
+  }
+ ]
+}

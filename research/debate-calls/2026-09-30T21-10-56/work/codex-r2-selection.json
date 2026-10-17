@@ -1,0 +1,9 @@
+{
+  "selected": "flow300/stop25",
+  "candidateCount": 12,
+  "criterion": "n >= 30, positive fit trimmed mean and total without best; maximize fit trimmed mean, otherwise abstain",
+  "passing": [
+    "flow300/stop25"
+  ],
+  "caveat": "Exploratory round 2 informed by previous rounds. Later splits already partly seen. No thresholds retuned after this run."
+}

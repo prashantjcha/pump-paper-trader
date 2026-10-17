@@ -1,0 +1,30 @@
+{
+  "candidates": [
+    "flow300/close-trail",
+    "flow300/timeout5",
+    "flow300/timeout15",
+    "flow300/sell-pressure",
+    "flow1000/close-trail",
+    "flow1000/timeout5",
+    "flow1000/timeout15",
+    "flow1000/sell-pressure"
+  ],
+  "criterion": "Fit only: n>=30, positive trimmed and total without best; also n>=30 and positive trimmed after removing the highest-P&L caller AND after removing highest-P&L UTC day. Rank survivors by fit trimmed. Otherwise abstain.",
+  "parameters": {
+    "caps": [
+      300,
+      1000
+    ],
+    "hardStop": 0.25,
+    "armMultiple": 3,
+    "trailingFraction": 0.4,
+    "timeoutMinutes": [
+      5,
+      15
+    ],
+    "requiredEarlyPeak": 1.3,
+    "pressureWindowMinutes": 5,
+    "minimumFlowBars": 4
+  },
+  "caveat": "Exploratory final round informed by earlier rounds; validation/test already seen. No new claim of pristine validation. Stronger fit concentration gate is declared before this run."
+}

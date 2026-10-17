@@ -1,0 +1,7 @@
+npx tsx research/debate-calls/2026-09-30T21-10-56/work/r2.ts
+all calls (reference) / E1 fixed100/50   fit n574 m-0.0176 tm-0.0180 tot-10.13 woB-10.22 w27 5x0/10x0 | val n351 m-0.0143 tm-0.0149 tot-5.03 woB-5.12 w29.1 5x0/10x0 | test n154 m-0.0155 tm-0.0169 tot-2.38 woB-2.47 w28.6 5x0/10x0
+all calls (reference) / E2 trail200/40/50 fit n574 m-0.0185 tm-0.0228 tot-10.61 woB-11.84 w15 5x8/10x3 | val n351 m-0.0132 tm-0.0175 tot-4.63 woB-5.48 w16 5x7/10x0 | test n154 m-0.0116 tm-0.0182 tot-1.79 woB-2.29 w17.5 5x3/10x0
+C1 dip 0.5x in 60m / E1 fixed100/50      fit n384 m-0.0231 tm-0.0237 tot-8.89 woB-8.98 w21.6 5x0/10x0 | val n241 m-0.0160 tm-0.0169 tot-3.87 woB-3.95 w26.6 5x0/10x0 | test n98 m-0.0143 tm-0.0242 tot-1.40 woB-2.22 w21.4 5x1/10x0
+C1 dip 0.5x in 60m / E2 trail200/40/50   fit n384 m-0.0194 tm-0.0246 tot-7.46 woB-8.63 w13.8 5x6/10x1 | val n241 m-0.0177 tm-0.0255 tot-4.26 woB-5.49 w15.4 5x4/10x1 | test n98 m-0.0215 tm-0.0280 tot-2.11 woB-2.46 w15.3 5x0/10x0
+C2 caller5x / E1 fixed100/50             fit n25 m-0.0283 tm-0.0386 tot-0.71 woB-0.80 w20 5x0/10x0 | val n0 | test n0
+C2 caller5x / E2 trail200/40/50          fit n25 m-0.0367 tm-0.0516 tot-0.92 woB-1.10 w12 5x0/10x0 | val n0 | test n0

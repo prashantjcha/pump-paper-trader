@@ -1,0 +1,3888 @@
+[
+ {
+  "file": "research/debate-calls/examples/baseline-trail.ts",
+  "name": "baseline: every call, trail 20%, stop -35%",
+  "holdout": {
+   "strategy": "baseline: every call, trail 20%, stop -35%",
+   "eligibleCalls": 154,
+   "entries": 154,
+   "skippedNoData": 0,
+   "totalSol": -0.2389,
+   "meanSol": -0.00155,
+   "trimmedMeanSol": -0.00799,
+   "medianSol": -0.02361,
+   "winRate": 24.7,
+   "bestSol": 0.6537,
+   "totalWithoutBestSol": -0.8925,
+   "captured5x": 1,
+   "captured10x": 0,
+   "tokensThatRan5x": 20,
+   "tokensThatRan10x": 10,
+   "maxDrawdownSol": 0.8161
+  },
+  "research": {
+   "strategy": "baseline: every call, trail 20%, stop -35%",
+   "eligibleCalls": 925,
+   "entries": 925,
+   "skippedNoData": 6,
+   "totalSol": -5.9683,
+   "meanSol": -0.00645,
+   "trimmedMeanSol": -0.00697,
+   "medianSol": -0.01991,
+   "winRate": 27.8,
+   "bestSol": 0.2437,
+   "totalWithoutBestSol": -6.212,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 96,
+   "tokensThatRan10x": 40,
+   "maxDrawdownSol": 6.4862
+  },
+  "holdoutTrades": [
+   {
+    "mint": "AQJ7hZRjtGLZ2H1pvPZCVxK1nKwtffLeeaUTzt7Kpump",
+    "caller": "caller_03",
+    "callMs": 1790385421000,
+    "entryMs": 1790385480000,
+    "entryDelayMin": 0.9833333333333333,
+    "entryPx": 0.000200891189749,
+    "sizeSol": 0.1,
+    "pnlSol": -0.016623909288979992,
+    "realizedMult": 0.8937609071102001,
+    "peakMult": 1.1481575092874283,
+    "exits": [
+     "stop@0.92x"
+    ]
+   },
+   {
+    "mint": "FdqkwEGXhyvZ8huTDDHLQE2ZnTEfTQQ964vEqQhDrWAQ",
+    "caller": "caller_12",
+    "callMs": 1790386028000,
+    "entryMs": 1790386080000,
+    "entryDelayMin": 0.8666666666666667,
+    "entryPx": 0.0000196574705479,
+    "sizeSol": 0.1,
+    "pnlSol": -0.014423747846278154,
+    "realizedMult": 0.9157625215372185,
+    "peakMult": 1.185039888343548,
+    "exits": [
+     "stop@0.95x"
+    ]
+   },
+   {
+    "mint": "91J4VJv7zDWZNVGzC4AC8Ec5FRFdp3cNY71ztrsbbYz",
+    "caller": "caller_05",
+    "callMs": 1790395189000,
+    "entryMs": 1790395200000,
+    "entryDelayMin": 0.18333333333333332,
+    "entryPx": 0.0000616852559993,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02789013650647481,
+    "realizedMult": 0.7810986349352519,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "HwB2Pk9n4gPcxbYA6AxwhaxBK5rDHLGmP3Djvh9opump",
+    "caller": "caller_03",
+    "callMs": 1790395344000,
+    "entryMs": 1790395380000,
+    "entryDelayMin": 0.6,
+    "entryPx": 0.0000318005623858,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02842929486477542,
+    "realizedMult": 0.7757070513522458,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "BdTuVvJypsZPYNG91xWvZNqi9FT5puYfY3D4MDWvwf5K",
+    "caller": "caller_07",
+    "callMs": 1790395359000,
+    "entryMs": 1790395380000,
+    "entryDelayMin": 0.35,
+    "entryPx": 0.0000249248733085,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028603290036087907,
+    "realizedMult": 0.7739670996391209,
+    "peakMult": 1.009738833076324,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "41g3m5wZ6S954QG2EKtHZ4qpv3CfDHV5LHSVfbdCgnAM",
+    "caller": "caller_05",
+    "callMs": 1790396195000,
+    "entryMs": 1790396220000,
+    "entryDelayMin": 0.4166666666666667,
+    "entryPx": 0.0000324277472124,
+    "sizeSol": 0.1,
+    "pnlSol": -0.030365566352717567,
+    "realizedMult": 0.7563443364728243,
+    "peakMult": 1.3595588658481175,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "7cTTXhVG6jNnQVbQCgzptPiqw9eZcqzCx54zdUmnS3EM",
+    "caller": "caller_05",
+    "callMs": 1790396731000,
+    "entryMs": 1790396760000,
+    "entryDelayMin": 0.48333333333333334,
+    "entryPx": 0.00000503139747777,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028778988961203032,
+    "realizedMult": 0.7722101103879697,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "HSnCtWsw5YmfAkJo9S3eetWtGHPMrc2pAxvCu24AnQEa",
+    "caller": "caller_05",
+    "callMs": 1790397503000,
+    "entryMs": 1790397540000,
+    "entryDelayMin": 0.6166666666666667,
+    "entryPx": 0.00018618551279,
+    "sizeSol": 0.1,
+    "pnlSol": 0.011324554178733797,
+    "realizedMult": 1.173245541787338,
+    "peakMult": 2.297402173994356,
+    "exits": [
+     "stop@1.20x"
+    ]
+   },
+   {
+    "mint": "7ttx2wjvbBmufbym3YnjhyXMYT3KkhFKFbwrciMapump",
+    "caller": "caller_05",
+    "callMs": 1790398124000,
+    "entryMs": 1790398140000,
+    "entryDelayMin": 0.26666666666666666,
+    "entryPx": 0.0000237174161925,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02898087620398499,
+    "realizedMult": 0.7701912379601501,
+    "peakMult": 1.0796763068481958,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "aLfzSSmjzHPfoTh3mHczDXsE8FcRdGKnQeswqampump",
+    "caller": "caller_07",
+    "callMs": 1790398530000,
+    "entryMs": 1790398560000,
+    "entryDelayMin": 0.5,
+    "entryPx": 0.0000131693198395,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028731522711671613,
+    "realizedMult": 0.7726847728832839,
+    "peakMult": 1.0006116230829052,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "FgzsaQEoWMhEqx5vSQAFXDeHbY7oFFW3LmmEo9MBAfuX",
+    "caller": "caller_05",
+    "callMs": 1790399483000,
+    "entryMs": 1790399520000,
+    "entryDelayMin": 0.6166666666666667,
+    "entryPx": 0.0000368793488968,
+    "sizeSol": 0.1,
+    "pnlSol": 0.07410053432172425,
+    "realizedMult": 1.8010053432172426,
+    "peakMult": 2.312101825520535,
+    "exits": [
+     "stop@1.85x"
+    ]
+   },
+   {
+    "mint": "9daDRqEU5YE5YoQaCHytWBfdCELANA6AGNnfphEB49A4",
+    "caller": "caller_07",
+    "callMs": 1790400510000,
+    "entryMs": 1790400540000,
+    "entryDelayMin": 0.5,
+    "entryPx": 0.0000188299421895,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028611607823565442,
+    "realizedMult": 0.7738839217643456,
+    "peakMult": 1.3158307151317874,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "fPwV7htEKJos66RZ55KMWfjufLTxXNqMDGxH1jDcKri",
+    "caller": "caller_05",
+    "callMs": 1790402618000,
+    "entryMs": 1790402640000,
+    "entryDelayMin": 0.36666666666666664,
+    "entryPx": 0.00000397650299655,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02360921079121226,
+    "realizedMult": 0.8239078920878774,
+    "peakMult": 1.0452508825835454,
+    "exits": [
+     "horizon@0.85x"
+    ]
+   },
+   {
+    "mint": "7nd2A1A3bgA5C3MBm6YRkjh2ojT2wGoE11TpuUWmLZ8",
+    "caller": "caller_12",
+    "callMs": 1790403146000,
+    "entryMs": 1790403180000,
+    "entryDelayMin": 0.5666666666666667,
+    "entryPx": 0.0000224254555402,
+    "sizeSol": 0.1,
+    "pnlSol": -0.025670701164044928,
+    "realizedMult": 0.8032929883595508,
+    "peakMult": 1.0386804919278025,
+    "exits": [
+     "stop@0.83x"
+    ]
+   },
+   {
+    "mint": "GutUuvAQwa81MVXGV7kUvWGpHowDm6KDqctcpaR7d2zu",
+    "caller": "caller_12",
+    "callMs": 1790408519000,
+    "entryMs": 1790408520000,
+    "entryDelayMin": 0.016666666666666666,
+    "entryPx": 0.0000144470204668,
+    "sizeSol": 0.1,
+    "pnlSol": -0.010786108616410892,
+    "realizedMult": 0.9521389138358911,
+    "peakMult": 1.2310516159557547,
+    "exits": [
+     "stop@0.98x"
+    ]
+   },
+   {
+    "mint": "5wW9mhbwq1HTFh341iimpmrqBB4mfxdXiYhdYBL7hUnp",
+    "caller": "caller_05",
+    "callMs": 1790410357000,
+    "entryMs": 1790410380000,
+    "entryDelayMin": 0.38333333333333336,
+    "entryPx": 0.000557620272324,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02485754551722858,
+    "realizedMult": 0.8114245448277142,
+    "peakMult": 1.0360799746163283,
+    "exits": [
+     "stop@0.83x"
+    ]
+   },
+   {
+    "mint": "ARPwPPWbaj3FYBf6k1Lt2jqRkv9JJUg3Hxav5aHKTEem",
+    "caller": "caller_05",
+    "callMs": 1790412527000,
+    "entryMs": 1790412540000,
+    "entryDelayMin": 0.21666666666666667,
+    "entryPx": 0.0000346970080831,
+    "sizeSol": 0.1,
+    "pnlSol": 0.037003429008902834,
+    "realizedMult": 1.4300342900890284,
+    "peakMult": 4.169981394259543,
+    "exits": [
+     "stop@1.47x"
+    ]
+   },
+   {
+    "mint": "6aHoh5Q5Bw41DH8c5X3aYZufnGHoytUsFXiNChv8pump",
+    "caller": "caller_05",
+    "callMs": 1790413696000,
+    "entryMs": 1790413740000,
+    "entryDelayMin": 0.7333333333333333,
+    "entryPx": 0.0000945051070365,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028253758225592944,
+    "realizedMult": 0.7774624177440705,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "CbH1ECTbcS5NvbeiwCDKYPELFgB1FNuSfuvi3292pump",
+    "caller": "caller_04",
+    "callMs": 1790414737000,
+    "entryMs": 1790414760000,
+    "entryDelayMin": 0.38333333333333336,
+    "entryPx": 0.00000901305855111,
+    "sizeSol": 0.1,
+    "pnlSol": 0.02409639455301755,
+    "realizedMult": 1.3009639455301754,
+    "peakMult": 1.6948280605165649,
+    "exits": [
+     "stop@1.36x"
+    ]
+   },
+   {
+    "mint": "6BSB3p56by9KoMP5NCpRQFT7kSBDXT2ViUsWS6eepump",
+    "caller": "caller_04",
+    "callMs": 1790416181000,
+    "entryMs": 1790416200000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.0000396399716009,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02907091626280254,
+    "realizedMult": 0.7692908373719746,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "6mEf9TXKfFwAd3xSGXRDq3cMb3q8H4R8wEqWsqWxpump",
+    "caller": "caller_04",
+    "callMs": 1790416993000,
+    "entryMs": 1790417040000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.0000929787816098,
+    "sizeSol": 0.1,
+    "pnlSol": 0.01941820582596627,
+    "realizedMult": 1.2541820582596626,
+    "peakMult": 1.636196112134957,
+    "exits": [
+     "stop@1.29x"
+    ]
+   },
+   {
+    "mint": "yFcTuQJCMsd1Asya15GZ7h4KGdxsujRLcUiTWWXpump",
+    "caller": "caller_04",
+    "callMs": 1790417943000,
+    "entryMs": 1790418000000,
+    "entryDelayMin": 0.95,
+    "entryPx": 0.000682060625225,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027735887858155263,
+    "realizedMult": 0.7826411214184473,
+    "peakMult": 1.004305068633791,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "7oL12fS1f7p5RDsbqfxxe2WpHBdcEue8ezaGu1KY8fDz",
+    "caller": "caller_05",
+    "callMs": 1790418139000,
+    "entryMs": 1790418180000,
+    "entryDelayMin": 0.6833333333333333,
+    "entryPx": 0.0000135794100512,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0755226319149557,
+    "realizedMult": 1.815226319149557,
+    "peakMult": 2.363559114187271,
+    "exits": [
+     "stop@1.89x"
+    ]
+   },
+   {
+    "mint": "GPyM1ohx7tnN7CbTshXfW1m8mHRPtHKNxjW1988nquyn",
+    "caller": "caller_05",
+    "callMs": 1790418523000,
+    "entryMs": 1790418540000,
+    "entryDelayMin": 0.2833333333333333,
+    "entryPx": 0.0000946316983138,
+    "sizeSol": 0.1,
+    "pnlSol": 0.009777958087405716,
+    "realizedMult": 1.1577795808740572,
+    "peakMult": 1.4936861686797724,
+    "exits": [
+     "stop@1.19x"
+    ]
+   },
+   {
+    "mint": "231eFPGosPmSiEMsYxQNVhAAWj3B1DvGtfwaj9ztidea",
+    "caller": "caller_01",
+    "callMs": 1790433172000,
+    "entryMs": 1790433180000,
+    "entryDelayMin": 0.13333333333333333,
+    "entryPx": 0.000128288619071,
+    "sizeSol": 0.1,
+    "pnlSol": -0.002026664623866853,
+    "realizedMult": 1.0397333537613314,
+    "peakMult": 1.522016895691556,
+    "exits": [
+     "stop@1.06x"
+    ]
+   },
+   {
+    "mint": "A4p9onLui552wTpUUAza5jQzUo4rXnpM2MRKXuuc6YaL",
+    "caller": "caller_03",
+    "callMs": 1790433447000,
+    "entryMs": 1790433480000,
+    "entryDelayMin": 0.55,
+    "entryPx": 0.0000367494761072,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027376966148461794,
+    "realizedMult": 0.786230338515382,
+    "peakMult": 1.0208151826237906,
+    "exits": [
+     "stop@0.82x"
+    ]
+   },
+   {
+    "mint": "eEGktGMDRroy52GyvBRcGofSMU7xSMdLN5hsKWh16ip",
+    "caller": "caller_03",
+    "callMs": 1790435191000,
+    "entryMs": 1790435220000,
+    "entryDelayMin": 0.48333333333333334,
+    "entryPx": 0.000141034143757,
+    "sizeSol": 0.1,
+    "pnlSol": -0.01648101650930505,
+    "realizedMult": 0.8951898349069495,
+    "peakMult": 1.2503062811288055,
+    "exits": [
+     "stop@0.92x"
+    ]
+   },
+   {
+    "mint": "HXYQJ3xXXCHtMDgA3FzrzpXMKkR3CVrfpMsusuAxLBPh",
+    "caller": "caller_01",
+    "callMs": 1790435834000,
+    "entryMs": 1790435880000,
+    "entryDelayMin": 0.7666666666666667,
+    "entryPx": 0.000111599456126,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027857542797053568,
+    "realizedMult": 0.7814245720294644,
+    "peakMult": 1.0257173248385694,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "AeZy5atQjKGDij6ekqGGDmUn72U6YaAeFXgiXGkFpump",
+    "caller": "caller_01",
+    "callMs": 1790443942000,
+    "entryMs": 1790443980000,
+    "entryDelayMin": 0.6333333333333333,
+    "entryPx": 0.0000298998840884,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0008434725605788954,
+    "realizedMult": 1.051565274394211,
+    "peakMult": 1.399642734970864,
+    "exits": [
+     "stop@1.12x"
+    ]
+   },
+   {
+    "mint": "3GPGLTH8D3eVV7RbLXdSzXdPvzvgJRocMG8hvqZApump",
+    "caller": "caller_01",
+    "callMs": 1790444441000,
+    "entryMs": 1790444460000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.0000254934854599,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02734262553941006,
+    "realizedMult": 0.7865737446058993,
+    "peakMult": 1.224179309760903,
+    "exits": [
+     "stop@0.82x"
+    ]
+   },
+   {
+    "mint": "FEmYzW42dkfcZ4cYHaJp7FxbvCm1ttndfau3W1rqZoXv",
+    "caller": "caller_01",
+    "callMs": 1790444854000,
+    "entryMs": 1790444880000,
+    "entryDelayMin": 0.43333333333333335,
+    "entryPx": 0.0000296662095489,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027990396932864182,
+    "realizedMult": 0.7800960306713581,
+    "peakMult": 1.2344067492827995,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "5js573e117ihF58qeg82ChJ1N5xz9SvTeWUps9k2CDS2",
+    "caller": "caller_01",
+    "callMs": 1790445053000,
+    "entryMs": 1790445060000,
+    "entryDelayMin": 0.11666666666666667,
+    "entryPx": 0.0000539006506476,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027939955892952777,
+    "realizedMult": 0.7806004410704722,
+    "peakMult": 1.0578576577523904,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "4oiUVDDcDHSAtCduxuBRNXiSmjzmTG1Y1Z4XkS3wpump",
+    "caller": "caller_01",
+    "callMs": 1790445264000,
+    "entryMs": 1790445300000,
+    "entryDelayMin": 0.6,
+    "entryPx": 0.0000176343030869,
+    "sizeSol": 0.1,
+    "pnlSol": -0.01199417618010556,
+    "realizedMult": 0.9400582381989444,
+    "peakMult": 1.2221939813210276,
+    "exits": [
+     "stop@0.98x"
+    ]
+   },
+   {
+    "mint": "4k1BhrcEX1BbYqZC9aC2oNveh6v5zrYuxpQ4RyD4pump",
+    "caller": "caller_01",
+    "callMs": 1790446179000,
+    "entryMs": 1790446200000,
+    "entryDelayMin": 0.35,
+    "entryPx": 0.000006974661913,
+    "sizeSol": 0.1,
+    "pnlSol": -0.029014606061787636,
+    "realizedMult": 0.7698539393821237,
+    "peakMult": 1.195574789223479,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "GDT8UZGGuaa9YAevWxh7yBcNvj4otQUv4xf6j4RsForK",
+    "caller": "caller_01",
+    "callMs": 1790446753000,
+    "entryMs": 1790446800000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.0000851507389449,
+    "sizeSol": 0.1,
+    "pnlSol": 0.028752143008448895,
+    "realizedMult": 1.3475214300844889,
+    "peakMult": 1.8902428818163561,
+    "exits": [
+     "stop@1.38x"
+    ]
+   },
+   {
+    "mint": "8ELen6sPFDQkXxErzNC3CkootqCaTsobKMoVHdBCpump",
+    "caller": "caller_01",
+    "callMs": 1790457125000,
+    "entryMs": 1790457180000,
+    "entryDelayMin": 0.9166666666666666,
+    "entryPx": 0.000135259689014,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0282380586256989,
+    "realizedMult": 0.777619413743011,
+    "peakMult": 1.0004743009278496,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "AdK9FeZuxsyXLgruAGsJ7au3GksPPqedqCeNfh9Tpump",
+    "caller": "caller_01",
+    "callMs": 1790466198000,
+    "entryMs": 1790466240000,
+    "entryDelayMin": 0.7,
+    "entryPx": 0.0000770807335252,
+    "sizeSol": 0.1,
+    "pnlSol": -0.017718877797170636,
+    "realizedMult": 0.8828112220282937,
+    "peakMult": 1.453842880443829,
+    "exits": [
+     "stop@0.91x"
+    ]
+   },
+   {
+    "mint": "9bZQPrSbzNQhMnsmT5rMXhGodx5DwT5eXCGySZFKpump",
+    "caller": "caller_01",
+    "callMs": 1790467257000,
+    "entryMs": 1790467260000,
+    "entryDelayMin": 0.05,
+    "entryPx": 0.000299443064101,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0072004668100601,
+    "realizedMult": 0.987995331899399,
+    "peakMult": 1.5191918453271025,
+    "exits": [
+     "stop@1.01x"
+    ]
+   },
+   {
+    "mint": "7jvc4ksnZFCguYLEpUywX7NpZ8rpW4W1thxdcC4iAufJ",
+    "caller": "caller_01",
+    "callMs": 1790467498000,
+    "entryMs": 1790467500000,
+    "entryDelayMin": 0.03333333333333333,
+    "entryPx": 0.000158801678608,
+    "sizeSol": 0.1,
+    "pnlSol": -0.010144595728793513,
+    "realizedMult": 0.9585540427120649,
+    "peakMult": 1.2256099623634276,
+    "exits": [
+     "stop@0.98x"
+    ]
+   },
+   {
+    "mint": "6gBRCFVn8ZTt4EjguFjEsHMFW1L5jUuFtL1sCSXj9D3i",
+    "caller": "caller_01",
+    "callMs": 1790467647000,
+    "entryMs": 1790467680000,
+    "entryDelayMin": 0.55,
+    "entryPx": 0.0000278669060759,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028659495557991542,
+    "realizedMult": 0.7734050444200846,
+    "peakMult": 1.0037858128065118,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "49ScgPmib5Zo7xujvHAUG7c3qG3sr2UeF4TEeZKxPZJH",
+    "caller": "caller_01",
+    "callMs": 1790469075000,
+    "entryMs": 1790469120000,
+    "entryDelayMin": 0.75,
+    "entryPx": 0.0000305470778225,
+    "sizeSol": 0.1,
+    "pnlSol": -0.016981640712837788,
+    "realizedMult": 0.8901835928716221,
+    "peakMult": 1.3091534753102976,
+    "exits": [
+     "stop@0.92x"
+    ]
+   },
+   {
+    "mint": "5UFz6MGi2AzKB1PEmtUkmKCEfp6AXiEBSDF28m9JrPgu",
+    "caller": "caller_01",
+    "callMs": 1790469632000,
+    "entryMs": 1790469660000,
+    "entryDelayMin": 0.4666666666666667,
+    "entryPx": 0.0000447462738601,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0004001970243664218,
+    "realizedMult": 1.0640019702436643,
+    "peakMult": 1.3631260671760366,
+    "exits": [
+     "stop@1.09x"
+    ]
+   },
+   {
+    "mint": "m97Ba7W7iFJtivsqmoNLt9xEYhQCR7mfHuJKzN2pump",
+    "caller": "caller_01",
+    "callMs": 1790469955000,
+    "entryMs": 1790469960000,
+    "entryDelayMin": 0.08333333333333333,
+    "entryPx": 0.0000678987779833,
+    "sizeSol": 0.1,
+    "pnlSol": -0.001642073779448439,
+    "realizedMult": 1.0435792622055156,
+    "peakMult": 1.770471999092044,
+    "exits": [
+     "stop@1.07x"
+    ]
+   },
+   {
+    "mint": "CHhntDri1ARAkRipLtFhmswUBBPN7uzKDCtcET2fpump",
+    "caller": "caller_01",
+    "callMs": 1790471101000,
+    "entryMs": 1790471160000,
+    "entryDelayMin": 0.9833333333333333,
+    "entryPx": 0.0000331357462062,
+    "sizeSol": 0.1,
+    "pnlSol": -0.026427092177017032,
+    "realizedMult": 0.7957290782298296,
+    "peakMult": 1.2938483126925369,
+    "exits": [
+     "stop@0.83x"
+    ]
+   },
+   {
+    "mint": "2wfe3Lf4Gn2d8Qywut7JFK7jzNktUtJraAWZbNpnpump",
+    "caller": "caller_01",
+    "callMs": 1790475369000,
+    "entryMs": 1790475420000,
+    "entryDelayMin": 0.85,
+    "entryPx": 0.0000449666716117,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02841077345238737,
+    "realizedMult": 0.7758922654761263,
+    "peakMult": 1.1997620649126004,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "4drTivzk3CvepM4FHw5nXvWbJyn5nLSFLfp7187ix7X2",
+    "caller": "caller_07",
+    "callMs": 1790478109000,
+    "entryMs": 1790478120000,
+    "entryDelayMin": 0.18333333333333332,
+    "entryPx": 0.00000929947601431,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02857411089340283,
+    "realizedMult": 0.7742588910659717,
+    "peakMult": 1.0223690048514453,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "9ZdLqWeyvgrHWVXW3wQGXg62RSxAp9RxbnWtC3gfpump",
+    "caller": "caller_01",
+    "callMs": 1790478764000,
+    "entryMs": 1790478780000,
+    "entryDelayMin": 0.26666666666666666,
+    "entryPx": 0.000128882105739,
+    "sizeSol": 0.1,
+    "pnlSol": 0.002627746349807508,
+    "realizedMult": 1.086277463498075,
+    "peakMult": 2.240344265314301,
+    "exits": [
+     "stop@1.12x"
+    ]
+   },
+   {
+    "mint": "B1MDEzPJe8NDdXcffdVQTrHLLMoXwPe7k1LEzNffh6iK",
+    "caller": "caller_07",
+    "callMs": 1790479408000,
+    "entryMs": 1790479440000,
+    "entryDelayMin": 0.5333333333333333,
+    "entryPx": 0.00002726487973,
+    "sizeSol": 0.1,
+    "pnlSol": 0.08921585898521178,
+    "realizedMult": 1.9521585898521179,
+    "peakMult": 2.577131751118126,
+    "exits": [
+     "stop@2.06x"
+    ]
+   },
+   {
+    "mint": "4ZAUaz899dNQrM1Gv5o6Y7tzQhDLiJXnwv3wdyespump",
+    "caller": "caller_03",
+    "callMs": 1790488559000,
+    "entryMs": 1790488560000,
+    "entryDelayMin": 0.016666666666666666,
+    "entryPx": 0.000016200070761,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028939438630434126,
+    "realizedMult": 0.7706056136956587,
+    "peakMult": 1.0126980106219798,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "9GTFD2DHo1KHd73smcpJtdTEvA6C5zzXxoWzjnb51c8",
+    "caller": "caller_06",
+    "callMs": 1790491690000,
+    "entryMs": 1790491740000,
+    "entryDelayMin": 0.8333333333333334,
+    "entryPx": 0.000804620011633,
+    "sizeSol": 0.1,
+    "pnlSol": -0.023770110973952922,
+    "realizedMult": 0.8222988902604708,
+    "peakMult": 1.0497528597576804,
+    "exits": [
+     "stop@0.84x"
+    ]
+   },
+   {
+    "mint": "ZEtX7MPVZSKjBq6pD72tjb89KGJxSZNWjRqZEdASrXE",
+    "caller": "caller_06",
+    "callMs": 1790500576000,
+    "entryMs": 1790500620000,
+    "entryDelayMin": 0.7333333333333333,
+    "entryPx": 0.000163094239286,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0241000878075373,
+    "realizedMult": 0.818999121924627,
+    "peakMult": 1.0462435016161078,
+    "exits": [
+     "stop@0.84x"
+    ]
+   },
+   {
+    "mint": "7AvWVST8o3EuJHAuFYhcMtqfyFb2XPXtwXvTNLGiqop",
+    "caller": "caller_06",
+    "callMs": 1790503109000,
+    "entryMs": 1790503140000,
+    "entryDelayMin": 0.5166666666666667,
+    "entryPx": 0.0001178727691,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027678632124332823,
+    "realizedMult": 0.7832136787566718,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "8HnLRKJ6XkeGq1tpmKPqn3yB5ruqbSR5LR5nVCNAshop",
+    "caller": "caller_01",
+    "callMs": 1790512186000,
+    "entryMs": 1790512200000,
+    "entryDelayMin": 0.23333333333333334,
+    "entryPx": 0.0000275282007592,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027004544582418168,
+    "realizedMult": 0.7899545541758183,
+    "peakMult": 1.0218804841394764,
+    "exits": [
+     "stop@0.82x"
+    ]
+   },
+   {
+    "mint": "J1yxV53EmVRmt9RUj6PPufMfdAYUbtgwXCuNYTBTsYzJ",
+    "caller": "caller_06",
+    "callMs": 1790513298000,
+    "entryMs": 1790513340000,
+    "entryDelayMin": 0.7,
+    "entryPx": 0.00128919153066,
+    "sizeSol": 0.1,
+    "pnlSol": -0.01760705576404665,
+    "realizedMult": 0.8839294423595335,
+    "peakMult": 1.1278546134379397,
+    "exits": [
+     "stop@0.90x"
+    ]
+   },
+   {
+    "mint": "FGZScHYURa8qMezk5gpZj5C2ExazybAwBp5TbNE4M3A8",
+    "caller": "caller_05",
+    "callMs": 1790514998000,
+    "entryMs": 1790515020000,
+    "entryDelayMin": 0.36666666666666664,
+    "entryPx": 0.000155629312843,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027768916652016674,
+    "realizedMult": 0.7823108334798332,
+    "peakMult": 1.107615556947782,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "29BXYJnEa4BksBQLEtXnj51gpCidZiPCpGqXCSwGpump",
+    "caller": "caller_04",
+    "callMs": 1790519453000,
+    "entryMs": 1790519460000,
+    "entryDelayMin": 0.11666666666666667,
+    "entryPx": 0.0000294010922983,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0012644803449473694,
+    "realizedMult": 1.0473551965505263,
+    "peakMult": 1.5703907556478662,
+    "exits": [
+     "stop@1.11x"
+    ]
+   },
+   {
+    "mint": "CYCiBxww3b8X1hSuMCXgbH2WMQxGYD7fBK19UefE6onC",
+    "caller": "caller_04",
+    "callMs": 1790520747000,
+    "entryMs": 1790520780000,
+    "entryDelayMin": 0.55,
+    "entryPx": 0.000065647230166,
+    "sizeSol": 0.1,
+    "pnlSol": 0.010568188395946079,
+    "realizedMult": 1.1656818839594607,
+    "peakMult": 1.4944556033822045,
+    "exits": [
+     "stop@1.20x"
+    ]
+   },
+   {
+    "mint": "3iUTyNYW6xKv5kZUjtbrEDTsuJTrSVwvB3bQtxkLpump",
+    "caller": "caller_06",
+    "callMs": 1790524145000,
+    "entryMs": 1790524200000,
+    "entryDelayMin": 0.9166666666666666,
+    "entryPx": 0.000976860068843,
+    "sizeSol": 0.1,
+    "pnlSol": -0.012751958467447084,
+    "realizedMult": 0.9324804153255292,
+    "peakMult": 1.1962501269133268,
+    "exits": [
+     "stop@0.96x"
+    ]
+   },
+   {
+    "mint": "CC5D6puFmcsnGaJh7kNXeAcRpL2SZzQfoQezvx45uKjt",
+    "caller": "caller_05",
+    "callMs": 1790530846000,
+    "entryMs": 1790530860000,
+    "entryDelayMin": 0.23333333333333334,
+    "entryPx": 0.000486165705877,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027652931927251552,
+    "realizedMult": 0.7834706807274845,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "3MJtYL7RoZsya9iGH1hz3XK1oNQALJdChYKqJjsipump",
+    "caller": "caller_02",
+    "callMs": 1790532504000,
+    "entryMs": 1790532540000,
+    "entryDelayMin": 0.6,
+    "entryPx": 0.00000631631773552,
+    "sizeSol": 0.1,
+    "pnlSol": -0.029136779414449483,
+    "realizedMult": 0.7686322058555052,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "Cgi54CNpHaYn4smqLH5tW8X5QxssMvi592My3tRoiHfX",
+    "caller": "caller_05",
+    "callMs": 1790534494000,
+    "entryMs": 1790534520000,
+    "entryDelayMin": 0.43333333333333335,
+    "entryPx": 0.0000154398520098,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028535759738048443,
+    "realizedMult": 0.7746424026195156,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "HL5rHVLWnmWcikxgt6Et1X9Vo1o64dEuJuWpmcsypump",
+    "caller": "caller_05",
+    "callMs": 1790538595000,
+    "entryMs": 1790538600000,
+    "entryDelayMin": 0.08333333333333333,
+    "entryPx": 0.0000418150678785,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02922858993872026,
+    "realizedMult": 0.7677141006127974,
+    "peakMult": 1.0361639550004778,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "8tsqo7DMkuYcWnGbjs6ApkcWgnJQaZpvg2ug3Jw6pump",
+    "caller": "caller_02",
+    "callMs": 1790538819000,
+    "entryMs": 1790538840000,
+    "entryDelayMin": 0.35,
+    "entryPx": 0.0000305033507484,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02892559215372354,
+    "realizedMult": 0.7707440784627646,
+    "peakMult": 1.0880419945910653,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "7tEsDuij7aj4b2jLUAS5oXcp6B3zWratYVmviS5zpump",
+    "caller": "caller_05",
+    "callMs": 1790546642000,
+    "entryMs": 1790546700000,
+    "entryDelayMin": 0.9666666666666667,
+    "entryPx": 0.000286915302744,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02115419631809693,
+    "realizedMult": 0.8484580368190306,
+    "peakMult": 1.0889325367415719,
+    "exits": [
+     "stop@0.87x"
+    ]
+   },
+   {
+    "mint": "HRgAXzTx4Kbbwx1oLVbjUAL67x9vP54S1QFTwFEvJcUF",
+    "caller": "caller_05",
+    "callMs": 1790546797000,
+    "entryMs": 1790546820000,
+    "entryDelayMin": 0.38333333333333336,
+    "entryPx": 0.0000172116975102,
+    "sizeSol": 0.1,
+    "pnlSol": -0.01911274807547559,
+    "realizedMult": 0.8688725192452441,
+    "peakMult": 1.3126986361868416,
+    "exits": [
+     "stop@0.89x"
+    ]
+   },
+   {
+    "mint": "6XnC2YXRnvT8Nx16Kny61sz3UgGjWGRKsGomTDRe8haa",
+    "caller": "caller_05",
+    "callMs": 1790546822000,
+    "entryMs": 1790546880000,
+    "entryDelayMin": 0.9666666666666667,
+    "entryPx": 0.0000208527430101,
+    "sizeSol": 0.1,
+    "pnlSol": 0.00208714666974894,
+    "realizedMult": 1.0808714666974895,
+    "peakMult": 1.3881993904868624,
+    "exits": [
+     "stop@1.11x"
+    ]
+   },
+   {
+    "mint": "H8Yo8U1RFtjHNpRzrAzzxrebMvLN7EHgZGWPERJ82jEq",
+    "caller": "caller_05",
+    "callMs": 1790546865000,
+    "entryMs": 1790546880000,
+    "entryDelayMin": 0.25,
+    "entryPx": 0.00000457510762068,
+    "sizeSol": 0.1,
+    "pnlSol": 0.043040384068139405,
+    "realizedMult": 1.490403840681394,
+    "peakMult": 1.937356926163979,
+    "exits": [
+     "stop@1.55x"
+    ]
+   },
+   {
+    "mint": "3FfCcJoAJhbXyd4LaiLw4QvLqxnMKhTKfZkUgPRsRRT2",
+    "caller": "caller_03",
+    "callMs": 1790546932000,
+    "entryMs": 1790546940000,
+    "entryDelayMin": 0.13333333333333333,
+    "entryPx": 0.0001019734951,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027840588611222496,
+    "realizedMult": 0.781594113887775,
+    "peakMult": 1.0850085394003526,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "CedSVzaBjbqniJ1GpUcTozB58S56yDX42nTXsz31zQUe",
+    "caller": "caller_03",
+    "callMs": 1790547644000,
+    "entryMs": 1790547660000,
+    "entryDelayMin": 0.26666666666666666,
+    "entryPx": 0.0000178752310901,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03419157667311721,
+    "realizedMult": 1.4019157667311721,
+    "peakMult": 1.801497102727518,
+    "exits": [
+     "stop@1.44x"
+    ]
+   },
+   {
+    "mint": "FPEXHVVFTex11kXiyTnFArC84B3oZkeYrZV57Kb6uu7Z",
+    "caller": "caller_03",
+    "callMs": 1790547843000,
+    "entryMs": 1790547900000,
+    "entryDelayMin": 0.95,
+    "entryPx": 0.0000238886077652,
+    "sizeSol": 0.1,
+    "pnlSol": 0.08164298890372407,
+    "realizedMult": 1.8764298890372406,
+    "peakMult": 2.4110632830225045,
+    "exits": [
+     "stop@1.93x"
+    ]
+   },
+   {
+    "mint": "8163kxnMV1U7eygvCbM38259BjZjBcGEWzLgz87upump",
+    "caller": "caller_07",
+    "callMs": 1790553973000,
+    "entryMs": 1790554020000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.00000881475638013,
+    "sizeSol": 0.1,
+    "pnlSol": -0.029019775525067133,
+    "realizedMult": 0.7698022447493287,
+    "peakMult": 1.0106266209036874,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "F2gJvL2Um1oUEwoczw4TyRSPhvPR1d9d74fbov7Lpump",
+    "caller": "caller_01",
+    "callMs": 1790554388000,
+    "entryMs": 1790554440000,
+    "entryDelayMin": 0.8666666666666667,
+    "entryPx": 0.0000319275822545,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02897408505253895,
+    "realizedMult": 0.7702591494746105,
+    "peakMult": 1.0013567507446917,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "5cDPo1jjEEtxWf2y1HTx4WyMydVmErN3YnbYtxLVcmg9",
+    "caller": "caller_07",
+    "callMs": 1790554404000,
+    "entryMs": 1790554440000,
+    "entryDelayMin": 0.6,
+    "entryPx": 0.0000908212716981,
+    "sizeSol": 0.1,
+    "pnlSol": 0.012366888628156039,
+    "realizedMult": 1.1836688862815603,
+    "peakMult": 1.514895369548963,
+    "exits": [
+     "stop@1.21x"
+    ]
+   },
+   {
+    "mint": "AmaM7N43JBicpcHDbVKyGeuTjtnNhJ2yZTdWqoZpCX8b",
+    "caller": "caller_03",
+    "callMs": 1790556247000,
+    "entryMs": 1790556300000,
+    "entryDelayMin": 0.8833333333333333,
+    "entryPx": 0.000141830758709,
+    "sizeSol": 0.1,
+    "pnlSol": 0.016227096510107085,
+    "realizedMult": 1.2222709651010708,
+    "peakMult": 1.5631684258552265,
+    "exits": [
+     "stop@1.25x"
+    ]
+   },
+   {
+    "mint": "7rxuFAbMqHoWLTHZwzkGPsDdGMvY9UTDGvTvQXG9pump",
+    "caller": "caller_07",
+    "callMs": 1790557524000,
+    "entryMs": 1790557560000,
+    "entryDelayMin": 0.6,
+    "entryPx": 0.0000388601467598,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02604611187087847,
+    "realizedMult": 0.7995388812912153,
+    "peakMult": 1.0508990926392008,
+    "exits": [
+     "stop@0.84x"
+    ]
+   },
+   {
+    "mint": "8c9rpLvnL7fN9Yjpk7TviSXongcgppcs4bN7n95qpump",
+    "caller": "caller_07",
+    "callMs": 1790558374000,
+    "entryMs": 1790558400000,
+    "entryDelayMin": 0.43333333333333335,
+    "entryPx": 0.00010142113933,
+    "sizeSol": 0.1,
+    "pnlSol": 0.030796471238474656,
+    "realizedMult": 1.3679647123847465,
+    "peakMult": 1.9140155177154425,
+    "exits": [
+     "stop@1.41x"
+    ]
+   },
+   {
+    "mint": "3HGTGAnnNv47bFamugP61pCRrvC6idvdGhP6Pfjkpump",
+    "caller": "caller_07",
+    "callMs": 1790558975000,
+    "entryMs": 1790559000000,
+    "entryDelayMin": 0.4166666666666667,
+    "entryPx": 0.0000151013485497,
+    "sizeSol": 0.1,
+    "pnlSol": 0.653650180295015,
+    "realizedMult": 7.596501802950149,
+    "peakMult": 9.934421187833607,
+    "exits": [
+     "stop@7.95x"
+    ]
+   },
+   {
+    "mint": "FVr7Q7atktzhAd7xw1NPoAt8dRYTxRo6xjzfZGfVpump",
+    "caller": "caller_07",
+    "callMs": 1790560659000,
+    "entryMs": 1790560680000,
+    "entryDelayMin": 0.35,
+    "entryPx": 0.0000300252799803,
+    "sizeSol": 0.1,
+    "pnlSol": -0.017108187571537932,
+    "realizedMult": 0.8889181242846207,
+    "peakMult": 1.1595309671364518,
+    "exits": [
+     "stop@0.93x"
+    ]
+   },
+   {
+    "mint": "3mQvXdP1ABix4zyhYKA2aiAycxaVniD58HPjYLmhuSJ5",
+    "caller": "caller_03",
+    "callMs": 1790562785000,
+    "entryMs": 1790562840000,
+    "entryDelayMin": 0.9166666666666666,
+    "entryPx": 0.0000396090528716,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028130076144886766,
+    "realizedMult": 0.7786992385511323,
+    "peakMult": 1.121652296340439,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "4hfiq95nVUfX6nnfP2XwqicaoodcrJwJWwKANFN6pump",
+    "caller": "caller_01",
+    "callMs": 1790582089000,
+    "entryMs": 1790582100000,
+    "entryDelayMin": 0.18333333333333332,
+    "entryPx": 0.0000227481412479,
+    "sizeSol": 0.1,
+    "pnlSol": 0.009419987674127028,
+    "realizedMult": 1.1541998767412702,
+    "peakMult": 1.4907471971421211,
+    "exits": [
+     "stop@1.19x"
+    ]
+   },
+   {
+    "mint": "GJKZgTVHLGD7d31fDEkfbT4qgyThTREKHazwS6G4pump",
+    "caller": "caller_01",
+    "callMs": 1790585456000,
+    "entryMs": 1790585460000,
+    "entryDelayMin": 0.06666666666666667,
+    "entryPx": 0.0000354285860778,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028438556866056154,
+    "realizedMult": 0.7756144313394384,
+    "peakMult": 1.0017151188186446,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+    "caller": "caller_01",
+    "callMs": 1790585977000,
+    "entryMs": 1790586000000,
+    "entryDelayMin": 0.38333333333333336,
+    "entryPx": 0.0000159454962118,
+    "sizeSol": 0.1,
+    "pnlSol": -0.013944207791165711,
+    "realizedMult": 0.9205579220883429,
+    "peakMult": 1.1968663271436468,
+    "exits": [
+     "stop@0.96x"
+    ]
+   },
+   {
+    "mint": "BM2k8mJUbMthHoioykyUm2NjMrXvLBYhoXruwYLpump",
+    "caller": "caller_01",
+    "callMs": 1790586242000,
+    "entryMs": 1790586300000,
+    "entryDelayMin": 0.9666666666666667,
+    "entryPx": 0.000889424474514,
+    "sizeSol": 0.1,
+    "pnlSol": -0.021246860526362564,
+    "realizedMult": 0.8475313947363744,
+    "peakMult": 1.0870139421992955,
+    "exits": [
+     "stop@0.87x"
+    ]
+   },
+   {
+    "mint": "ELP7DpZvv41KzWewe513ZPBwTESsuxgzCJzh9zXn8WGd",
+    "caller": "caller_01",
+    "callMs": 1790586285000,
+    "entryMs": 1790586300000,
+    "entryDelayMin": 0.25,
+    "entryPx": 0.0000389713813997,
+    "sizeSol": 0.1,
+    "pnlSol": 0.006094436235644171,
+    "realizedMult": 1.1209443623564417,
+    "peakMult": 1.437903434114126,
+    "exits": [
+     "stop@1.15x"
+    ]
+   },
+   {
+    "mint": "BH2PVkGqyQDUUpAB1pdk75Q2zLh4dyfbfUsXUDvBX2FL",
+    "caller": "caller_01",
+    "callMs": 1790588680000,
+    "entryMs": 1790588700000,
+    "entryDelayMin": 0.3333333333333333,
+    "entryPx": 0.0000791616682941,
+    "sizeSol": 0.1,
+    "pnlSol": -0.009904840080334426,
+    "realizedMult": 0.9609515991966557,
+    "peakMult": 1.2294352419105556,
+    "exits": [
+     "stop@0.98x"
+    ]
+   },
+   {
+    "mint": "BEyWPjWiWDewMtUrxRbNWRLRvknvQtC5svnEzrMHjSZT",
+    "caller": "caller_01",
+    "callMs": 1790589374000,
+    "entryMs": 1790589420000,
+    "entryDelayMin": 0.7666666666666667,
+    "entryPx": 0.0000049105641138,
+    "sizeSol": 0.1,
+    "pnlSol": -0.00530531478645912,
+    "realizedMult": 1.0069468521354088,
+    "peakMult": 1.3058771866859236,
+    "exits": [
+     "stop@1.04x"
+    ]
+   },
+   {
+    "mint": "6b21XfdbnU2Q14bKBUgxmDNvELZT6BLGHyV1md8xpump",
+    "caller": "caller_01",
+    "callMs": 1790591841000,
+    "entryMs": 1790591880000,
+    "entryDelayMin": 0.65,
+    "entryPx": 0.0000140566234449,
+    "sizeSol": 0.1,
+    "pnlSol": 0.07784606294616758,
+    "realizedMult": 1.8384606294616759,
+    "peakMult": 2.498186887053644,
+    "exits": [
+     "stop@1.95x"
+    ]
+   },
+   {
+    "mint": "3fb3MTfqU88576ZbEcHbDVaZpd9gip9ZwpT3pHy9VstR",
+    "caller": "caller_01",
+    "callMs": 1790592211000,
+    "entryMs": 1790592240000,
+    "entryDelayMin": 0.48333333333333334,
+    "entryPx": 0.0000384584772156,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02605976153047177,
+    "realizedMult": 0.7994023846952822,
+    "peakMult": 1.0491296653819038,
+    "exits": [
+     "stop@0.84x"
+    ]
+   },
+   {
+    "mint": "6Fzn6PtAiVFvweUibxAiqQrofo138k9YZtJ1HK9EVShp",
+    "caller": "caller_01",
+    "callMs": 1790592527000,
+    "entryMs": 1790592540000,
+    "entryDelayMin": 0.21666666666666667,
+    "entryPx": 0.0000476320547383,
+    "sizeSol": 0.1,
+    "pnlSol": 0.02970306198193607,
+    "realizedMult": 1.3570306198193607,
+    "peakMult": 1.7391982228469498,
+    "exits": [
+     "stop@1.39x"
+    ]
+   },
+   {
+    "mint": "8JGziVgRZKyrsjWZ2FbsLiF1YnZufmvuyNuLnrauiPzC",
+    "caller": "caller_01",
+    "callMs": 1790592595000,
+    "entryMs": 1790592600000,
+    "entryDelayMin": 0.08333333333333333,
+    "entryPx": 0.0000591432038041,
+    "sizeSol": 0.1,
+    "pnlSol": -0.002736775592639457,
+    "realizedMult": 1.0326322440736053,
+    "peakMult": 1.3225015183025601,
+    "exits": [
+     "stop@1.06x"
+    ]
+   },
+   {
+    "mint": "76fFhcA142kf9gdg11ahYTmEiZnPXokxJkcF1axupump",
+    "caller": "caller_01",
+    "callMs": 1790592889000,
+    "entryMs": 1790592900000,
+    "entryDelayMin": 0.18333333333333332,
+    "entryPx": 0.0000520047113642,
+    "sizeSol": 0.1,
+    "pnlSol": 0.00038083855407563226,
+    "realizedMult": 1.0638083855407563,
+    "peakMult": 1.369957703158112,
+    "exits": [
+     "stop@1.10x"
+    ]
+   },
+   {
+    "mint": "8dYbZMzE2mQKAXokUknyRpsDtBgTpv5wdkmjCS6zfbXT",
+    "caller": "caller_01",
+    "callMs": 1790593064000,
+    "entryMs": 1790593080000,
+    "entryDelayMin": 0.26666666666666666,
+    "entryPx": 0.00000827404659741,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02864558061091025,
+    "realizedMult": 0.7735441938908975,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "A2Kz4oAJvg9yuQR9znDicg8QvFDgrxaHp68ih3HCpump",
+    "caller": "caller_01",
+    "callMs": 1790593643000,
+    "entryMs": 1790593680000,
+    "entryDelayMin": 0.6166666666666667,
+    "entryPx": 0.0000798458570925,
+    "sizeSol": 0.1,
+    "pnlSol": -0.025428997182720355,
+    "realizedMult": 0.8057100281727965,
+    "peakMult": 1.036239368207268,
+    "exits": [
+     "stop@0.83x"
+    ]
+   },
+   {
+    "mint": "BYsPZP9ZhNvaHjE3tuzLjf7CfHhuv1v2Yc66qsDry1HX",
+    "caller": "caller_01",
+    "callMs": 1790594790000,
+    "entryMs": 1790594820000,
+    "entryDelayMin": 0.5,
+    "entryPx": 0.00000657276641306,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028777654853126285,
+    "realizedMult": 0.7722234514687372,
+    "peakMult": 1.0032842005304052,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "zVbJ3eRjhRbvKWAxP8xrXZAeAcSqk3vtTjCzzVAAphi",
+    "caller": "caller_01",
+    "callMs": 1790594942000,
+    "entryMs": 1790595000000,
+    "entryDelayMin": 0.9666666666666667,
+    "entryPx": 0.0000366001453927,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02786536478326248,
+    "realizedMult": 0.7813463521673752,
+    "peakMult": 1.9876626993785098,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "2mSFzEE5fAjzeuCLcfSz6of9a5qGyZsbEwEziikppump",
+    "caller": "caller_10",
+    "callMs": 1790596430000,
+    "entryMs": 1790596500000,
+    "entryDelayMin": 1.1666666666666667,
+    "entryPx": 0.00000570752529445,
+    "sizeSol": 0.1,
+    "pnlSol": 0.012297448217227216,
+    "realizedMult": 1.182974482172272,
+    "peakMult": 1.5421784110495473,
+    "exits": [
+     "stop@1.23x"
+    ]
+   },
+   {
+    "mint": "6amZDV2TFYF6Qj6RGKE6FPedNLyVgVtmkX9iMDDrpump",
+    "caller": "caller_03",
+    "callMs": 1790597988000,
+    "entryMs": 1790598000000,
+    "entryDelayMin": 0.2,
+    "entryPx": 0.0000428113838209,
+    "sizeSol": 0.1,
+    "pnlSol": 0.010549973131569362,
+    "realizedMult": 1.1654997313156936,
+    "peakMult": 1.5012721593928813,
+    "exits": [
+     "stop@1.20x"
+    ]
+   },
+   {
+    "mint": "CWM9pa47KtTkswXwpbs5SJTAqwsBNgvNQ8bLhP7ipump",
+    "caller": "caller_01",
+    "callMs": 1790609265000,
+    "entryMs": 1790609280000,
+    "entryDelayMin": 0.25,
+    "entryPx": 0.0000489703216753,
+    "sizeSol": 0.1,
+    "pnlSol": -0.00012257373443586884,
+    "realizedMult": 1.0587742626556413,
+    "peakMult": 1.3639689697748103,
+    "exits": [
+     "stop@1.09x"
+    ]
+   },
+   {
+    "mint": "FW1FhMWeGwyLQLt8HaZ7Zjkoecf7FZNSw8ZC3fMApump",
+    "caller": "caller_01",
+    "callMs": 1790609433000,
+    "entryMs": 1790609460000,
+    "entryDelayMin": 0.45,
+    "entryPx": 0.000053758727719,
+    "sizeSol": 0.1,
+    "pnlSol": -0.008087809899290707,
+    "realizedMult": 0.979121901007093,
+    "peakMult": 1.2610246369975109,
+    "exits": [
+     "stop@1.01x"
+    ]
+   },
+   {
+    "mint": "A4kciYEywuUTJZffqBFhLF6urzBnSfLU6pcLEACQpump",
+    "caller": "caller_01",
+    "callMs": 1790610042000,
+    "entryMs": 1790610060000,
+    "entryDelayMin": 0.3,
+    "entryPx": 0.00000864219065112,
+    "sizeSol": 0.1,
+    "pnlSol": -0.022672523339627486,
+    "realizedMult": 0.8332747666037251,
+    "peakMult": 1.2059236416347014,
+    "exits": [
+     "stop@0.87x"
+    ]
+   },
+   {
+    "mint": "HpZuLjEo7ETnxh9xJjiYfAqy7Rt4781sqhqtkw6Epump",
+    "caller": "caller_01",
+    "callMs": 1790610198000,
+    "entryMs": 1790610240000,
+    "entryDelayMin": 0.7,
+    "entryPx": 0.0000212438421183,
+    "sizeSol": 0.1,
+    "pnlSol": -0.015337930661719729,
+    "realizedMult": 0.9066206933828027,
+    "peakMult": 1.1825080888480197,
+    "exits": [
+     "stop@0.94x"
+    ]
+   },
+   {
+    "mint": "EhNF7NoYa47UByaW6CAjobuoX7aia3LFAxNupFMLpump",
+    "caller": "caller_01",
+    "callMs": 1790611326000,
+    "entryMs": 1790611380000,
+    "entryDelayMin": 0.9,
+    "entryPx": 0.0000298375077855,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02803974686135103,
+    "realizedMult": 0.7796025313864897,
+    "peakMult": 1.01446277067449,
+    "exits": [
+     "stop@0.81x"
+    ]
+   },
+   {
+    "mint": "2EUKLvNQ63YCmjSDyJ14Tzj7ASeHGXgseYWrKAa2mine",
+    "caller": "caller_01",
+    "callMs": 1790615172000,
+    "entryMs": 1790615220000,
+    "entryDelayMin": 0.8,
+    "entryPx": 0.00012768426953,
+    "sizeSol": 0.1,
+    "pnlSol": -0.016082334826534476,
+    "realizedMult": 0.8991766517346552,
+    "peakMult": 1.1496331982579187,
+    "exits": [
+     "stop@0.92x"
+    ]
+   },
+   {
+    "mint": "H12pRhhNmRLoPV1PTwbk5KRTLeU3h5w4bgHQQ42pump",
+    "caller": "caller_01",
+    "callMs": 1790615851000,
+    "entryMs": 1790615880000,
+    "entryDelayMin": 0.48333333333333334,
+    "entryPx": 0.0000394289472507,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028469015449701547,
+    "realizedMult": 0.7753098455029845,
+    "peakMult": 1.0152052731635983,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "7qLn9eW3CHiCMJWokv4Kxmgs4daSnnRE4hxAzqqFpump",
+    "caller": "caller_01",
+    "callMs": 1790615990000,
+    "entryMs": 1790616000000,
+    "entryDelayMin": 0.16666666666666666,
+    "entryPx": 0.0000605572924833,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02402196369431534,
+    "realizedMult": 0.8197803630568465,
+    "peakMult": 1.0550431966789007,
+    "exits": [
+     "stop@0.84x"
+    ]
+   },
+   {
+    "mint": "GH8QZAbQFhQmyB9xieT6erXT1brUSbaGmGqvFmpXfund",
+    "caller": "caller_01",
+    "callMs": 1790619827000,
+    "entryMs": 1790619840000,
+    "entryDelayMin": 0.21666666666666667,
+    "entryPx": 0.0000327676481006,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02470181443232631,
+    "realizedMult": 0.8129818556767369,
+    "peakMult": 1.05504104895972,
+    "exits": [
+     "stop@0.84x"
+    ]
+   },
+   {
+    "mint": "RWRDiJdUzd4sehbkEvCFmF2wQMpnb3NhnRkfkDGCMeG",
+    "caller": "caller_01",
+    "callMs": 1790623316000,
+    "entryMs": 1790623320000,
+    "entryDelayMin": 0.06666666666666667,
+    "entryPx": 0.0000288441602858,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028573141225999125,
+    "realizedMult": 0.7742685877400087,
+    "peakMult": 1.014596135281056,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "F518B5yf33Yed4HPp2akNzfr11xLbPE83CnBa19Upump",
+    "caller": "caller_01",
+    "callMs": 1790623545000,
+    "entryMs": 1790623560000,
+    "entryDelayMin": 0.25,
+    "entryPx": 0.0000423778839014,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028462626263269585,
+    "realizedMult": 0.7753737373673042,
+    "peakMult": 1.012586986106741,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "B5R7Xt9pXBHDAs2jkJ67nM2Wwch1napBsdzMxk56qpJk",
+    "caller": "caller_01",
+    "callMs": 1790628263000,
+    "entryMs": 1790628300000,
+    "entryDelayMin": 0.6166666666666667,
+    "entryPx": 0.0000418780768058,
+    "sizeSol": 0.1,
+    "pnlSol": -0.024738074087117333,
+    "realizedMult": 0.8126192591288267,
+    "peakMult": 1.0413466002230596,
+    "exits": [
+     "stop@0.83x"
+    ]
+   },
+   {
+    "mint": "9t4nAuTyS6QLStW1vTxMLf7899b9UF1tmmhRCLbApump",
+    "caller": "caller_07",
+    "callMs": 1790634435000,
+    "entryMs": 1790634480000,
+    "entryDelayMin": 0.75,
+    "entryPx": 0.0000340928194307,
+    "sizeSol": 0.1,
+    "pnlSol": -0.010844455815269738,
+    "realizedMult": 0.9515554418473027,
+    "peakMult": 1.3054301202799112,
+    "exits": [
+     "stop@1.02x"
+    ]
+   },
+   {
+    "mint": "D8AmHCJspXsQQRPzrSTxL8WzXkCa6m73vEASHCuPpump",
+    "caller": "caller_07",
+    "callMs": 1790635225000,
+    "entryMs": 1790635260000,
+    "entryDelayMin": 0.5833333333333334,
+    "entryPx": 0.0000131186995143,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02559772906932834,
+    "realizedMult": 0.8040227093067166,
+    "peakMult": 1.0439745568279206,
+    "exits": [
+     "stop@0.84x"
+    ]
+   },
+   {
+    "mint": "BgwfQ2nezfeeCdSkuhJzVa1o4LontBRnhEuwiiskpump",
+    "caller": "caller_01",
+    "callMs": 1790636319000,
+    "entryMs": 1790636340000,
+    "entryDelayMin": 0.35,
+    "entryPx": 0.000101324479408,
+    "sizeSol": 0.1,
+    "pnlSol": 0.026642384157300726,
+    "realizedMult": 1.3264238415730072,
+    "peakMult": 1.7253659899603397,
+    "exits": [
+     "stop@1.36x"
+    ]
+   },
+   {
+    "mint": "i9SqdjzW7o1tt6XqUU4ApJn1nMYAFHSE7XF19Qgpump",
+    "caller": "caller_07",
+    "callMs": 1790640006000,
+    "entryMs": 1790640060000,
+    "entryDelayMin": 0.9,
+    "entryPx": 0.0000182525948902,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028962999884991993,
+    "realizedMult": 0.77037000115008,
+    "peakMult": 1.0115272366184473,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "4kgo11KazbCNd2DosYSLGpgSZhEtda1gGu4rbWJLGCJV",
+    "caller": "caller_11",
+    "callMs": 1790643537000,
+    "entryMs": 1790643540000,
+    "entryDelayMin": 0.05,
+    "entryPx": 0.000213792578275,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027743405334193998,
+    "realizedMult": 0.78256594665806,
+    "peakMult": 1.0003437321566209,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "WApCdQftZcRUNHN9S2XvmrqeRtRASE3EZxnwuNJpump",
+    "caller": "caller_11",
+    "callMs": 1790643723000,
+    "entryMs": 1790643780000,
+    "entryDelayMin": 0.95,
+    "entryPx": 0.0000460180904336,
+    "sizeSol": 0.1,
+    "pnlSol": -0.026181618247756534,
+    "realizedMult": 0.7981838175224346,
+    "peakMult": 1.0279980685999797,
+    "exits": [
+     "stop@0.82x"
+    ]
+   },
+   {
+    "mint": "3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump",
+    "caller": "caller_03",
+    "callMs": 1790643745000,
+    "entryMs": 1790643780000,
+    "entryDelayMin": 0.5833333333333334,
+    "entryPx": 0.00000760236209869,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02470026019127592,
+    "realizedMult": 0.8129973980872408,
+    "peakMult": 1.0566385211464997,
+    "exits": [
+     "stop@0.85x"
+    ]
+   },
+   {
+    "mint": "AUzbeBt4Nz3vVqJy8nfRhMBg44gWBcVDFFp3HhRjLVdP",
+    "caller": "caller_01",
+    "callMs": 1790645473000,
+    "entryMs": 1790645520000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.0000338525733369,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028025117214923782,
+    "realizedMult": 0.7797488278507622,
+    "peakMult": 1.089707165835745,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "2sDeSDUigrzYKRhZBjjs8AJDyMYroRyVAsUzzq9D4sqr",
+    "caller": "caller_13",
+    "callMs": 1790645623000,
+    "entryMs": 1790645640000,
+    "entryDelayMin": 0.2833333333333333,
+    "entryPx": 0.000240590956134,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0008394695646292503,
+    "realizedMult": 1.0516053043537075,
+    "peakMult": 1.3435508959986184,
+    "exits": [
+     "stop@1.07x"
+    ]
+   },
+   {
+    "mint": "H7onx4sxvGkcqav1w43JqgbHhew99ctiYC98LR4ppump",
+    "caller": "caller_01",
+    "callMs": 1790647057000,
+    "entryMs": 1790647080000,
+    "entryDelayMin": 0.38333333333333336,
+    "entryPx": 0.0000426935663933,
+    "sizeSol": 0.1,
+    "pnlSol": -0.011398033281190581,
+    "realizedMult": 0.9460196671880942,
+    "peakMult": 1.2545064161495114,
+    "exits": [
+     "stop@1.00x"
+    ]
+   },
+   {
+    "mint": "BhNmfTQuSdkdgVPhZ5fCJnxa1xYTPqkdjMn7LhLYhype",
+    "caller": "caller_01",
+    "callMs": 1790647290000,
+    "entryMs": 1790647320000,
+    "entryDelayMin": 0.5,
+    "entryPx": 0.0000135255956517,
+    "sizeSol": 0.1,
+    "pnlSol": 0.32177264600433675,
+    "realizedMult": 4.277726460043367,
+    "peakMult": 8.639565745432641,
+    "exits": [
+     "stop@4.43x"
+    ]
+   },
+   {
+    "mint": "7y4ENmsvsoZbDZHYAPfm5pDBsAEtZXbpYAFycupjhBc1",
+    "caller": "caller_01",
+    "callMs": 1790647551000,
+    "entryMs": 1790647560000,
+    "entryDelayMin": 0.15,
+    "entryPx": 0.00000539891481057,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028770039566994997,
+    "realizedMult": 0.7722996043300501,
+    "peakMult": 1.0115048619564053,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "367vwbRPVi2vgEZqdEwEoMYNo5ESdypuznPT3isdpump",
+    "caller": "caller_01",
+    "callMs": 1790648070000,
+    "entryMs": 1790648100000,
+    "entryDelayMin": 0.5,
+    "entryPx": 0.0000245909353703,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0486455532971758,
+    "realizedMult": 1.546455532971758,
+    "peakMult": 2.010818853231639,
+    "exits": [
+     "stop@1.61x"
+    ]
+   },
+   {
+    "mint": "HGN8K3x5ZLfYNjvE8b1hCqqu7RwupuKU6EkEhemzpump",
+    "caller": "caller_05",
+    "callMs": 1790648172000,
+    "entryMs": 1790648220000,
+    "entryDelayMin": 0.8,
+    "entryPx": 0.000197619471162,
+    "sizeSol": 0.1,
+    "pnlSol": 0.10941398232467484,
+    "realizedMult": 2.1541398232467484,
+    "peakMult": 2.7660068317048925,
+    "exits": [
+     "stop@2.21x"
+    ]
+   },
+   {
+    "mint": "37ddTBLzgdiW8UnKKeWyaw3cxSuwzfntby1hKztQpump",
+    "caller": "caller_03",
+    "callMs": 1790650600000,
+    "entryMs": 1790650620000,
+    "entryDelayMin": 0.3333333333333333,
+    "entryPx": 0.0000114319849227,
+    "sizeSol": 0.1,
+    "pnlSol": -0.017935205676819284,
+    "realizedMult": 0.8806479432318072,
+    "peakMult": 1.141755504976406,
+    "exits": [
+     "stop@0.91x"
+    ]
+   },
+   {
+    "mint": "3c7mmVSyEH8jfZXgxvpLsETtko1Y16DyRJ5XYB4snhGt",
+    "caller": "caller_05",
+    "callMs": 1790651005000,
+    "entryMs": 1790651040000,
+    "entryDelayMin": 0.5833333333333334,
+    "entryPx": 0.00100060370391,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02765651002282784,
+    "realizedMult": 0.7834348997717216,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "8SkU9FvZnW5KN8SyPJGg9jepHRcR4pjfk9KwwCSyfYSB",
+    "caller": "caller_03",
+    "callMs": 1790652298000,
+    "entryMs": 1790652300000,
+    "entryDelayMin": 0.03333333333333333,
+    "entryPx": 0.0000169057063164,
+    "sizeSol": 0.1,
+    "pnlSol": 0.017377874513643442,
+    "realizedMult": 1.2337787451364344,
+    "peakMult": 1.7754912344586244,
+    "exits": [
+     "stop@1.28x"
+    ]
+   },
+   {
+    "mint": "rDjfP6wXjKA1uQEvrhgjb4njyvsqzBWaRUMyBQH9BnR",
+    "caller": "caller_03",
+    "callMs": 1790653203000,
+    "entryMs": 1790653260000,
+    "entryDelayMin": 0.95,
+    "entryPx": 0.00000470724943123,
+    "sizeSol": 0.1,
+    "pnlSol": -0.026087864202218737,
+    "realizedMult": 0.7991213579778126,
+    "peakMult": 1.0352173207648958,
+    "exits": [
+     "stop@0.83x"
+    ]
+   },
+   {
+    "mint": "9pMXEbTjQ5HHiYifGbNBwkMkrQxGyhuSmB8ndKNXpump",
+    "caller": "caller_05",
+    "callMs": 1790654004000,
+    "entryMs": 1790654040000,
+    "entryDelayMin": 0.6,
+    "entryPx": 0.000294129863062,
+    "sizeSol": 0.1,
+    "pnlSol": 0.010499781546929285,
+    "realizedMult": 1.1649978154692928,
+    "peakMult": 1.4957585442633652,
+    "exits": [
+     "stop@1.20x"
+    ]
+   },
+   {
+    "mint": "4dxBoeFVB1zKcsPo1e5Wq1qCoBeU7t8rv1wixbzpXo32",
+    "caller": "caller_07",
+    "callMs": 1790654038000,
+    "entryMs": 1790654040000,
+    "entryDelayMin": 0.03333333333333333,
+    "entryPx": 0.00000937790228955,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028647767647756374,
+    "realizedMult": 0.7735223235224362,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "7zJDJdbiPk7EzpPK8GX6QqHF3zWXFdauNJFiBMYnSTNK",
+    "caller": "caller_07",
+    "callMs": 1790654433000,
+    "entryMs": 1790654460000,
+    "entryDelayMin": 0.45,
+    "entryPx": 0.0000227150437416,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027862640779399393,
+    "realizedMult": 0.7813735922060061,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "6cp2dYGr2V9y7axb31veqDzdDmKm7kGoWRCqRUkbpump",
+    "caller": "caller_03",
+    "callMs": 1790654457000,
+    "entryMs": 1790654460000,
+    "entryDelayMin": 0.05,
+    "entryPx": 0.0000200110753398,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02429044375364795,
+    "realizedMult": 0.8170955624635204,
+    "peakMult": 1.0588416762720443,
+    "exits": [
+     "stop@0.85x"
+    ]
+   },
+   {
+    "mint": "GwLj4MG9oZCqpQiKRuPf4gjtfFnNWL8X5uMA1MJgpump",
+    "caller": "caller_01",
+    "callMs": 1790654654000,
+    "entryMs": 1790654700000,
+    "entryDelayMin": 0.7666666666666667,
+    "entryPx": 0.000026421834276,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028433368941778177,
+    "realizedMult": 0.7756663105822182,
+    "peakMult": 1.0263363001043448,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "CcxFeGntmkXaGN9kGNbc3o9oYCXTQQdTP5VfcY6Tpump",
+    "caller": "caller_03",
+    "callMs": 1790655025000,
+    "entryMs": 1790655060000,
+    "entryDelayMin": 0.5833333333333334,
+    "entryPx": 0.0000125831096447,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02897154353080824,
+    "realizedMult": 0.7702845646919176,
+    "peakMult": 1.0675461012896756,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+    "caller": "caller_05",
+    "callMs": 1790655125000,
+    "entryMs": 1790655180000,
+    "entryDelayMin": 0.9166666666666666,
+    "entryPx": 0.019500942177,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0022477475790571525,
+    "realizedMult": 1.0375225242094284,
+    "peakMult": 1.3233861961417375,
+    "exits": [
+     "stop@1.06x"
+    ]
+   },
+   {
+    "mint": "pwfAeX3kpWpkuumA6iodJxtVcGAen6BkRPToR2VqLp9",
+    "caller": "caller_05",
+    "callMs": 1790655148000,
+    "entryMs": 1790655180000,
+    "entryDelayMin": 0.5333333333333333,
+    "entryPx": 0.00173224319687,
+    "sizeSol": 0.1,
+    "pnlSol": -0.013601761627745549,
+    "realizedMult": 0.9239823837225445,
+    "peakMult": 1.1790281537490568,
+    "exits": [
+     "stop@0.94x"
+    ]
+   },
+   {
+    "mint": "2uPFpHPaQUyrrsRfYeziTjzNoju449gruMQFRie2pump",
+    "caller": "caller_03",
+    "callMs": 1790655682000,
+    "entryMs": 1790655720000,
+    "entryDelayMin": 0.6333333333333333,
+    "entryPx": 0.0000267252301803,
+    "sizeSol": 0.1,
+    "pnlSol": -0.009761005847294857,
+    "realizedMult": 0.9623899415270515,
+    "peakMult": 1.2556108555516028,
+    "exits": [
+     "stop@1.00x"
+    ]
+   },
+   {
+    "mint": "3YB343CxysAi9xwYWEU2g2kVMRWFEGDkGyFHqnothing",
+    "caller": "caller_03",
+    "callMs": 1790657344000,
+    "entryMs": 1790657400000,
+    "entryDelayMin": 0.9333333333333333,
+    "entryPx": 0.0000203543875709,
+    "sizeSol": 0.1,
+    "pnlSol": 0.07072297979713393,
+    "realizedMult": 1.7672297979713394,
+    "peakMult": 2.297502520633798,
+    "exits": [
+     "stop@1.82x"
+    ]
+   },
+   {
+    "mint": "3SR6ck3Fdaiu7m6stAwkNxXpCsRcmtNNiJ1WmQ6zpump",
+    "caller": "caller_02",
+    "callMs": 1790660262000,
+    "entryMs": 1790660280000,
+    "entryDelayMin": 0.3,
+    "entryPx": 0.00000657117837251,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028849103457632565,
+    "realizedMult": 0.7715089654236743,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "HRGg3vmHDunxPYT6fg4s6WCrVQFwoHiw2NA7c89xpump",
+    "caller": "caller_03",
+    "callMs": 1790660754000,
+    "entryMs": 1790660760000,
+    "entryDelayMin": 0.1,
+    "entryPx": 0.0000245428119335,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028820706351442633,
+    "realizedMult": 0.7717929364855737,
+    "peakMult": 1.0031575214164528,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "7UfcTJD2RSRg9AJ4k2V2rs71Ew8Zy2avaU5roc8bpump",
+    "caller": "caller_07",
+    "callMs": 1790661013000,
+    "entryMs": 1790661060000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.000030259371731,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0006354489708017916,
+    "realizedMult": 1.0536455102919822,
+    "peakMult": 1.3959606022165103,
+    "exits": [
+     "stop@1.12x"
+    ]
+   },
+   {
+    "mint": "72k45bpW2MqF313fD2gQ1KngDa9YGfQQjPyw7zVppump",
+    "caller": "caller_02",
+    "callMs": 1790661253000,
+    "entryMs": 1790661300000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.000011675541898,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02896632816519617,
+    "realizedMult": 0.7703367183480383,
+    "peakMult": 1.1980590749279156,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "FeTi15LB5PCLhjioeBcJR8p4Xj6izdMztfw3J8nfEZUD",
+    "caller": "caller_07",
+    "callMs": 1790662241000,
+    "entryMs": 1790662260000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.00000613689786856,
+    "sizeSol": 0.1,
+    "pnlSol": 0.28448743868363924,
+    "realizedMult": 3.904874386836392,
+    "peakMult": 5.897036538591074,
+    "exits": [
+     "stop@4.01x"
+    ]
+   },
+   {
+    "mint": "EjY3aCrn7AxyRTrHsUb5wasEN4zvYQXP2VFpFazfngJN",
+    "caller": "caller_02",
+    "callMs": 1790662282000,
+    "entryMs": 1790662320000,
+    "entryDelayMin": 0.6333333333333333,
+    "entryPx": 0.00000834109129268,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028795826468440804,
+    "realizedMult": 0.772041735315592,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "GoxMEfLhE93P4TxUckScneTrWKUAuXLA2ypVgH4apump",
+    "caller": "caller_01",
+    "callMs": 1790672620000,
+    "entryMs": 1790672640000,
+    "entryDelayMin": 0.3333333333333333,
+    "entryPx": 0.0000181354750683,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028968342647348953,
+    "realizedMult": 0.7703165735265105,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "EdfUDQxVihNgHf7KDjhxC3ZSdXtNr33tojuKq3rgUCfv",
+    "caller": "caller_01",
+    "callMs": 1790672777000,
+    "entryMs": 1790672820000,
+    "entryDelayMin": 0.7166666666666667,
+    "entryPx": 0.0000951406208016,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02453414782213669,
+    "realizedMult": 0.8146585217786331,
+    "peakMult": 1.0421943943520335,
+    "exits": [
+     "stop@0.83x"
+    ]
+   },
+   {
+    "mint": "memecaF4QW3vK9jndiGyhFFRfHikcUd1h1McZUUPB69",
+    "caller": "caller_01",
+    "callMs": 1790672861000,
+    "entryMs": 1790672880000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.0000281731306047,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0097808742694832,
+    "realizedMult": 1.157808742694832,
+    "peakMult": 1.530610534088325,
+    "exits": [
+     "stop@1.22x"
+    ]
+   },
+   {
+    "mint": "9HAJX5QCka4Yrgjz7eaJQEhjNuL4N76fQ1VJPFApump",
+    "caller": "caller_01",
+    "callMs": 1790675166000,
+    "entryMs": 1790675220000,
+    "entryDelayMin": 0.9,
+    "entryPx": 0.00000779976612741,
+    "sizeSol": 0.1,
+    "pnlSol": -0.012370046975736676,
+    "realizedMult": 0.9362995302426332,
+    "peakMult": 1.217214823574792,
+    "exits": [
+     "stop@0.97x"
+    ]
+   },
+   {
+    "mint": "56yXQWc7xhy3kQJdJDQdK2EAzTTN7qqwySjsVJ6mqY7f",
+    "caller": "caller_01",
+    "callMs": 1790676524000,
+    "entryMs": 1790676540000,
+    "entryDelayMin": 0.26666666666666666,
+    "entryPx": 0.0000782058487399,
+    "sizeSol": 0.1,
+    "pnlSol": -0.027842633703944082,
+    "realizedMult": 0.7815736629605592,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "4XDan44KkAtC97S7b6KdExWR1zh24zka4iwLfuuYZoqn",
+    "caller": "caller_03",
+    "callMs": 1790686089000,
+    "entryMs": 1790686140000,
+    "entryDelayMin": 0.85,
+    "entryPx": 0.0000259300742798,
+    "sizeSol": 0.1,
+    "pnlSol": -0.028028809919586235,
+    "realizedMult": 0.7797119008041377,
+    "peakMult": 1.05839994210428,
+    "exits": [
+     "stop@0.80x"
+    ]
+   },
+   {
+    "mint": "GN6X2KHxGehhJUg1qzTqPS2xC6jXv2V79gPzjetefdSd",
+    "caller": "caller_03",
+    "callMs": 1790687418000,
+    "entryMs": 1790687460000,
+    "entryDelayMin": 0.7,
+    "entryPx": 0.0000201889530639,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02605092455481651,
+    "realizedMult": 0.7994907544518349,
+    "peakMult": 1.0270417253372195,
+    "exits": [
+     "stop@0.82x"
+    ]
+   },
+   {
+    "mint": "thummB4jC8Sp36HbZsvdw2czXQDcQ3VBTMwDdLJEbuC",
+    "caller": "caller_01",
+    "callMs": 1790691701000,
+    "entryMs": 1790691720000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.000078339011285,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0034227643536266558,
+    "realizedMult": 1.0942276435362666,
+    "peakMult": 1.400391560098817,
+    "exits": [
+     "stop@1.12x"
+    ]
+   },
+   {
+    "mint": "8CMH8UTpXVSKSBA5sNtscfzxD9yQUC7VYP415p6Ezpad",
+    "caller": "caller_01",
+    "callMs": 1790692136000,
+    "entryMs": 1790692140000,
+    "entryDelayMin": 0.06666666666666667,
+    "entryPx": 0.0000349409103653,
+    "sizeSol": 0.1,
+    "pnlSol": 0.029709475822380878,
+    "realizedMult": 1.3570947582238087,
+    "peakMult": 1.7426248705748975,
+    "exits": [
+     "stop@1.39x"
+    ]
+   },
+   {
+    "mint": "zbU56xCdDXNW1ijTVLJB3DSaA4BEzppojrGB4wPsunc",
+    "caller": "caller_01",
+    "callMs": 1790693548000,
+    "entryMs": 1790693580000,
+    "entryDelayMin": 0.5333333333333333,
+    "entryPx": 0.000023762085735,
+    "sizeSol": 0.1,
+    "pnlSol": -0.009278442540683851,
+    "realizedMult": 0.9672155745931615,
+    "peakMult": 1.2541775784018734,
+    "exits": [
+     "stop@1.00x"
+    ]
+   },
+   {
+    "mint": "12qmDF3Jh5CxA1KczHsbmfqr7Hdjntfn93oKvkEfpump",
+    "caller": "caller_06",
+    "callMs": 1790699090000,
+    "entryMs": 1790699100000,
+    "entryDelayMin": 0.16666666666666666,
+    "entryPx": 0.0000229238918183,
+    "sizeSol": 0.1,
+    "pnlSol": -0.029033738172484815,
+    "realizedMult": 0.7696626182751518,
+    "peakMult": 1.0138613124690432,
+    "exits": [
+     "stop@0.80x"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "research/debate-calls/examples/volume-breakout.ts",
+  "name": "example: volume breakout within 30 min, trail 40% from peak",
+  "holdout": {
+   "strategy": "example: volume breakout within 30 min, trail 40% from peak",
+   "eligibleCalls": 154,
+   "entries": 27,
+   "skippedNoData": 0,
+   "totalSol": -0.1257,
+   "meanSol": -0.00466,
+   "trimmedMeanSol": -0.01712,
+   "medianSol": -0.03124,
+   "winRate": 29.6,
+   "bestSol": 0.2405,
+   "totalWithoutBestSol": -0.3662,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 20,
+   "tokensThatRan10x": 10,
+   "maxDrawdownSol": 0.3816
+  },
+  "research": {
+   "strategy": "example: volume breakout within 30 min, trail 40% from peak",
+   "eligibleCalls": 925,
+   "entries": 133,
+   "skippedNoData": 6,
+   "totalSol": -1.7146,
+   "meanSol": -0.01289,
+   "trimmedMeanSol": -0.01732,
+   "medianSol": -0.03758,
+   "winRate": 18.8,
+   "bestSol": 0.3565,
+   "totalWithoutBestSol": -2.0711,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 96,
+   "tokensThatRan10x": 40,
+   "maxDrawdownSol": 1.7475
+  },
+  "holdoutTrades": [
+   {
+    "mint": "5wW9mhbwq1HTFh341iimpmrqBB4mfxdXiYhdYBL7hUnp",
+    "caller": "caller_05",
+    "callMs": 1790410357000,
+    "entryMs": 1790410980000,
+    "entryDelayMin": 10.383333333333333,
+    "entryPx": 0.000715448103957,
+    "sizeSol": 0.1,
+    "pnlSol": 0.24045485751292475,
+    "realizedMult": 3.4645485751292475,
+    "peakMult": 5.985215851179842,
+    "exits": [
+     "signal@3.54x"
+    ]
+   },
+   {
+    "mint": "yFcTuQJCMsd1Asya15GZ7h4KGdxsujRLcUiTWWXpump",
+    "caller": "caller_04",
+    "callMs": 1790417943000,
+    "entryMs": 1790419620000,
+    "entryDelayMin": 27.95,
+    "entryPx": 0.000687596226283,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03781103507768372,
+    "realizedMult": 0.6818896492231628,
+    "peakMult": 1.17866235184432,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "AdK9FeZuxsyXLgruAGsJ7au3GksPPqedqCeNfh9Tpump",
+    "caller": "caller_01",
+    "callMs": 1790466198000,
+    "entryMs": 1790466540000,
+    "entryDelayMin": 5.7,
+    "entryPx": 0.000228412741695,
+    "sizeSol": 0.1,
+    "pnlSol": 0.00950809696159773,
+    "realizedMult": 1.1550809696159774,
+    "peakMult": 2.1156428004671954,
+    "exits": [
+     "signal@1.19x"
+    ]
+   },
+   {
+    "mint": "4ZAUaz899dNQrM1Gv5o6Y7tzQhDLiJXnwv3wdyespump",
+    "caller": "caller_03",
+    "callMs": 1790488559000,
+    "entryMs": 1790489400000,
+    "entryDelayMin": 14.016666666666667,
+    "entryPx": 0.0000667674985573,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03798529637839961,
+    "realizedMult": 0.6801470362160039,
+    "peakMult": 1.1748589705166292,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "8HnLRKJ6XkeGq1tpmKPqn3yB5ruqbSR5LR5nVCNAshop",
+    "caller": "caller_01",
+    "callMs": 1790512186000,
+    "entryMs": 1790513460000,
+    "entryDelayMin": 21.233333333333334,
+    "entryPx": 0.0000393568578321,
+    "sizeSol": 0.1,
+    "pnlSol": 0.040213529013961254,
+    "realizedMult": 1.4621352901396125,
+    "peakMult": 4.790168337428493,
+    "exits": [
+     "signal@1.53x"
+    ]
+   },
+   {
+    "mint": "7tEsDuij7aj4b2jLUAS5oXcp6B3zWratYVmviS5zpump",
+    "caller": "caller_05",
+    "callMs": 1790546642000,
+    "entryMs": 1790547000000,
+    "entryDelayMin": 5.966666666666667,
+    "entryPx": 0.000330052374652,
+    "sizeSol": 0.1,
+    "pnlSol": 0.01632980217765933,
+    "realizedMult": 1.2232980217765932,
+    "peakMult": 2.1315770893961568,
+    "exits": [
+     "signal@1.26x"
+    ]
+   },
+   {
+    "mint": "6XnC2YXRnvT8Nx16Kny61sz3UgGjWGRKsGomTDRe8haa",
+    "caller": "caller_05",
+    "callMs": 1790546822000,
+    "entryMs": 1790547600000,
+    "entryDelayMin": 12.966666666666667,
+    "entryPx": 0.0000370618144841,
+    "sizeSol": 0.1,
+    "pnlSol": 0.024879406067842398,
+    "realizedMult": 1.3087940606784239,
+    "peakMult": 2.3628535831824795,
+    "exits": [
+     "signal@1.34x"
+    ]
+   },
+   {
+    "mint": "H8Yo8U1RFtjHNpRzrAzzxrebMvLN7EHgZGWPERJ82jEq",
+    "caller": "caller_05",
+    "callMs": 1790546865000,
+    "entryMs": 1790547420000,
+    "entryDelayMin": 9.25,
+    "entryPx": 0.00000573728194972,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02062027833594538,
+    "realizedMult": 0.8537972166405462,
+    "peakMult": 1.5449156089152245,
+    "exits": [
+     "signal@0.88x"
+    ]
+   },
+   {
+    "mint": "CedSVzaBjbqniJ1GpUcTozB58S56yDX42nTXsz31zQUe",
+    "caller": "caller_03",
+    "callMs": 1790547644000,
+    "entryMs": 1790548080000,
+    "entryDelayMin": 7.266666666666667,
+    "entryPx": 0.00006131614593,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02553186846155029,
+    "realizedMult": 0.804681315384497,
+    "peakMult": 1.7561292976393046,
+    "exits": [
+     "signal@0.82x"
+    ]
+   },
+   {
+    "mint": "3HGTGAnnNv47bFamugP61pCRrvC6idvdGhP6Pfjkpump",
+    "caller": "caller_07",
+    "callMs": 1790558975000,
+    "entryMs": 1790559240000,
+    "entryDelayMin": 4.416666666666667,
+    "entryPx": 0.0000445716911946,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0464088870506273,
+    "realizedMult": 1.524088870506273,
+    "peakMult": 3.365884330975886,
+    "exits": [
+     "signal@1.57x"
+    ]
+   },
+   {
+    "mint": "3mQvXdP1ABix4zyhYKA2aiAycxaVniD58HPjYLmhuSJ5",
+    "caller": "caller_03",
+    "callMs": 1790562785000,
+    "entryMs": 1790564340000,
+    "entryDelayMin": 25.916666666666668,
+    "entryPx": 0.0000776263600257,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03763443191337592,
+    "realizedMult": 0.6836556808662408,
+    "peakMult": 1.0264917436502132,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "4hfiq95nVUfX6nnfP2XwqicaoodcrJwJWwKANFN6pump",
+    "caller": "caller_01",
+    "callMs": 1790582089000,
+    "entryMs": 1790582340000,
+    "entryDelayMin": 4.183333333333334,
+    "entryPx": 0.0000314564736847,
+    "sizeSol": 0.1,
+    "pnlSol": -0.038141381181523624,
+    "realizedMult": 0.6785861881847638,
+    "peakMult": 1,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+    "caller": "caller_01",
+    "callMs": 1790585977000,
+    "entryMs": 1790586780000,
+    "entryDelayMin": 13.383333333333333,
+    "entryPx": 0.000045663099922,
+    "sizeSol": 0.1,
+    "pnlSol": -0.012938705367362505,
+    "realizedMult": 0.9306129463263749,
+    "peakMult": 1.6061688296300771,
+    "exits": [
+     "signal@0.96x"
+    ]
+   },
+   {
+    "mint": "ELP7DpZvv41KzWewe513ZPBwTESsuxgzCJzh9zXn8WGd",
+    "caller": "caller_01",
+    "callMs": 1790586285000,
+    "entryMs": 1790586540000,
+    "entryDelayMin": 4.25,
+    "entryPx": 0.0000505172813098,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03768299036560672,
+    "realizedMult": 0.6831700963439328,
+    "peakMult": 1.0129200382023207,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "6b21XfdbnU2Q14bKBUgxmDNvELZT6BLGHyV1md8xpump",
+    "caller": "caller_01",
+    "callMs": 1790591841000,
+    "entryMs": 1790592660000,
+    "entryDelayMin": 13.65,
+    "entryPx": 0.0000857032933785,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03801087798949191,
+    "realizedMult": 0.6798912201050809,
+    "peakMult": 1.0031946535985592,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "zVbJ3eRjhRbvKWAxP8xrXZAeAcSqk3vtTjCzzVAAphi",
+    "caller": "caller_01",
+    "callMs": 1790594942000,
+    "entryMs": 1790596260000,
+    "entryDelayMin": 21.966666666666665,
+    "entryPx": 0.000174667983163,
+    "sizeSol": 0.1,
+    "pnlSol": 0.061736723009285156,
+    "realizedMult": 1.6773672300928515,
+    "peakMult": 2.941064289410192,
+    "exits": [
+     "signal@1.72x"
+    ]
+   },
+   {
+    "mint": "FW1FhMWeGwyLQLt8HaZ7Zjkoecf7FZNSw8ZC3fMApump",
+    "caller": "caller_01",
+    "callMs": 1790609433000,
+    "entryMs": 1790609700000,
+    "entryDelayMin": 4.45,
+    "entryPx": 0.0000580629926312,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03802043816025575,
+    "realizedMult": 0.6797956183974425,
+    "peakMult": 1.1675436803247485,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "7qLn9eW3CHiCMJWokv4Kxmgs4daSnnRE4hxAzqqFpump",
+    "caller": "caller_01",
+    "callMs": 1790615990000,
+    "entryMs": 1790616600000,
+    "entryDelayMin": 10.166666666666666,
+    "entryPx": 0.000115149229753,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03124394065107689,
+    "realizedMult": 0.7475605934892311,
+    "peakMult": 1.295042453552451,
+    "exits": [
+     "signal@0.77x"
+    ]
+   },
+   {
+    "mint": "3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump",
+    "caller": "caller_03",
+    "callMs": 1790643745000,
+    "entryMs": 1790644020000,
+    "entryDelayMin": 4.583333333333333,
+    "entryPx": 0.0000278151472189,
+    "sizeSol": 0.1,
+    "pnlSol": 0.05766070395029133,
+    "realizedMult": 1.6366070395029133,
+    "peakMult": 3.0121463506319475,
+    "exits": [
+     "signal@1.70x"
+    ]
+   },
+   {
+    "mint": "BhNmfTQuSdkdgVPhZ5fCJnxa1xYTPqkdjMn7LhLYhype",
+    "caller": "caller_01",
+    "callMs": 1790647290000,
+    "entryMs": 1790647560000,
+    "entryDelayMin": 4.5,
+    "entryPx": 0.000062725469757,
+    "sizeSol": 0.1,
+    "pnlSol": -0.014677788134131573,
+    "realizedMult": 0.9132221186586843,
+    "peakMult": 2.1477113565333807,
+    "exits": [
+     "signal@0.94x"
+    ]
+   },
+   {
+    "mint": "HGN8K3x5ZLfYNjvE8b1hCqqu7RwupuKU6EkEhemzpump",
+    "caller": "caller_05",
+    "callMs": 1790648172000,
+    "entryMs": 1790649120000,
+    "entryDelayMin": 15.8,
+    "entryPx": 0.000400886784521,
+    "sizeSol": 0.1,
+    "pnlSol": -0.02825049100012165,
+    "realizedMult": 0.7774950899987835,
+    "peakMult": 1.363519149091247,
+    "exits": [
+     "signal@0.80x"
+    ]
+   },
+   {
+    "mint": "9pMXEbTjQ5HHiYifGbNBwkMkrQxGyhuSmB8ndKNXpump",
+    "caller": "caller_05",
+    "callMs": 1790654004000,
+    "entryMs": 1790655240000,
+    "entryDelayMin": 20.6,
+    "entryPx": 0.000329724710635,
+    "sizeSol": 0.1,
+    "pnlSol": -0.037826755773427805,
+    "realizedMult": 0.6817324422657219,
+    "peakMult": 1.3342865778871351,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "7zJDJdbiPk7EzpPK8GX6QqHF3zWXFdauNJFiBMYnSTNK",
+    "caller": "caller_07",
+    "callMs": 1790654433000,
+    "entryMs": 1790654820000,
+    "entryDelayMin": 6.45,
+    "entryPx": 0.0000395639851197,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03758035014278963,
+    "realizedMult": 0.6841964985721036,
+    "peakMult": 1.0001926448758116,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+    "caller": "caller_05",
+    "callMs": 1790655125000,
+    "entryMs": 1790655420000,
+    "entryDelayMin": 4.916666666666667,
+    "entryPx": 0.0195980491361,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03423922329376825,
+    "realizedMult": 0.7176077670623174,
+    "peakMult": 1.3168289103461057,
+    "exits": [
+     "signal@0.73x"
+    ]
+   },
+   {
+    "mint": "pwfAeX3kpWpkuumA6iodJxtVcGAen6BkRPToR2VqLp9",
+    "caller": "caller_05",
+    "callMs": 1790655148000,
+    "entryMs": 1790656800000,
+    "entryDelayMin": 27.533333333333335,
+    "entryPx": 0.00192469685201,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03742429996855456,
+    "realizedMult": 0.6857570003144544,
+    "peakMult": 1,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "2uPFpHPaQUyrrsRfYeziTjzNoju449gruMQFRie2pump",
+    "caller": "caller_03",
+    "callMs": 1790655682000,
+    "entryMs": 1790656620000,
+    "entryDelayMin": 15.633333333333333,
+    "entryPx": 0.000056808726336,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03799791115484449,
+    "realizedMult": 0.6800208884515552,
+    "peakMult": 1.8744806424311382,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   },
+   {
+    "mint": "12qmDF3Jh5CxA1KczHsbmfqr7Hdjntfn93oKvkEfpump",
+    "caller": "caller_06",
+    "callMs": 1790699090000,
+    "entryMs": 1790699520000,
+    "entryDelayMin": 7.166666666666667,
+    "entryPx": 0.0000424784611486,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03929615238119268,
+    "realizedMult": 0.6670384761880732,
+    "peakMult": 1.2897281883575393,
+    "exits": [
+     "hard_stop@0.70x"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T19-09-03/proposals/claude-r1.ts",
+  "name": "claude-r1: pre-call run-up >= 7x, buy at call, tp +50% / sl -30%",
+  "holdout": {
+   "strategy": "claude-r1: pre-call run-up >= 7x, buy at call, tp +50% / sl -30%",
+   "eligibleCalls": 154,
+   "entries": 56,
+   "skippedNoData": 0,
+   "totalSol": -0.5166,
+   "meanSol": -0.00922,
+   "trimmedMeanSol": -0.01107,
+   "medianSol": -0.03763,
+   "winRate": 37.5,
+   "bestSol": 0.0408,
+   "totalWithoutBestSol": -0.5574,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 20,
+   "tokensThatRan10x": 10,
+   "maxDrawdownSol": 0.6088
+  },
+  "research": {
+   "strategy": "claude-r1: pre-call run-up >= 7x, buy at call, tp +50% / sl -30%",
+   "eligibleCalls": 925,
+   "entries": 359,
+   "skippedNoData": 6,
+   "totalSol": -2.5036,
+   "meanSol": -0.00697,
+   "trimmedMeanSol": -0.00724,
+   "medianSol": -0.0376,
+   "winRate": 39.8,
+   "bestSol": 0.0409,
+   "totalWithoutBestSol": -2.5445,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 96,
+   "tokensThatRan10x": 40,
+   "maxDrawdownSol": 2.5462
+  },
+  "holdoutTrades": [
+   {
+    "mint": "91J4VJv7zDWZNVGzC4AC8Ec5FRFdp3cNY71ztrsbbYz",
+    "caller": "caller_05",
+    "callMs": 1790395189000,
+    "entryMs": 1790395200000,
+    "entryDelayMin": 0.18333333333333332,
+    "entryPx": 0.0000616852559993,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03763950917804846,
+    "realizedMult": 0.6836049082195154,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "41g3m5wZ6S954QG2EKtHZ4qpv3CfDHV5LHSVfbdCgnAM",
+    "caller": "caller_05",
+    "callMs": 1790396195000,
+    "entryMs": 1790396220000,
+    "entryDelayMin": 0.4166666666666667,
+    "entryPx": 0.0000324277472124,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03969027149431232,
+    "realizedMult": 0.6630972850568768,
+    "peakMult": 1.3595588658481175,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "HSnCtWsw5YmfAkJo9S3eetWtGHPMrc2pAxvCu24AnQEa",
+    "caller": "caller_05",
+    "callMs": 1790397503000,
+    "entryMs": 1790397540000,
+    "entryDelayMin": 0.6166666666666667,
+    "entryPx": 0.00018618551279,
+    "sizeSol": 0.1,
+    "pnlSol": 0.040619552755945455,
+    "realizedMult": 1.4661955275594545,
+    "peakMult": 1.557047733144415,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "FgzsaQEoWMhEqx5vSQAFXDeHbY7oFFW3LmmEo9MBAfuX",
+    "caller": "caller_05",
+    "callMs": 1790399483000,
+    "entryMs": 1790399520000,
+    "entryDelayMin": 0.6166666666666667,
+    "entryPx": 0.0000368793488968,
+    "sizeSol": 0.1,
+    "pnlSol": 0.040229072438233045,
+    "realizedMult": 1.4622907243823304,
+    "peakMult": 2.312101825520535,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "5wW9mhbwq1HTFh341iimpmrqBB4mfxdXiYhdYBL7hUnp",
+    "caller": "caller_05",
+    "callMs": 1790410357000,
+    "entryMs": 1790410380000,
+    "entryDelayMin": 0.38333333333333336,
+    "entryPx": 0.000557620272324,
+    "sizeSol": 0.1,
+    "pnlSol": 0.04080384773582999,
+    "realizedMult": 1.4680384773583,
+    "peakMult": 1.546674190454965,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "ARPwPPWbaj3FYBf6k1Lt2jqRkv9JJUg3Hxav5aHKTEem",
+    "caller": "caller_05",
+    "callMs": 1790412527000,
+    "entryMs": 1790412540000,
+    "entryDelayMin": 0.21666666666666667,
+    "entryPx": 0.0000346970080831,
+    "sizeSol": 0.1,
+    "pnlSol": 0.040212212515038544,
+    "realizedMult": 1.4621221251503853,
+    "peakMult": 1.8318975879265817,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "6aHoh5Q5Bw41DH8c5X3aYZufnGHoytUsFXiNChv8pump",
+    "caller": "caller_05",
+    "callMs": 1790413696000,
+    "entryMs": 1790413740000,
+    "entryDelayMin": 0.7333333333333333,
+    "entryPx": 0.0000945051070365,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03795922700321682,
+    "realizedMult": 0.6804077299678318,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "6BSB3p56by9KoMP5NCpRQFT7kSBDXT2ViUsWS6eepump",
+    "caller": "caller_04",
+    "callMs": 1790416181000,
+    "entryMs": 1790416200000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.0000396399716009,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03854013483965999,
+    "realizedMult": 0.6745986516034,
+    "peakMult": 1.0385905943677636,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "6mEf9TXKfFwAd3xSGXRDq3cMb3q8H4R8wEqWsqWxpump",
+    "caller": "caller_04",
+    "callMs": 1790416993000,
+    "entryMs": 1790417040000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.0000929787816098,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03971358079057722,
+    "realizedMult": 1.4571358079057721,
+    "peakMult": 1.636196112134957,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "GPyM1ohx7tnN7CbTshXfW1m8mHRPtHKNxjW1988nquyn",
+    "caller": "caller_05",
+    "callMs": 1790418523000,
+    "entryMs": 1790418540000,
+    "entryDelayMin": 0.2833333333333333,
+    "entryPx": 0.0000946316983138,
+    "sizeSol": 0.1,
+    "pnlSol": -0.037893345970608235,
+    "realizedMult": 0.6810665402939177,
+    "peakMult": 1.4936861686797724,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "231eFPGosPmSiEMsYxQNVhAAWj3B1DvGtfwaj9ztidea",
+    "caller": "caller_01",
+    "callMs": 1790433172000,
+    "entryMs": 1790433180000,
+    "entryDelayMin": 0.13333333333333333,
+    "entryPx": 0.000128288619071,
+    "sizeSol": 0.1,
+    "pnlSol": 0.040565067272928,
+    "realizedMult": 1.46565067272928,
+    "peakMult": 1.522016895691556,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "A4p9onLui552wTpUUAza5jQzUo4rXnpM2MRKXuuc6YaL",
+    "caller": "caller_03",
+    "callMs": 1790433447000,
+    "entryMs": 1790433480000,
+    "entryDelayMin": 0.55,
+    "entryPx": 0.0000367494761072,
+    "sizeSol": 0.1,
+    "pnlSol": -0.038544815425351535,
+    "realizedMult": 0.6745518457464846,
+    "peakMult": 1.0208151826237906,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "eEGktGMDRroy52GyvBRcGofSMU7xSMdLN5hsKWh16ip",
+    "caller": "caller_03",
+    "callMs": 1790435191000,
+    "entryMs": 1790435220000,
+    "entryDelayMin": 0.48333333333333334,
+    "entryPx": 0.000141034143757,
+    "sizeSol": 0.1,
+    "pnlSol": 0.04059916687258439,
+    "realizedMult": 1.4659916687258439,
+    "peakMult": 1.9946665586150825,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "HXYQJ3xXXCHtMDgA3FzrzpXMKkR3CVrfpMsusuAxLBPh",
+    "caller": "caller_01",
+    "callMs": 1790435834000,
+    "entryMs": 1790435880000,
+    "entryDelayMin": 0.7666666666666667,
+    "entryPx": 0.000111599456126,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03761255458907337,
+    "realizedMult": 0.6838744541092663,
+    "peakMult": 1.0257173248385694,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "AeZy5atQjKGDij6ekqGGDmUn72U6YaAeFXgiXGkFpump",
+    "caller": "caller_01",
+    "callMs": 1790443942000,
+    "entryMs": 1790443980000,
+    "entryDelayMin": 0.6333333333333333,
+    "entryPx": 0.0000298998840884,
+    "sizeSol": 0.1,
+    "pnlSol": 0.030927834513894893,
+    "realizedMult": 1.369278345138949,
+    "peakMult": 1.5661181252761767,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "3GPGLTH8D3eVV7RbLXdSzXdPvzvgJRocMG8hvqZApump",
+    "caller": "caller_01",
+    "callMs": 1790444441000,
+    "entryMs": 1790444460000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.0000254934854599,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03857763866212136,
+    "realizedMult": 0.6742236133787863,
+    "peakMult": 1.224179309760903,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "5js573e117ihF58qeg82ChJ1N5xz9SvTeWUps9k2CDS2",
+    "caller": "caller_01",
+    "callMs": 1790445053000,
+    "entryMs": 1790445060000,
+    "entryDelayMin": 0.11666666666666667,
+    "entryPx": 0.0000539006506476,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0376807115708599,
+    "realizedMult": 0.683192884291401,
+    "peakMult": 1.0578576577523904,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "GDT8UZGGuaa9YAevWxh7yBcNvj4otQUv4xf6j4RsForK",
+    "caller": "caller_01",
+    "callMs": 1790446753000,
+    "entryMs": 1790446800000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.0000851507389449,
+    "sizeSol": 0.1,
+    "pnlSol": 0.040459402172592036,
+    "realizedMult": 1.4645940217259203,
+    "peakMult": 1.773240721688928,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "8ELen6sPFDQkXxErzNC3CkootqCaTsobKMoVHdBCpump",
+    "caller": "caller_01",
+    "callMs": 1790457125000,
+    "entryMs": 1790457180000,
+    "entryDelayMin": 0.9166666666666666,
+    "entryPx": 0.000135259689014,
+    "sizeSol": 0.1,
+    "pnlSol": -0.037946242973992385,
+    "realizedMult": 0.6805375702600761,
+    "peakMult": 1.0004743009278496,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "AdK9FeZuxsyXLgruAGsJ7au3GksPPqedqCeNfh9Tpump",
+    "caller": "caller_01",
+    "callMs": 1790466198000,
+    "entryMs": 1790466240000,
+    "entryDelayMin": 0.7,
+    "entryPx": 0.0000770807335252,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0396499406687764,
+    "realizedMult": 1.456499406687764,
+    "peakMult": 1.7255978841653723,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "9bZQPrSbzNQhMnsmT5rMXhGodx5DwT5eXCGySZFKpump",
+    "caller": "caller_01",
+    "callMs": 1790467257000,
+    "entryMs": 1790467260000,
+    "entryDelayMin": 0.05,
+    "entryPx": 0.000299443064101,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03997412537571019,
+    "realizedMult": 1.459741253757102,
+    "peakMult": 1.5191918453271025,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "7jvc4ksnZFCguYLEpUywX7NpZ8rpW4W1thxdcC4iAufJ",
+    "caller": "caller_01",
+    "callMs": 1790467498000,
+    "entryMs": 1790467500000,
+    "entryDelayMin": 0.03333333333333333,
+    "entryPx": 0.000158801678608,
+    "sizeSol": 0.1,
+    "pnlSol": 0.0405980945781502,
+    "realizedMult": 1.465980945781502,
+    "peakMult": 1.547483197413885,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "6gBRCFVn8ZTt4EjguFjEsHMFW1L5jUuFtL1sCSXj9D3i",
+    "caller": "caller_01",
+    "callMs": 1790467647000,
+    "entryMs": 1790467680000,
+    "entryDelayMin": 0.55,
+    "entryPx": 0.0000278669060759,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03824048302419312,
+    "realizedMult": 0.6775951697580688,
+    "peakMult": 1.0037858128065118,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "49ScgPmib5Zo7xujvHAUG7c3qG3sr2UeF4TEeZKxPZJH",
+    "caller": "caller_01",
+    "callMs": 1790469075000,
+    "entryMs": 1790469120000,
+    "entryDelayMin": 0.75,
+    "entryPx": 0.0000305470778225,
+    "sizeSol": 0.1,
+    "pnlSol": -0.038349291866801936,
+    "realizedMult": 0.6765070813319807,
+    "peakMult": 1.3091534753102976,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "5UFz6MGi2AzKB1PEmtUkmKCEfp6AXiEBSDF28m9JrPgu",
+    "caller": "caller_01",
+    "callMs": 1790469632000,
+    "entryMs": 1790469660000,
+    "entryDelayMin": 0.4666666666666667,
+    "entryPx": 0.0000447462738601,
+    "sizeSol": 0.1,
+    "pnlSol": -0.037680957513005105,
+    "realizedMult": 0.683190424869949,
+    "peakMult": 1.3631260671760366,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "m97Ba7W7iFJtivsqmoNLt9xEYhQCR7mfHuJKzN2pump",
+    "caller": "caller_01",
+    "callMs": 1790469955000,
+    "entryMs": 1790469960000,
+    "entryDelayMin": 0.08333333333333333,
+    "entryPx": 0.0000678987779833,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03958203997885141,
+    "realizedMult": 1.455820399788514,
+    "peakMult": 1.770471999092044,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "CHhntDri1ARAkRipLtFhmswUBBPN7uzKDCtcET2fpump",
+    "caller": "caller_01",
+    "callMs": 1790471101000,
+    "entryMs": 1790471160000,
+    "entryDelayMin": 0.9833333333333333,
+    "entryPx": 0.0000331357462062,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03869832957475001,
+    "realizedMult": 0.6730167042524999,
+    "peakMult": 1.2938483126925369,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "2wfe3Lf4Gn2d8Qywut7JFK7jzNktUtJraAWZbNpnpump",
+    "caller": "caller_01",
+    "callMs": 1790475369000,
+    "entryMs": 1790475420000,
+    "entryDelayMin": 0.85,
+    "entryPx": 0.0000449666716117,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03808909899611788,
+    "realizedMult": 0.6791090100388212,
+    "peakMult": 1.1997620649126004,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "8HnLRKJ6XkeGq1tpmKPqn3yB5ruqbSR5LR5nVCNAshop",
+    "caller": "caller_01",
+    "callMs": 1790512186000,
+    "entryMs": 1790512200000,
+    "entryDelayMin": 0.23333333333333334,
+    "entryPx": 0.0000275282007592,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03829043566988725,
+    "realizedMult": 0.6770956433011275,
+    "peakMult": 1.0218804841394764,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "FGZScHYURa8qMezk5gpZj5C2ExazybAwBp5TbNE4M3A8",
+    "caller": "caller_05",
+    "callMs": 1790514998000,
+    "entryMs": 1790515020000,
+    "entryDelayMin": 0.36666666666666664,
+    "entryPx": 0.000155629312843,
+    "sizeSol": 0.1,
+    "pnlSol": -0.037541981780511414,
+    "realizedMult": 0.6845801821948858,
+    "peakMult": 1.332281307302103,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "29BXYJnEa4BksBQLEtXnj51gpCidZiPCpGqXCSwGpump",
+    "caller": "caller_04",
+    "callMs": 1790519453000,
+    "entryMs": 1790519460000,
+    "entryDelayMin": 0.11666666666666667,
+    "entryPx": 0.0000294010922983,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03425610384316841,
+    "realizedMult": 1.402561038431684,
+    "peakMult": 1.5703907556478662,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "CYCiBxww3b8X1hSuMCXgbH2WMQxGYD7fBK19UefE6onC",
+    "caller": "caller_04",
+    "callMs": 1790520747000,
+    "entryMs": 1790520780000,
+    "entryDelayMin": 0.55,
+    "entryPx": 0.000065647230166,
+    "sizeSol": 0.1,
+    "pnlSol": -0.037657652925404676,
+    "realizedMult": 0.6834234707459532,
+    "peakMult": 1.4944556033822045,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "HL5rHVLWnmWcikxgt6Et1X9Vo1o64dEuJuWpmcsypump",
+    "caller": "caller_05",
+    "callMs": 1790538595000,
+    "entryMs": 1790538600000,
+    "entryDelayMin": 0.08333333333333333,
+    "entryPx": 0.0000418150678785,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03876600428325857,
+    "realizedMult": 0.6723399571674143,
+    "peakMult": 1.0361639550004778,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "8tsqo7DMkuYcWnGbjs6ApkcWgnJQaZpvg2ug3Jw6pump",
+    "caller": "caller_02",
+    "callMs": 1790538819000,
+    "entryMs": 1790538840000,
+    "entryDelayMin": 0.35,
+    "entryPx": 0.0000305033507484,
+    "sizeSol": 0.1,
+    "pnlSol": -0.038515122551834945,
+    "realizedMult": 0.6748487744816506,
+    "peakMult": 1.0880419945910653,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "3FfCcJoAJhbXyd4LaiLw4QvLqxnMKhTKfZkUgPRsRRT2",
+    "caller": "caller_03",
+    "callMs": 1790546932000,
+    "entryMs": 1790546940000,
+    "entryDelayMin": 0.13333333333333333,
+    "entryPx": 0.0001019734951,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03759853417791146,
+    "realizedMult": 0.6840146582208854,
+    "peakMult": 1.0850085394003526,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "F2gJvL2Um1oUEwoczw4TyRSPhvPR1d9d74fbov7Lpump",
+    "caller": "caller_01",
+    "callMs": 1790554388000,
+    "entryMs": 1790554440000,
+    "entryDelayMin": 0.8666666666666667,
+    "entryPx": 0.0000319275822545,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0385552674003368,
+    "realizedMult": 0.6744473259966319,
+    "peakMult": 1.0013567507446917,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "AmaM7N43JBicpcHDbVKyGeuTjtnNhJ2yZTdWqoZpCX8b",
+    "caller": "caller_03",
+    "callMs": 1790556247000,
+    "entryMs": 1790556300000,
+    "entryDelayMin": 0.8833333333333333,
+    "entryPx": 0.000141830758709,
+    "sizeSol": 0.1,
+    "pnlSol": 0.04058857164870878,
+    "realizedMult": 1.4658857164870878,
+    "peakMult": 1.5631684258552265,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "8c9rpLvnL7fN9Yjpk7TviSXongcgppcs4bN7n95qpump",
+    "caller": "caller_07",
+    "callMs": 1790558374000,
+    "entryMs": 1790558400000,
+    "entryDelayMin": 0.43333333333333335,
+    "entryPx": 0.00010142113933,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03979515805775375,
+    "realizedMult": 1.4579515805775374,
+    "peakMult": 1.5974705841238355,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "3mQvXdP1ABix4zyhYKA2aiAycxaVniD58HPjYLmhuSJ5",
+    "caller": "caller_03",
+    "callMs": 1790562785000,
+    "entryMs": 1790562840000,
+    "entryDelayMin": 0.9166666666666666,
+    "entryPx": 0.0000396090528716,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0378379742396058,
+    "realizedMult": 0.6816202576039421,
+    "peakMult": 1.121652296340439,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "GJKZgTVHLGD7d31fDEkfbT4qgyThTREKHazwS6G4pump",
+    "caller": "caller_01",
+    "callMs": 1790585456000,
+    "entryMs": 1790585460000,
+    "entryDelayMin": 0.06666666666666667,
+    "entryPx": 0.0000354285860778,
+    "sizeSol": 0.1,
+    "pnlSol": -0.038112082480580976,
+    "realizedMult": 0.6788791751941903,
+    "peakMult": 1.0017151188186446,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "zVbJ3eRjhRbvKWAxP8xrXZAeAcSqk3vtTjCzzVAAphi",
+    "caller": "caller_01",
+    "callMs": 1790594942000,
+    "entryMs": 1790595000000,
+    "entryDelayMin": 0.9666666666666667,
+    "entryPx": 0.0000366001453927,
+    "sizeSol": 0.1,
+    "pnlSol": 0.04030517664484538,
+    "realizedMult": 1.4630517664484537,
+    "peakMult": 1.9876626993785098,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "6amZDV2TFYF6Qj6RGKE6FPedNLyVgVtmkX9iMDDrpump",
+    "caller": "caller_03",
+    "callMs": 1790597988000,
+    "entryMs": 1790598000000,
+    "entryDelayMin": 0.2,
+    "entryPx": 0.0000428113838209,
+    "sizeSol": 0.1,
+    "pnlSol": 0.039464623042432985,
+    "realizedMult": 1.4546462304243297,
+    "peakMult": 1.5012721593928813,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "CWM9pa47KtTkswXwpbs5SJTAqwsBNgvNQ8bLhP7ipump",
+    "caller": "caller_01",
+    "callMs": 1790609265000,
+    "entryMs": 1790609280000,
+    "entryDelayMin": 0.25,
+    "entryPx": 0.0000489703216753,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03802755663893164,
+    "realizedMult": 0.6797244336106836,
+    "peakMult": 1.3639689697748103,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "EhNF7NoYa47UByaW6CAjobuoX7aia3LFAxNupFMLpump",
+    "caller": "caller_01",
+    "callMs": 1790611326000,
+    "entryMs": 1790611380000,
+    "entryDelayMin": 0.9,
+    "entryPx": 0.0000298375077855,
+    "sizeSol": 0.1,
+    "pnlSol": -0.038701770233421674,
+    "realizedMult": 0.6729822976657832,
+    "peakMult": 1.01446277067449,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "H12pRhhNmRLoPV1PTwbk5KRTLeU3h5w4bgHQQ42pump",
+    "caller": "caller_01",
+    "callMs": 1790615851000,
+    "entryMs": 1790615880000,
+    "entryDelayMin": 0.48333333333333334,
+    "entryPx": 0.0000394289472507,
+    "sizeSol": 0.1,
+    "pnlSol": -0.038137280000028466,
+    "realizedMult": 0.6786271999997153,
+    "peakMult": 1.0152052731635983,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "F518B5yf33Yed4HPp2akNzfr11xLbPE83CnBa19Upump",
+    "caller": "caller_01",
+    "callMs": 1790623545000,
+    "entryMs": 1790623560000,
+    "entryDelayMin": 0.25,
+    "entryPx": 0.0000423778839014,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03813199431829722,
+    "realizedMult": 0.6786800568170278,
+    "peakMult": 1.012586986106741,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "9t4nAuTyS6QLStW1vTxMLf7899b9UF1tmmhRCLbApump",
+    "caller": "caller_07",
+    "callMs": 1790634435000,
+    "entryMs": 1790634480000,
+    "entryDelayMin": 0.75,
+    "entryPx": 0.0000340928194307,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03615354572333402,
+    "realizedMult": 1.42153545723334,
+    "peakMult": 1.8975817785473101,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "BgwfQ2nezfeeCdSkuhJzVa1o4LontBRnhEuwiiskpump",
+    "caller": "caller_01",
+    "callMs": 1790636319000,
+    "entryMs": 1790636340000,
+    "entryDelayMin": 0.35,
+    "entryPx": 0.000101324479408,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03981243042240335,
+    "realizedMult": 1.4581243042240335,
+    "peakMult": 1.604691961873159,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "4kgo11KazbCNd2DosYSLGpgSZhEtda1gGu4rbWJLGCJV",
+    "caller": "caller_11",
+    "callMs": 1790643537000,
+    "entryMs": 1790643540000,
+    "entryDelayMin": 0.05,
+    "entryPx": 0.000213792578275,
+    "sizeSol": 0.1,
+    "pnlSol": -0.037527691156547104,
+    "realizedMult": 0.684723088434529,
+    "peakMult": 1.308619266516959,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "2sDeSDUigrzYKRhZBjjs8AJDyMYroRyVAsUzzq9D4sqr",
+    "caller": "caller_13",
+    "callMs": 1790645623000,
+    "entryMs": 1790645640000,
+    "entryDelayMin": 0.2833333333333333,
+    "entryPx": 0.000240590956134,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03750079313751529,
+    "realizedMult": 0.6849920686248471,
+    "peakMult": 1.3435508959986184,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "GwLj4MG9oZCqpQiKRuPf4gjtfFnNWL8X5uMA1MJgpump",
+    "caller": "caller_01",
+    "callMs": 1790654654000,
+    "entryMs": 1790654700000,
+    "entryDelayMin": 0.7666666666666667,
+    "entryPx": 0.000026421834276,
+    "sizeSol": 0.1,
+    "pnlSol": -0.038135703196605454,
+    "realizedMult": 0.6786429680339454,
+    "peakMult": 1.2076192206300704,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "HRGg3vmHDunxPYT6fg4s6WCrVQFwoHiw2NA7c89xpump",
+    "caller": "caller_03",
+    "callMs": 1790660754000,
+    "entryMs": 1790660760000,
+    "entryDelayMin": 0.1,
+    "entryPx": 0.0000245428119335,
+    "sizeSol": 0.1,
+    "pnlSol": -0.0386297319305623,
+    "realizedMult": 0.673702680694377,
+    "peakMult": 1.0031575214164528,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "7UfcTJD2RSRg9AJ4k2V2rs71Ew8Zy2avaU5roc8bpump",
+    "caller": "caller_07",
+    "callMs": 1790661013000,
+    "entryMs": 1790661060000,
+    "entryDelayMin": 0.7833333333333333,
+    "entryPx": 0.000030259371731,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03931583704285648,
+    "realizedMult": 0.6668416295714352,
+    "peakMult": 1.3959606022165103,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "memecaF4QW3vK9jndiGyhFFRfHikcUd1h1McZUUPB69",
+    "caller": "caller_01",
+    "callMs": 1790672861000,
+    "entryMs": 1790672880000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.0000281731306047,
+    "sizeSol": 0.1,
+    "pnlSol": 0.03448152858092255,
+    "realizedMult": 1.4048152858092255,
+    "peakMult": 1.530610534088325,
+    "exits": [
+     "take_profit@1.50x"
+    ]
+   },
+   {
+    "mint": "56yXQWc7xhy3kQJdJDQdK2EAzTTN7qqwySjsVJ6mqY7f",
+    "caller": "caller_01",
+    "callMs": 1790676524000,
+    "entryMs": 1790676540000,
+    "entryDelayMin": 0.26666666666666666,
+    "entryPx": 0.0000782058487399,
+    "sizeSol": 0.1,
+    "pnlSol": -0.03763279555507706,
+    "realizedMult": 0.6836720444492295,
+    "peakMult": 1,
+    "exits": [
+     "stop@0.70x"
+    ]
+   },
+   {
+    "mint": "thummB4jC8Sp36HbZsvdw2czXQDcQ3VBTMwDdLJEbuC",
+    "caller": "caller_01",
+    "callMs": 1790691701000,
+    "entryMs": 1790691720000,
+    "entryDelayMin": 0.31666666666666665,
+    "entryPx": 0.000078339011285,
+    "sizeSol": 0.1,
+    "pnlSol": -0.037601799140577034,
+    "realizedMult": 0.6839820085942296,
+    "peakMult": 1.400391560098817,
+    "exits": [
+     "stop@0.70x"
+    ]
+   }
+  ]
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T19-09-03/proposals/claude-r2.ts",
+  "name": "claude-r2: abstain; every tested entry/exit loses on both halves",
+  "holdout": {
+   "strategy": "claude-r2: abstain; every tested entry/exit loses on both halves",
+   "eligibleCalls": 154,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 20,
+   "tokensThatRan10x": 10,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "claude-r2: abstain; every tested entry/exit loses on both halves",
+   "eligibleCalls": 925,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 96,
+   "tokensThatRan10x": 40,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T19-09-03/proposals/claude-r3.ts",
+  "name": "claude-r3: abstain; 13 fit-positive cells, 0 survive validation",
+  "holdout": {
+   "strategy": "claude-r3: abstain; 13 fit-positive cells, 0 survive validation",
+   "eligibleCalls": 154,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 20,
+   "tokensThatRan10x": 10,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "claude-r3: abstain; 13 fit-positive cells, 0 survive validation",
+   "eligibleCalls": 925,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 96,
+   "tokensThatRan10x": 40,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T19-09-03/proposals/codex-r1.ts",
+  "name": "codex-r1: abstain; no demonstrated net edge",
+  "holdout": {
+   "strategy": "codex-r1: abstain; no demonstrated net edge",
+   "eligibleCalls": 154,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 20,
+   "tokensThatRan10x": 10,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "codex-r1: abstain; no demonstrated net edge",
+   "eligibleCalls": 925,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 96,
+   "tokensThatRan10x": 40,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T19-09-03/proposals/codex-r2.ts",
+  "name": "codex-r2: retain cash; no demonstrated edge after costs",
+  "holdout": {
+   "strategy": "codex-r2: retain cash; no demonstrated edge after costs",
+   "eligibleCalls": 154,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 20,
+   "tokensThatRan10x": 10,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "codex-r2: retain cash; no demonstrated edge after costs",
+   "eligibleCalls": 925,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 96,
+   "tokensThatRan10x": 40,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ },
+ {
+  "file": "research/debate-calls/2026-09-30T19-09-03/proposals/codex-r3.ts",
+  "name": "codex-r3: retain cash; no robust after-cost edge demonstrated",
+  "holdout": {
+   "strategy": "codex-r3: retain cash; no robust after-cost edge demonstrated",
+   "eligibleCalls": 154,
+   "entries": 0,
+   "skippedNoData": 0,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 20,
+   "tokensThatRan10x": 10,
+   "maxDrawdownSol": 0
+  },
+  "research": {
+   "strategy": "codex-r3: retain cash; no robust after-cost edge demonstrated",
+   "eligibleCalls": 925,
+   "entries": 0,
+   "skippedNoData": 6,
+   "totalSol": 0,
+   "meanSol": null,
+   "trimmedMeanSol": null,
+   "medianSol": null,
+   "winRate": null,
+   "bestSol": 0,
+   "totalWithoutBestSol": 0,
+   "captured5x": 0,
+   "captured10x": 0,
+   "tokensThatRan5x": 96,
+   "tokensThatRan10x": 40,
+   "maxDrawdownSol": 0
+  },
+  "holdoutTrades": []
+ }
+]

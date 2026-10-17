@@ -1,0 +1,927 @@
+{
+  "selected": "acceleration-hold60-bundle6",
+  "validation": [
+    {
+      "name": "current",
+      "latency": 0,
+      "unlimited": true,
+      "trades": 4,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.010419255500000009,
+      "totalPnlSol": -0.041677022000000036,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.041677022000000036,
+      "avgHoldS": 3.536,
+      "avgPnlPct": -10.115782038834961,
+      "exitReasons": {
+        "dev_sell": 1,
+        "whale_sell": 1,
+        "stop_loss_tight": 1,
+        "stop_loss": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.014524199279387157,
+        -0.00631431172061286
+      ],
+      "worstSol": -0.015852907000000013,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.041677022000000036
+    },
+    {
+      "name": "current",
+      "latency": 0,
+      "unlimited": false,
+      "trades": 4,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.010419255500000009,
+      "totalPnlSol": -0.041677022000000036,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.041677022000000036,
+      "avgHoldS": 3.536,
+      "avgPnlPct": -10.115782038834961,
+      "exitReasons": {
+        "dev_sell": 1,
+        "whale_sell": 1,
+        "stop_loss_tight": 1,
+        "stop_loss": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.014524199279387157,
+        -0.00631431172061286
+      ],
+      "worstSol": -0.015852907000000013,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.041677022000000036
+    },
+    {
+      "name": "current",
+      "latency": 300,
+      "unlimited": true,
+      "trades": 4,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.007350445500000014,
+      "totalPnlSol": -0.029401782000000057,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.029401782000000057,
+      "avgHoldS": 0.6935,
+      "avgPnlPct": -7.136354854368946,
+      "exitReasons": {
+        "stop_loss": 3,
+        "whale_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.009154271980587898,
+        -0.00554661901941213
+      ],
+      "worstSol": -0.008745662000000015,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.029401782000000057
+    },
+    {
+      "name": "current",
+      "latency": 300,
+      "unlimited": false,
+      "trades": 4,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.007350445500000014,
+      "totalPnlSol": -0.029401782000000057,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.029401782000000057,
+      "avgHoldS": 0.6935,
+      "avgPnlPct": -7.136354854368946,
+      "exitReasons": {
+        "stop_loss": 3,
+        "whale_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.009154271980587898,
+        -0.00554661901941213
+      ],
+      "worstSol": -0.008745662000000015,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.029401782000000057
+    },
+    {
+      "name": "current",
+      "latency": 600,
+      "unlimited": true,
+      "trades": 4,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.25,
+      "expectancySol": -0.007244882500000008,
+      "totalPnlSol": -0.02897953000000003,
+      "profitFactor": 0.01968824701144649,
+      "maxDrawdownSol": 0.02897953000000003,
+      "avgHoldS": 31.015999999999995,
+      "avgPnlPct": -7.033866504854375,
+      "exitReasons": {
+        "stop_loss": 2,
+        "time_stop": 1,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.012522446257010506,
+        -0.0019673187429895093
+      ],
+      "worstSol": -0.011474854000000007,
+      "bestSol": 0.0005820149999999913,
+      "pnlWithoutBest": -0.029561545000000022
+    },
+    {
+      "name": "current",
+      "latency": 600,
+      "unlimited": false,
+      "trades": 4,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.25,
+      "expectancySol": -0.007244882500000008,
+      "totalPnlSol": -0.02897953000000003,
+      "profitFactor": 0.01968824701144649,
+      "maxDrawdownSol": 0.02897953000000003,
+      "avgHoldS": 31.015999999999995,
+      "avgPnlPct": -7.033866504854375,
+      "exitReasons": {
+        "stop_loss": 2,
+        "time_stop": 1,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.012522446257010506,
+        -0.0019673187429895093
+      ],
+      "worstSol": -0.011474854000000007,
+      "bestSol": 0.0005820149999999913,
+      "pnlWithoutBest": -0.029561545000000022
+    },
+    {
+      "name": "current",
+      "latency": 1500,
+      "unlimited": true,
+      "trades": 4,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.25,
+      "expectancySol": -0.009068373500000015,
+      "totalPnlSol": -0.03627349400000006,
+      "profitFactor": 0.42482967274612926,
+      "maxDrawdownSol": 0.06306565600000004,
+      "avgHoldS": 7.602250000000001,
+      "avgPnlPct": -8.804246116504867,
+      "exitReasons": {
+        "stop_loss": 2,
+        "stop_loss_tight": 1,
+        "trailing_stop": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.036258362261476634,
+        0.018121615261476605
+      ],
+      "worstSol": -0.04092379800000001,
+      "bestSol": 0.02679216199999998,
+      "pnlWithoutBest": -0.06306565600000004
+    },
+    {
+      "name": "current",
+      "latency": 1500,
+      "unlimited": false,
+      "trades": 4,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.25,
+      "expectancySol": -0.009068373500000015,
+      "totalPnlSol": -0.03627349400000006,
+      "profitFactor": 0.42482967274612926,
+      "maxDrawdownSol": 0.06306565600000004,
+      "avgHoldS": 7.602250000000001,
+      "avgPnlPct": -8.804246116504867,
+      "exitReasons": {
+        "stop_loss": 2,
+        "stop_loss_tight": 1,
+        "trailing_stop": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.036258362261476634,
+        0.018121615261476605
+      ],
+      "worstSol": -0.04092379800000001,
+      "bestSol": 0.02679216199999998,
+      "pnlWithoutBest": -0.06306565600000004
+    },
+    {
+      "name": "original-v1",
+      "latency": 0,
+      "unlimited": true,
+      "trades": 13,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.011062163846153855,
+      "totalPnlSol": -0.14380813000000012,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.14380813000000012,
+      "avgHoldS": 5.098461538461537,
+      "avgPnlPct": -10.739964899178501,
+      "exitReasons": {
+        "stop_loss": 4,
+        "dev_sell": 4,
+        "stop_loss_tight": 4,
+        "whale_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.013751764216274862,
+        -0.008372563476032848
+      ],
+      "worstSol": -0.020524728000000006,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.14380813000000012
+    },
+    {
+      "name": "original-v1",
+      "latency": 0,
+      "unlimited": false,
+      "trades": 8,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.01296072762500001,
+      "totalPnlSol": -0.10368582100000008,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.10368582100000008,
+      "avgHoldS": 5.41725,
+      "avgPnlPct": -12.583230703883505,
+      "exitReasons": {
+        "stop_loss": 2,
+        "dev_sell": 3,
+        "stop_loss_tight": 2,
+        "whale_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.01629940966208228,
+        -0.009622045587917743
+      ],
+      "worstSol": -0.020524728000000006,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.10368582100000008
+    },
+    {
+      "name": "original-v1",
+      "latency": 300,
+      "unlimited": true,
+      "trades": 13,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.013754694615384628,
+      "totalPnlSol": -0.17881103000000018,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.17881103000000018,
+      "avgHoldS": 4.322538461538462,
+      "avgPnlPct": -13.354072442120998,
+      "exitReasons": {
+        "stop_loss": 6,
+        "stop_loss_tight": 3,
+        "whale_sell": 1,
+        "dev_sell": 3
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.018262803558230813,
+        -0.009246585672538443
+      ],
+      "worstSol": -0.030710560000000012,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.17881103000000018
+    },
+    {
+      "name": "original-v1",
+      "latency": 300,
+      "unlimited": false,
+      "trades": 7,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.015306675857142868,
+      "totalPnlSol": -0.10714673100000008,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.10714673100000008,
+      "avgHoldS": 3.427285714285714,
+      "avgPnlPct": -14.860850346740648,
+      "exitReasons": {
+        "stop_loss": 3,
+        "stop_loss_tight": 1,
+        "whale_sell": 1,
+        "dev_sell": 2
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.02078762182281004,
+        -0.009825729891475694
+      ],
+      "worstSol": -0.02686100200000001,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.10714673100000008
+    },
+    {
+      "name": "original-v1",
+      "latency": 600,
+      "unlimited": true,
+      "trades": 13,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.07692307692307693,
+      "expectancySol": -0.012927697153846163,
+      "totalPnlSol": -0.16806006300000012,
+      "profitFactor": 0.0034511849409255436,
+      "maxDrawdownSol": 0.16806006300000012,
+      "avgHoldS": 13.652538461538459,
+      "avgPnlPct": -12.551162285287537,
+      "exitReasons": {
+        "stop_loss": 5,
+        "stop_loss_tight": 3,
+        "dev_sell": 4,
+        "time_stop": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.017991453069114986,
+        -0.007863941238577341
+      ],
+      "worstSol": -0.03244206900000002,
+      "bestSol": 0.0005820149999999913,
+      "pnlWithoutBest": -0.1686420780000001
+    },
+    {
+      "name": "original-v1",
+      "latency": 600,
+      "unlimited": false,
+      "trades": 9,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.1111111111111111,
+      "expectancySol": -0.011617041555555567,
+      "totalPnlSol": -0.1045533740000001,
+      "profitFactor": 0.00553586195415124,
+      "maxDrawdownSol": 0.1045533740000001,
+      "avgHoldS": 19.08711111111111,
+      "avgPnlPct": -11.278681121898607,
+      "exitReasons": {
+        "stop_loss": 3,
+        "stop_loss_tight": 3,
+        "dev_sell": 2,
+        "time_stop": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.0173380265105063,
+        -0.0058960566006048334
+      ],
+      "worstSol": -0.02686100200000001,
+      "bestSol": 0.0005820149999999913,
+      "pnlWithoutBest": -0.10513538900000009
+    },
+    {
+      "name": "original-v1",
+      "latency": 1500,
+      "unlimited": true,
+      "trades": 13,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.07692307692307693,
+      "expectancySol": -0.014315743923076933,
+      "totalPnlSol": -0.18610467100000014,
+      "profitFactor": 0.12584575177781046,
+      "maxDrawdownSol": 0.21289683300000012,
+      "avgHoldS": 6.9343076923076925,
+      "avgPnlPct": -13.898780507841686,
+      "exitReasons": {
+        "stop_loss": 4,
+        "stop_loss_tight": 5,
+        "dev_sell": 3,
+        "trailing_stop": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.02328016210555943,
+        -0.005351325740594435
+      ],
+      "worstSol": -0.04092379800000001,
+      "bestSol": 0.02679216199999998,
+      "pnlWithoutBest": -0.21289683300000012
+    },
+    {
+      "name": "original-v1",
+      "latency": 1500,
+      "unlimited": false,
+      "trades": 6,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.018238684333333345,
+      "totalPnlSol": -0.10943210600000007,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.10943210600000007,
+      "avgHoldS": 4.219833333333333,
+      "avgPnlPct": -17.707460517799362,
+      "exitReasons": {
+        "stop_loss": 4,
+        "stop_loss_tight": 1,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.028979355757304773,
+        -0.007498012909361919
+      ],
+      "worstSol": -0.04092379800000001,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.10943210600000007
+    },
+    {
+      "name": "train-selected",
+      "latency": 0,
+      "unlimited": true,
+      "trades": 25,
+      "failed": 0,
+      "wins": 4,
+      "winRate": 0.16,
+      "expectancySol": -0.00696414444000001,
+      "totalPnlSol": -0.17410361100000024,
+      "profitFactor": 0.28808249877287717,
+      "maxDrawdownSol": 0.18187919700000016,
+      "avgHoldS": 5.351960000000002,
+      "avgPnlPct": -6.761305281553407,
+      "exitReasons": {
+        "stop_loss": 12,
+        "whale_sell": 7,
+        "stop_loss_tight": 2,
+        "trailing_stop": 3,
+        "take_profit": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.011749021464421791,
+        -0.0021792674155782293
+      ],
+      "worstSol": -0.021876249000000014,
+      "bestSol": 0.032717917999999985,
+      "pnlWithoutBest": -0.20682152900000023
+    },
+    {
+      "name": "train-selected",
+      "latency": 0,
+      "unlimited": false,
+      "trades": 11,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.09090909090909091,
+      "expectancySol": -0.009826967818181827,
+      "totalPnlSol": -0.1080966460000001,
+      "profitFactor": 0.06000538744062652,
+      "maxDrawdownSol": 0.1080966460000001,
+      "avgHoldS": 6.887636363636363,
+      "avgPnlPct": -9.540745454545462,
+      "exitReasons": {
+        "stop_loss": 5,
+        "whale_sell": 4,
+        "stop_loss_tight": 1,
+        "trailing_stop": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.01355669051058752,
+        -0.006097245125776134
+      ],
+      "worstSol": -0.017225316000000004,
+      "bestSol": 0.006900444999999991,
+      "pnlWithoutBest": -0.11499709100000009
+    },
+    {
+      "name": "train-selected",
+      "latency": 300,
+      "unlimited": true,
+      "trades": 23,
+      "failed": 2,
+      "wins": 2,
+      "winRate": 0.08695652173913043,
+      "expectancySol": -0.013296791913043487,
+      "totalPnlSol": -0.3058262140000002,
+      "profitFactor": 0.1288259770189633,
+      "maxDrawdownSol": 0.3128782350000002,
+      "avgHoldS": 6.249434782608697,
+      "avgPnlPct": -12.825082904178988,
+      "exitReasons": {
+        "stop_loss": 13,
+        "whale_sell": 6,
+        "stop_loss_tight": 2,
+        "trailing_stop": 1,
+        "take_profit": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.020105783129478885,
+        -0.006313887653129828
+      ],
+      "worstSol": -0.05077847300000001,
+      "bestSol": 0.032717917999999985,
+      "pnlWithoutBest": -0.3385441320000002
+    },
+    {
+      "name": "train-selected",
+      "latency": 300,
+      "unlimited": false,
+      "trades": 8,
+      "failed": 0,
+      "wins": 0,
+      "winRate": 0,
+      "expectancySol": -0.016554973500000014,
+      "totalPnlSol": -0.1324397880000001,
+      "profitFactor": 0,
+      "maxDrawdownSol": 0.1324397880000001,
+      "avgHoldS": 3.2581249999999997,
+      "avgPnlPct": -16.072789805825252,
+      "exitReasons": {
+        "stop_loss": 4,
+        "whale_sell": 3,
+        "stop_loss_tight": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.024281257209432083,
+        -0.008828689790567945
+      ],
+      "worstSol": -0.043279355000000005,
+      "bestSol": 0,
+      "pnlWithoutBest": -0.1324397880000001
+    },
+    {
+      "name": "train-selected",
+      "latency": 600,
+      "unlimited": true,
+      "trades": 23,
+      "failed": 2,
+      "wins": 3,
+      "winRate": 0.13043478260869565,
+      "expectancySol": -0.012800367217391318,
+      "totalPnlSol": -0.2944084460000003,
+      "profitFactor": 0.172976144861028,
+      "maxDrawdownSol": 0.3107609900000003,
+      "avgHoldS": 7.736130434782609,
+      "avgPnlPct": -12.343117180244843,
+      "exitReasons": {
+        "take_profit": 2,
+        "whale_sell": 5,
+        "stop_loss": 10,
+        "stop_loss_tight": 4,
+        "trailing_stop": 1,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.02016721726723973,
+        -0.005259604124064647
+      ],
+      "worstSol": -0.05077847300000001,
+      "bestSol": 0.032717917999999985,
+      "pnlWithoutBest": -0.3271263640000003
+    },
+    {
+      "name": "train-selected",
+      "latency": 600,
+      "unlimited": false,
+      "trades": 8,
+      "failed": 0,
+      "wins": 1,
+      "winRate": 0.125,
+      "expectancySol": -0.012566327125000016,
+      "totalPnlSol": -0.10053061700000013,
+      "profitFactor": 0.1399050458602841,
+      "maxDrawdownSol": 0.11688316100000011,
+      "avgHoldS": 4.740875,
+      "avgPnlPct": -12.200317597087391,
+      "exitReasons": {
+        "take_profit": 1,
+        "whale_sell": 3,
+        "stop_loss": 3,
+        "stop_loss_tight": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.02434999687624092,
+        -0.0007826573737591148
+      ],
+      "worstSol": -0.043533676000000014,
+      "bestSol": 0.016352543999999983,
+      "pnlWithoutBest": -0.11688316100000011
+    },
+    {
+      "name": "train-selected",
+      "latency": 1500,
+      "unlimited": true,
+      "trades": 22,
+      "failed": 3,
+      "wins": 5,
+      "winRate": 0.22727272727272727,
+      "expectancySol": -0.00845326050000001,
+      "totalPnlSol": -0.18597173100000025,
+      "profitFactor": 0.32737352472219405,
+      "maxDrawdownSol": 0.23386619100000017,
+      "avgHoldS": 10.557318181818182,
+      "avgPnlPct": -8.074657149161526,
+      "exitReasons": {
+        "take_profit": 2,
+        "stop_loss": 8,
+        "stop_loss_tight": 7,
+        "trailing_stop": 2,
+        "whale_sell": 3
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.016298487243361866,
+        -0.0003353064839108841
+      ],
+      "worstSol": -0.05079703700000001,
+      "bestSol": 0.033003071999999994,
+      "pnlWithoutBest": -0.21897480300000025
+    },
+    {
+      "name": "train-selected",
+      "latency": 1500,
+      "unlimited": false,
+      "trades": 11,
+      "failed": 0,
+      "wins": 3,
+      "winRate": 0.2727272727272727,
+      "expectancySol": -0.010007236636363648,
+      "totalPnlSol": -0.11007960300000014,
+      "profitFactor": 0.2181764752799617,
+      "maxDrawdownSol": 0.12953913100000009,
+      "avgHoldS": 7.0960909090909094,
+      "avgPnlPct": -9.7157637246249,
+      "exitReasons": {
+        "take_profit": 1,
+        "stop_loss": 5,
+        "stop_loss_tight": 3,
+        "trailing_stop": 1,
+        "whale_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.020720635691718003,
+        0.0007061624189907082
+      ],
+      "worstSol": -0.05079703700000001,
+      "bestSol": 0.017111938999999993,
+      "pnlWithoutBest": -0.12719154200000013
+    }
+  ],
+  "stress": [
+    {
+      "label": "optimistic-graduation",
+      "trades": 23,
+      "failed": 2,
+      "wins": 3,
+      "winRate": 0.13043478260869565,
+      "expectancySol": -0.012800367217391318,
+      "totalPnlSol": -0.2944084460000003,
+      "profitFactor": 0.172976144861028,
+      "maxDrawdownSol": 0.3107609900000003,
+      "avgHoldS": 7.736130434782609,
+      "avgPnlPct": -12.343117180244843,
+      "exitReasons": {
+        "take_profit": 2,
+        "whale_sell": 5,
+        "stop_loss": 10,
+        "stop_loss_tight": 4,
+        "trailing_stop": 1,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.02016721726723973,
+        -0.005259604124064647
+      ],
+      "worstSol": -0.05077847300000001,
+      "bestSol": 0.032717917999999985,
+      "pnlWithoutBest": -0.3271263640000003
+    },
+    {
+      "label": "half-fixed-fees",
+      "trades": 23,
+      "failed": 2,
+      "wins": 6,
+      "winRate": 0.2608695652173913,
+      "expectancySol": -0.009631965913043489,
+      "totalPnlSol": -0.22153521600000026,
+      "profitFactor": 0.24345591541647618,
+      "maxDrawdownSol": 0.25164305500000017,
+      "avgHoldS": 12.809565217391304,
+      "avgPnlPct": -9.446785864210762,
+      "exitReasons": {
+        "take_profit": 2,
+        "trailing_stop": 4,
+        "stop_loss_tight": 7,
+        "whale_sell": 4,
+        "stop_loss": 5,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.01672118454010903,
+        -0.0024557907642388166
+      ],
+      "worstSol": -0.04777847300000001,
+      "bestSol": 0.021689025999999986,
+      "pnlWithoutBest": -0.24322424200000026
+    },
+    {
+      "label": "double-fixed-fees",
+      "trades": 23,
+      "failed": 2,
+      "wins": 1,
+      "winRate": 0.043478260869565216,
+      "expectancySol": -0.016392023173913056,
+      "totalPnlSol": -0.3770165330000003,
+      "profitFactor": 0.016965149414914265,
+      "maxDrawdownSol": 0.3770165330000003,
+      "avgHoldS": 0.7963043478260871,
+      "avgPnlPct": -15.300103896636603,
+      "exitReasons": {
+        "stop_loss": 21,
+        "trailing_stop": 1,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.020193120499369173,
+        -0.012243099761500419
+      ],
+      "worstSol": -0.04953367600000001,
+      "bestSol": 0.006506525999999985,
+      "pnlWithoutBest": -0.3835230590000003
+    },
+    {
+      "label": "80pct-entry-landing",
+      "trades": 20,
+      "failed": 5,
+      "wins": 3,
+      "winRate": 0.15,
+      "expectancySol": -0.013105204000000013,
+      "totalPnlSol": -0.26210408000000024,
+      "profitFactor": 0.19023969607020672,
+      "maxDrawdownSol": 0.2911954210000001,
+      "avgHoldS": 7.756400000000001,
+      "avgPnlPct": -12.480780582524282,
+      "exitReasons": {
+        "take_profit": 2,
+        "whale_sell": 5,
+        "stop_loss": 8,
+        "stop_loss_tight": 3,
+        "trailing_stop": 1,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.0214268148764878,
+        -0.0042835931235122235
+      ],
+      "worstSol": -0.05077847300000001,
+      "bestSol": 0.032717917999999985,
+      "pnlWithoutBest": -0.2948219980000002
+    },
+    {
+      "label": "position-0.05",
+      "trades": 23,
+      "failed": 2,
+      "wins": 1,
+      "winRate": 0.043478260869565216,
+      "expectancySol": -0.008196451869565224,
+      "totalPnlSol": -0.18851839300000015,
+      "profitFactor": 0.016999719598500464,
+      "maxDrawdownSol": 0.18851839300000015,
+      "avgHoldS": 0.7963043478260871,
+      "avgPnlPct": -15.3009346185398,
+      "exitReasons": {
+        "stop_loss": 21,
+        "trailing_stop": 1,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.010098136972180457,
+        -0.006120853723471731
+      ],
+      "worstSol": -0.024776251000000006,
+      "bestSol": 0.0032601819999999934,
+      "pnlWithoutBest": -0.19177857500000015
+    },
+    {
+      "label": "position-0.2",
+      "trades": 23,
+      "failed": 2,
+      "wins": 6,
+      "winRate": 0.2608695652173913,
+      "expectancySol": -0.01925629021739132,
+      "totalPnlSol": -0.44289467500000035,
+      "profitFactor": 0.2431998234510398,
+      "maxDrawdownSol": 0.5029351230000002,
+      "avgHoldS": 12.809565217391304,
+      "avgPnlPct": -9.44302152495182,
+      "exitReasons": {
+        "take_profit": 2,
+        "trailing_stop": 4,
+        "stop_loss_tight": 7,
+        "whale_sell": 4,
+        "stop_loss": 5,
+        "dev_sell": 1
+      },
+      "events": 111178,
+      "hours": 0.6319730555555556,
+      "censored": 0,
+      "meanClosed95Normal": [
+        -0.033418540749481175,
+        -0.004920126641823204
+      ],
+      "worstSol": -0.09546758100000001,
+      "bestSol": 0.04330809699999999,
+      "pnlWithoutBest": -0.48620277200000034
+    }
+  ]
+}

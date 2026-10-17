@@ -1,0 +1,120 @@
+ALL                                  n574 tm-0.0228 live-0.0180 p3x15% | n351 tm-0.0175 live-0.0149 p3x16% | n154 tm-0.0182 live-0.0169 p3x17%
+
+cap fit quintile cuts 12800, 24100, 42000, 89000
+  Q1 (-Infinity..12800]              n115 tm-0.0225 live-0.0264 p3x14% | n 61 tm-0.0234 live-0.0276 p3x18% | n 24 tm-0.0479 live-0.0367 p3x8%
+  Q2 (12800..24100]                  n115 tm-0.0350 live-0.0250 p3x14% | n 81 tm-0.0350 live-0.0270 p3x14% | n 30 tm0.0201 live0.0099 p3x37%
+  Q3 (24100..42000]                  n114 tm-0.0285 live-0.0109 p3x17% | n 74 tm-0.0168 live-0.0051 p3x22% | n 41 tm-0.0476 live-0.0356 p3x12%
+  Q4 (42000..89000]                  n115 tm-0.0436 live-0.0223 p3x9% | n 66 tm-0.0385 live-0.0163 p3x14% | n 22 tm-0.0504 live-0.0283 p3x14%
+  Q5 (89000..Infinity]               n115 tm-0.0206 live-0.0130 p3x20% | n 69 tm-0.0226 live-0.0112 p3x13% | n 37 tm-0.0405 live-0.0224 p3x14%
+
+liq fit quintile cuts 2780, 4050, 9480, 14500
+  Q1 (-Infinity..2780]               n115 tm-0.0264 live-0.0124 p3x16% | n 52 tm-0.0073 live0.0072 p3x27% | n 28 tm-0.0427 live-0.0303 p3x18%
+  Q2 (2780..4050]                    n115 tm-0.0269 live-0.0285 p3x15% | n 77 tm-0.0441 live-0.0368 p3x9% | n 47 tm-0.0053 live-0.0187 p3x21%
+  Q3 (4050..9480]                    n114 tm-0.0336 live-0.0191 p3x13% | n 75 tm-0.0158 live-0.0203 p3x20% | n 22 tm-0.0567 live-0.0276 p3x9%
+  Q4 (9480..14500]                   n115 tm-0.0389 live-0.0205 p3x11% | n 68 tm-0.0350 live-0.0130 p3x15% | n 23 tm-0.0507 live-0.0296 p3x13%
+  Q5 (14500..Infinity]               n115 tm-0.0253 live-0.0171 p3x18% | n 79 tm-0.0288 live-0.0153 p3x13% | n 34 tm-0.0345 live-0.0146 p3x18%
+
+flowTrades fit quintile cuts 628, 1440, 2710, 5530
+  Q1 (-Infinity..628]                n115 tm-0.0044 live-0.0197 p3x19% | n101 tm-0.0187 live-0.0169 p3x20% | n 36 tm-0.0294 live-0.0277 p3x17%
+  Q2 (628..1440]                     n115 tm-0.0393 live-0.0257 p3x11% | n 78 tm-0.0361 live-0.0298 p3x12% | n 35 tm-0.0231 live-0.0218 p3x20%
+  Q3 (1440..2710]                    n114 tm-0.0348 live-0.0169 p3x14% | n 62 tm-0.0317 live-0.0140 p3x15% | n 24 tm-0.0246 live-0.0096 p3x25%
+  Q4 (2710..5530]                    n115 tm-0.0369 live-0.0183 p3x14% | n 55 tm-0.0211 live-0.0044 p3x18% | n 23 tm-0.0573 live-0.0504 p3x9%
+  Q5 (5530..Infinity]                n115 tm-0.0318 live-0.0171 p3x15% | n 55 tm-0.0355 live-0.0174 p3x15% | n 36 tm-0.0418 live-0.0100 p3x14%
+
+flowAgeMin fit quintile cuts 6.9, 13.4, 27.2, 81.5
+  Q1 (-Infinity..6.9]                n115 tm-0.0208 live-0.0142 p3x17% | n106 tm-0.0275 live-0.0208 p3x17% | n 44 tm-0.0163 live-0.0085 p3x25%
+  Q2 (6.9..13.4]                     n115 tm-0.0244 live-0.0149 p3x18% | n 58 tm-0.0483 live-0.0326 p3x7% | n 24 tm-0.0575 live-0.0565 p3x4%
+  Q3 (13.4..27.2]                    n114 tm-0.0402 live-0.0301 p3x11% | n 63 tm-0.0341 live-0.0184 p3x14% | n 27 tm-0.0213 live-0.0181 p3x22%
+  Q4 (27.2..81.5]                    n115 tm-0.0406 live-0.0197 p3x11% | n 49 tm-0.0124 live0.0015 p3x27% | n 20 tm-0.0557 live-0.0476 p3x10%
+  Q5 (81.5..Infinity]                n115 tm-0.0278 live-0.0188 p3x16% | n 75 tm-0.0167 live-0.0120 p3x16% | n 39 tm-0.0348 live-0.0094 p3x15%
+
+trades60 fit quintile cuts 463, 1130, 2120, 4290
+  Q1 (-Infinity..463]                n115 tm-0.0118 live-0.0209 p3x17% | n 92 tm-0.0109 live-0.0129 p3x22% | n 35 tm-0.0335 live-0.0302 p3x14%
+  Q2 (463..1130]                     n116 tm-0.0297 live-0.0245 p3x16% | n 86 tm-0.0345 live-0.0286 p3x13% | n 35 tm-0.0375 live-0.0209 p3x17%
+  Q3 (1130..2120]                    n113 tm-0.0389 live-0.0218 p3x12% | n 68 tm-0.0411 live-0.0109 p3x12% | n 32 tm0.0157 live-0.0001 p3x34%
+  Q4 (2120..4290]                    n115 tm-0.0344 live-0.0147 p3x15% | n 59 tm-0.0259 live-0.0190 p3x15% | n 23 tm-0.0507 live-0.0365 p3x13%
+  Q5 (4290..Infinity]                n115 tm-0.0329 live-0.0159 p3x15% | n 46 tm-0.0311 live-0.0126 p3x17% | n 29 tm-0.0573 live-0.0302 p3x3%
+
+buyers5 fit quintile cuts 42, 130, 249, 507
+  Q1 (-Infinity..42]                 n115 tm-0.0159 live-0.0164 p3x17% | n 65 tm-0.0132 live-0.0089 p3x22% | n 25 tm-0.0138 live-0.0185 p3x28%
+  Q2 (42..130]                       n115 tm-0.0461 live-0.0279 p3x9% | n 80 tm-0.0278 live-0.0180 p3x18% | n 41 tm-0.0171 live-0.0007 p3x20%
+  Q3 (130..249]                      n114 tm-0.0195 live-0.0236 p3x17% | n 67 tm-0.0384 live-0.0297 p3x10% | n 25 tm-0.0554 live-0.0437 p3x8%
+  Q4 (249..507]                      n115 tm-0.0377 live-0.0244 p3x13% | n 69 tm-0.0258 live-0.0091 p3x17% | n 37 tm-0.0499 live-0.0413 p3x11%
+  Q5 (507..Infinity]                 n115 tm-0.0280 live-0.0054 p3x17% | n 70 tm-0.0335 live-0.0209 p3x13% | n 26 tm-0.0396 live-0.0153 p3x19%
+
+buyers15 fit quintile cuts 130, 336, 619, 1220
+  Q1 (-Infinity..130]                n115 tm-0.0131 live-0.0188 p3x17% | n 85 tm-0.0155 live-0.0121 p3x19% | n 30 tm-0.0230 live-0.0180 p3x20%
+  Q2 (130..336]                      n115 tm-0.0360 live-0.0267 p3x11% | n 77 tm-0.0258 live-0.0183 p3x19% | n 34 tm-0.0202 live-0.0124 p3x24%
+  Q3 (336..619]                      n114 tm-0.0353 live-0.0229 p3x13% | n 63 tm-0.0318 live-0.0279 p3x14% | n 40 tm-0.0430 live-0.0155 p3x13%
+  Q4 (619..1220]                     n115 tm-0.0326 live-0.0112 p3x16% | n 72 tm-0.0368 live-0.0150 p3x13% | n 22 tm-0.0203 live-0.0222 p3x27%
+  Q5 (1220..Infinity]                n115 tm-0.0316 live-0.0181 p3x16% | n 54 tm-0.0374 live-0.0152 p3x13% | n 28 tm-0.0573 live-0.0517 p3x4%
+
+vol15 fit quintile cuts 13100, 31900, 57800, 129000
+  Q1 (-Infinity..13100]              n115 tm-0.0135 live-0.0206 p3x17% | n 74 tm-0.0148 live-0.0137 p3x19% | n 28 tm-0.0359 live-0.0258 p3x14%
+  Q2 (13100..31900]                  n115 tm-0.0346 live-0.0289 p3x12% | n 71 tm-0.0263 live-0.0170 p3x20% | n 28 tm-0.0196 live-0.0245 p3x25%
+  Q3 (31900..57800]                  n114 tm-0.0345 live-0.0165 p3x14% | n 63 tm-0.0423 live-0.0329 p3x11% | n 42 tm-0.0260 live-0.0071 p3x19%
+  Q4 (57800..129000]                 n115 tm-0.0325 live-0.0142 p3x16% | n 83 tm-0.0282 live-0.0103 p3x14% | n 27 tm-0.0459 live-0.0229 p3x15%
+  Q5 (129000..Infinity]              n115 tm-0.0321 live-0.0175 p3x15% | n 60 tm-0.0274 live-0.0159 p3x15% | n 29 tm-0.0511 live-0.0410 p3x10%
+
+bs15 fit quintile cuts 1.05, 1.13, 1.22, 1.43
+  Q1 (-Infinity..1.05]               n115 tm-0.0386 live-0.0209 p3x12% | n 49 tm-0.0387 live-0.0152 p3x14% | n 30 tm-0.0232 live-0.0080 p3x23%
+  Q2 (1.05..1.13]                    n115 tm-0.0305 live-0.0149 p3x17% | n 56 tm-0.0484 live-0.0313 p3x7% | n 35 tm-0.0140 live-0.0179 p3x20%
+  Q3 (1.13..1.22]                    n114 tm-0.0287 live-0.0148 p3x16% | n 82 tm-0.0314 live-0.0186 p3x15% | n 27 tm-0.0365 live-0.0222 p3x19%
+  Q4 (1.22..1.43]                    n115 tm-0.0365 live-0.0252 p3x12% | n 72 tm-0.0307 live-0.0163 p3x17% | n 34 tm-0.0514 live-0.0291 p3x9%
+  Q5 (1.43..Infinity]                n115 tm-0.0143 live-0.0219 p3x17% | n 92 tm-0.0058 live-0.0099 p3x23% | n 28 tm-0.0424 live-0.0375 p3x14%
+
+mom5 fit quintile cuts 0.903, 1.15, 1.56, 2.55
+  Q1 (-Infinity..0.903]              n115 tm-0.0380 live-0.0254 p3x13% | n 46 tm-0.0280 live-0.0155 p3x20% | n 25 tm-0.0480 live-0.0109 p3x12%
+  Q2 (0.903..1.15]                   n115 tm-0.0293 live-0.0233 p3x13% | n 69 tm-0.0410 live-0.0288 p3x9% | n 32 tm-0.0128 live-0.0102 p3x25%
+  Q3 (1.15..1.56]                    n114 tm-0.0401 live-0.0291 p3x11% | n 83 tm-0.0278 live-0.0134 p3x17% | n 34 tm-0.0269 live-0.0228 p3x21%
+  Q4 (1.56..2.55]                    n115 tm-0.0189 live-0.0078 p3x20% | n 64 tm-0.0179 live-0.0038 p3x19% | n 28 tm-0.0509 live-0.0416 p3x11%
+  Q5 (2.55..Infinity]                n115 tm-0.0228 live-0.0121 p3x17% | n 89 tm-0.0263 live-0.0229 p3x17% | n 35 tm-0.0428 live-0.0274 p3x14%
+
+mom15 fit quintile cuts 1.12, 1.77, 3.4, 7.06
+  Q1 (-Infinity..1.12]               n115 tm-0.0376 live-0.0190 p3x11% | n 56 tm-0.0420 live-0.0199 p3x11% | n 35 tm-0.0070 live0.0027 p3x29%
+  Q2 (1.12..1.77]                    n115 tm-0.0278 live-0.0284 p3x14% | n 59 tm-0.0084 live-0.0153 p3x20% | n 29 tm-0.0512 live-0.0297 p3x7%
+  Q3 (1.77..3.4]                     n114 tm-0.0381 live-0.0321 p3x11% | n 78 tm-0.0177 live-0.0156 p3x21% | n 30 tm-0.0431 live-0.0266 p3x13%
+  Q4 (3.4..7.06]                     n115 tm-0.0299 live-0.0185 p3x16% | n 81 tm-0.0464 live-0.0269 p3x9% | n 27 tm-0.0377 live-0.0298 p3x19%
+  Q5 (7.06..Infinity]                n115 tm-0.0152 live0.0001 p3x22% | n 77 tm-0.0206 live-0.0088 p3x19% | n 33 tm-0.0439 live-0.0343 p3x15%
+
+runup fit quintile cuts 2.89, 5.44, 9.54, 18.9
+  Q1 (-Infinity..2.89]               n115 tm-0.0251 live-0.0285 p3x12% | n 81 tm-0.0157 live-0.0150 p3x17% | n 32 tm-0.0414 live-0.0288 p3x9%
+  Q2 (2.89..5.44]                    n114 tm-0.0358 live-0.0307 p3x12% | n 82 tm-0.0396 live-0.0338 p3x12% | n 33 tm0.0074 live-0.0077 p3x30%
+  Q3 (5.44..9.54]                    n115 tm-0.0353 live-0.0170 p3x14% | n 70 tm-0.0124 live-0.0003 p3x26% | n 34 tm-0.0390 live-0.0175 p3x18%
+  Q4 (9.54..18.9]                    n114 tm-0.0252 live-0.0085 p3x18% | n 60 tm-0.0382 live-0.0147 p3x12% | n 26 tm-0.0575 live-0.0514 p3x8%
+  Q5 (18.9..Infinity]                n115 tm-0.0307 live-0.0138 p3x16% | n 57 tm-0.0377 live-0.0201 p3x12% | n 29 tm-0.0341 live-0.0139 p3x17%
+
+offHigh fit quintile cuts 0.52, 0.704, 0.86, 1.01
+  Q1 (-Infinity..0.52]               n115 tm-0.0470 live-0.0266 p3x7% | n 66 tm-0.0287 live-0.0157 p3x18% | n 37 tm-0.0072 live0.0017 p3x24%
+  Q2 (0.52..0.704]                   n114 tm-0.0308 live-0.0206 p3x17% | n 53 tm-0.0455 live-0.0286 p3x9% | n 24 tm-0.0574 live-0.0441 p3x4%
+  Q3 (0.704..0.86]                   n115 tm-0.0348 live-0.0242 p3x14% | n 62 tm0.0019 live-0.0066 p3x24% | n 30 tm-0.0197 live-0.0024 p3x27%
+  Q4 (0.86..1.01]                    n114 tm-0.0215 live-0.0185 p3x16% | n 80 tm-0.0387 live-0.0190 p3x10% | n 34 tm-0.0400 live-0.0375 p3x15%
+  Q5 (1.01..Infinity]                n115 tm-0.0183 live-0.0088 p3x19% | n 89 tm-0.0272 live-0.0175 p3x18% | n 29 tm-0.0473 live-0.0406 p3x10%
+
+callerCalls fit quintile cuts 7, 21, 45, 88
+  Q1 (-Infinity..7]                  n117 tm-0.0271 live-0.0116 p3x17% | n 21 tm-0.0572 live-0.0344 p3x10% | n  7 tm-0.0573 live-0.0573 p3x14%
+  Q2 (7..21]                         n113 tm-0.0249 live-0.0210 p3x16% | n 10 tm-0.0572 live-0.0375 p3x10% | n  0 tmNaN liveNaN p3x0%
+  Q3 (21..45]                        n114 tm-0.0323 live-0.0237 p3x12% | n 42 tm-0.0274 live-0.0210 p3x19% | n 24 tm-0.0512 live-0.0256 p3x13%
+  Q4 (45..88]                        n116 tm-0.0406 live-0.0254 p3x11% | n 56 tm-0.0367 live-0.0235 p3x13% | n 18 tm0.0041 live-0.0091 p3x33%
+  Q5 (88..Infinity]                  n114 tm-0.0283 live-0.0162 p3x17% | n222 tm-0.0177 live-0.0130 p3x17% | n105 tm-0.0277 live-0.0192 p3x15%
+
+callerHit2 fit quintile cuts 0.309, 0.33, 0.387, 0.438
+  Q1 (-Infinity..0.309]              n107 tm-0.0222 live-0.0208 p3x16% | n 86 tm-0.0265 live-0.0191 p3x14% | n 58 tm-0.0122 live-0.0126 p3x21%
+  Q2 (0.309..0.33]                   n104 tm-0.0305 live-0.0166 p3x15% | n 54 tm-0.0268 live-0.0226 p3x17% | n  8 tm-0.0517 live-0.0038 p3x25%
+  Q3 (0.33..0.387]                   n115 tm-0.0335 live-0.0183 p3x14% | n161 tm-0.0244 live-0.0124 p3x16% | n 87 tm-0.0318 live-0.0254 p3x14%
+  Q4 (0.387..0.438]                  n 95 tm-0.0434 live-0.0324 p3x9% | n 37 tm-0.0331 live-0.0242 p3x19% | n  0 tmNaN liveNaN p3x0%
+  Q5 (0.438..Infinity]               n104 tm-0.0205 live-0.0161 p3x16% | n  9 tm-0.0574 live-0.0574 p3x11% | n  1 tm-0.0311 live-0.0311 p3x0%
+
+hour fit quintile cuts 7, 12, 14, 18
+  Q1 (-Infinity..7]                  n126 tm-0.0344 live-0.0212 p3x13% | n112 tm-0.0235 live-0.0121 p3x17% | n 69 tm-0.0226 live-0.0212 p3x17%
+  Q2 (7..12]                         n119 tm-0.0221 live-0.0227 p3x18% | n 85 tm-0.0177 live-0.0198 p3x16% | n 36 tm-0.0084 live-0.0185 p3x25%
+  Q3 (12..14]                        n111 tm-0.0409 live-0.0161 p3x10% | n 34 tm-0.0327 live-0.0106 p3x18% | n  9 tm-0.0574 live-0.0574 p3x0%
+  Q4 (14..18]                        n117 tm-0.0379 live-0.0250 p3x11% | n 53 tm-0.0411 live-0.0225 p3x13% | n 23 tm-0.0543 live-0.0273 p3x9%
+  Q5 (18..Infinity]                  n101 tm-0.0162 live-0.0114 p3x22% | n 67 tm-0.0304 live-0.0226 p3x15% | n 17 tm-0.0422 live-0.0070 p3x18%
+
+pump fit quintile cuts 0, 0, 1, 1
+  Q1 (-Infinity..0]                  n242 tm-0.0177 live-0.0144 p3x18% | n214 tm-0.0244 live-0.0153 p3x14% | n 82 tm-0.0158 live-0.0134 p3x20%
+  Q2 (0..0]                          n  0 tmNaN liveNaN p3x0% | n  0 tmNaN liveNaN p3x0% | n  0 tmNaN liveNaN p3x0%
+  Q3 (0..1]                          n332 tm-0.0317 live-0.0213 p3x12% | n137 tm-0.0157 live-0.0159 p3x18% | n 72 tm-0.0321 live-0.0238 p3x14%
+  Q4 (1..1]                          n  0 tmNaN liveNaN p3x0% | n  0 tmNaN liveNaN p3x0% | n  0 tmNaN liveNaN p3x0%
+  Q5 (1..Infinity]                   n  0 tmNaN liveNaN p3x0% | n  0 tmNaN liveNaN p3x0% | n  0 tmNaN liveNaN p3x0%

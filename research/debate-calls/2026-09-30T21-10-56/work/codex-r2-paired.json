@@ -1,0 +1,50 @@
+[
+  {
+    "split": "fit",
+    "n": 60,
+    "improved": 38,
+    "hurt": 1,
+    "same": 21,
+    "deltaTotal": 0.717065538341861,
+    "oldCapture": [
+      4,
+      1
+    ],
+    "newCapture": [
+      4,
+      1
+    ]
+  },
+  {
+    "split": "val",
+    "n": 52,
+    "improved": 32,
+    "hurt": 5,
+    "same": 15,
+    "deltaTotal": -0.08573761237874958,
+    "oldCapture": [
+      1,
+      0
+    ],
+    "newCapture": [
+      1,
+      0
+    ]
+  },
+  {
+    "split": "test",
+    "n": 16,
+    "improved": 10,
+    "hurt": 1,
+    "same": 5,
+    "deltaTotal": 0.1708380478696902,
+    "oldCapture": [
+      0,
+      0
+    ],
+    "newCapture": [
+      0,
+      0
+    ]
+  }
+]
